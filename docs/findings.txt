@@ -1,0 +1,46 @@
+Findings for Forerunner 735XT device dump
+Generated: Fri Jan 23 2026
+
+Sources analyzed:
+- GarminDevice.xml
+- OUT.BIN (IQ app configuration/state)
+- EPO.BIN (ephemeris data)
+
+Key device metadata (from GarminDevice.xml):
+- Model: Forerunner 735XT
+- PartNumber: 006-B2158-00
+- SoftwareVersion: 9.80
+- Device ID: 3406181127
+
+Update file expectations (from GarminDevice.xml UpdateFile entries):
+- Main firmware expected at GARMIN/GUPDATE.GCD (not present on device storage right now)
+- RemoteSW updates expected at GARMIN/REMOTESW/GUPDATE.GCD and GUP2511.GCD, GUP2423.GCD, GUP2510.GCD (not present on device storage right now)
+- Text packs under GARMIN/TEXT/*.ln2
+- Timezone map GMAPTZ.IMG, CPYRIGHT.TXT
+
+Actual files present on device (from /Volumes/GARMIN):
+- GARMIN/APPS/OUT.BIN (copied to docs)
+- GARMIN/REMOTESW/EPO.BIN (copied to docs)
+
+OUT.BIN analysis:
+- Small binary (661 bytes) with readable strings that look like widget/data-field names:
+  HRV Stress Test, Heart Rate, My Day, Last Run/Ride/Swim, Steps, Intensity Minutes,
+  Calories, VIRB, Calendar, Weather, Controls, Notifications, Strava Suffer Score, etc.
+- Likely Connect IQ configuration/state file (matches IQAppsConfiguration in GarminDevice.xml).
+
+EPO.BIN analysis:
+- Binary ephemeris payload (63 KB), no clear printable strings.
+- Used for satellite prediction; not firmware.
+
+Notes:
+- The device storage does not expose firmware images by default.
+- To obtain actual firmware binaries, Garmin Express must download a GUPDATE.GCD
+  (or internal update server cache). Once present, it can be copied for analysis.
+
+Artifacts in this folder:
+- GarminDevice.xml (raw)
+- GarminDevice.pretty.xml (pretty-printed)
+- GarminDevice.updatefiles.xml (extracted UpdateFile blocks)
+- GarminDevice.summary.txt
+- OUT.BIN.analysis.txt
+- EPO.BIN.analysis.txt

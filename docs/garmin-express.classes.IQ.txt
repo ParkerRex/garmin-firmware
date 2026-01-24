@@ -1,0 +1,9 @@
+366:GetAutoUpdateConnectIQAppsDelegate
+400:GetIQAppUpdateDelegate
+459:IQApp
+460:IQAppDetails
+461:IQAppUpdateDetailsViewController
+462:IQSSerialization
+473:InstallAppsToConnectIQDelegate
+901:RemoveConnectIQAppsDelegate
+954:SetAutoUpdateConnectIQAppsDelegate

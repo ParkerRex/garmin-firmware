@@ -1,0 +1,472 @@
+/Applications/Garmin Express.app/Contents/Frameworks/FBLPromises.framework/FBLPromises (architecture x86_64):
+Load command 0
+      cmd LC_SEGMENT_64
+  cmdsize 952
+  segname __TEXT
+   vmaddr 0x0000000000000000
+   vmsize 0x000000000000c000
+  fileoff 0
+ filesize 49152
+  maxprot 0x00000005
+ initprot 0x00000005
+   nsects 11
+    flags 0x0
+Section
+  sectname __text
+   segname __TEXT
+      addr 0x0000000000001b59
+      size 0x0000000000007d77
+    offset 7001
+     align 2^0 (1)
+    reloff 0
+    nreloc 0
+     flags 0x80000400
+ reserved1 0
+ reserved2 0
+Section
+  sectname __stubs
+   segname __TEXT
+      addr 0x00000000000098d0
+      size 0x00000000000000ea
+    offset 39120
+     align 2^0 (1)
+    reloff 0
+    nreloc 0
+     flags 0x80000408
+ reserved1 0 (index into indirect symbol table)
+ reserved2 6 (size of stubs)
+Section
+  sectname __stub_helper
+   segname __TEXT
+      addr 0x00000000000099ba
+      size 0x0000000000000196
+    offset 39354
+     align 2^0 (1)
+    reloff 0
+    nreloc 0
+     flags 0x80000400
+ reserved1 0
+ reserved2 0
+Section
+  sectname __objc_methlist
+   segname __TEXT
+      addr 0x0000000000009b50
+      size 0x000000000000064c
+    offset 39760
+     align 2^3 (8)
+    reloff 0
+    nreloc 0
+     flags 0x00000000
+ reserved1 0
+ reserved2 0
+Section
+  sectname __const
+   segname __TEXT
+      addr 0x000000000000a1a0
+      size 0x0000000000000068
+    offset 41376
+     align 2^4 (16)
+    reloff 0
+    nreloc 0
+     flags 0x00000000
+ reserved1 0
+ reserved2 0
+Section
+  sectname __gcc_except_tab
+   segname __TEXT
+      addr 0x000000000000a208
+      size 0x00000000000000c4
+    offset 41480
+     align 2^2 (4)
+    reloff 0
+    nreloc 0
+     flags 0x00000000
+ reserved1 0
+ reserved2 0
+Section
+  sectname __objc_methname
+   segname __TEXT
+      addr 0x000000000000a2cc
+      size 0x0000000000000af5
+    offset 41676
+     align 2^0 (1)
+    reloff 0
+    nreloc 0
+     flags 0x00000002
+ reserved1 0
+ reserved2 0
+Section
+  sectname __cstring
+   segname __TEXT
+      addr 0x000000000000adc1
+      size 0x0000000000000bca
+    offset 44481
+     align 2^0 (1)
+    reloff 0
+    nreloc 0
+     flags 0x00000002
+ reserved1 0
+ reserved2 0
+Section
+  sectname __objc_classname
+   segname __TEXT
+      addr 0x000000000000b98b
+      size 0x000000000000029f
+    offset 47499
+     align 2^0 (1)
+    reloff 0
+    nreloc 0
+     flags 0x00000002
+ reserved1 0
+ reserved2 0
+Section
+  sectname __objc_methtype
+   segname __TEXT
+      addr 0x000000000000bc2a
+      size 0x0000000000000132
+    offset 48170
+     align 2^0 (1)
+    reloff 0
+    nreloc 0
+     flags 0x00000002
+ reserved1 0
+ reserved2 0
+Section
+  sectname __unwind_info
+   segname __TEXT
+      addr 0x000000000000bd5c
+      size 0x0000000000000298
+    offset 48476
+     align 2^2 (4)
+    reloff 0
+    nreloc 0
+     flags 0x00000000
+ reserved1 0
+ reserved2 0
+Load command 1
+      cmd LC_SEGMENT_64
+  cmdsize 472
+  segname __DATA_CONST
+   vmaddr 0x000000000000c000
+   vmsize 0x0000000000001000
+  fileoff 49152
+ filesize 4096
+  maxprot 0x00000003
+ initprot 0x00000003
+   nsects 5
+    flags 0x10
+Section
+  sectname __got
+   segname __DATA_CONST
+      addr 0x000000000000c000
+      size 0x0000000000000050
+    offset 49152
+     align 2^3 (8)
+    reloff 0
+    nreloc 0
+     flags 0x00000006
+ reserved1 39 (index into indirect symbol table)
+ reserved2 0
+Section
+  sectname __const
+   segname __DATA_CONST
+      addr 0x000000000000c050
+      size 0x0000000000000df8
+    offset 49232
+     align 2^3 (8)
+    reloff 0
+    nreloc 0
+     flags 0x00000000
+ reserved1 0
+ reserved2 0
+Section
+  sectname __cfstring
+   segname __DATA_CONST
+      addr 0x000000000000ce48
+      size 0x0000000000000080
+    offset 52808
+     align 2^3 (8)
+    reloff 0
+    nreloc 0
+     flags 0x00000000
+ reserved1 0
+ reserved2 0
+Section
+  sectname __objc_classlist
+   segname __DATA_CONST
+      addr 0x000000000000cec8
+      size 0x0000000000000010
+    offset 52936
+     align 2^3 (8)
+    reloff 0
+    nreloc 0
+     flags 0x10000000
+ reserved1 0
+ reserved2 0
+Section
+  sectname __objc_imageinfo
+   segname __DATA_CONST
+      addr 0x000000000000ced8
+      size 0x0000000000000008
+    offset 52952
+     align 2^2 (4)
+    reloff 0
+    nreloc 0
+     flags 0x00000000
+ reserved1 0
+ reserved2 0
+Load command 2
+      cmd LC_SEGMENT_64
+  cmdsize 792
+  segname __DATA
+   vmaddr 0x000000000000d000
+   vmsize 0x0000000000001000
+  fileoff 53248
+ filesize 4096
+  maxprot 0x00000003
+ initprot 0x00000003
+   nsects 9
+    flags 0x0
+Section
+  sectname __la_symbol_ptr
+   segname __DATA
+      addr 0x000000000000d000
+      size 0x0000000000000138
+    offset 53248
+     align 2^3 (8)
+    reloff 0
+    nreloc 0
+     flags 0x00000007
+ reserved1 49 (index into indirect symbol table)
+ reserved2 0
+Section
+  sectname __objc_const
+   segname __DATA
+      addr 0x000000000000d138
+      size 0x0000000000000248
+    offset 53560
+     align 2^3 (8)
+    reloff 0
+    nreloc 0
+     flags 0x00000000
+ reserved1 0
+ reserved2 0
+Section
+  sectname __objc_selrefs
+   segname __DATA
+      addr 0x000000000000d380
+      size 0x00000000000004c8
+    offset 54144
+     align 2^3 (8)
+    reloff 0
+    nreloc 0
+     flags 0x10000005
+ reserved1 0
+ reserved2 0
+Section
+  sectname __objc_classrefs
+   segname __DATA
+      addr 0x000000000000d848
+      size 0x0000000000000050
+    offset 55368
+     align 2^3 (8)
+    reloff 0
+    nreloc 0
+     flags 0x10000000
+ reserved1 0
+ reserved2 0
+Section
+  sectname __objc_superrefs
+   segname __DATA
+      addr 0x000000000000d898
+      size 0x0000000000000008
+    offset 55448
+     align 2^3 (8)
+    reloff 0
+    nreloc 0
+     flags 0x10000000
+ reserved1 0
+ reserved2 0
+Section
+  sectname __objc_ivar
+   segname __DATA
+      addr 0x000000000000d8a0
+      size 0x0000000000000028
+    offset 55456
+     align 2^3 (8)
+    reloff 0
+    nreloc 0
+     flags 0x00000000
+ reserved1 0
+ reserved2 0
+Section
+  sectname __objc_data
+   segname __DATA
+      addr 0x000000000000d8c8
+      size 0x00000000000000a0
+    offset 55496
+     align 2^3 (8)
+    reloff 0
+    nreloc 0
+     flags 0x00000000
+ reserved1 0
+ reserved2 0
+Section
+  sectname __data
+   segname __DATA
+      addr 0x000000000000d968
+      size 0x0000000000000008
+    offset 55656
+     align 2^3 (8)
+    reloff 0
+    nreloc 0
+     flags 0x00000000
+ reserved1 0
+ reserved2 0
+Section
+  sectname __bss
+   segname __DATA
+      addr 0x000000000000d970
+      size 0x0000000000000028
+    offset 0
+     align 2^3 (8)
+    reloff 0
+    nreloc 0
+     flags 0x00000001
+ reserved1 0
+ reserved2 0
+Load command 3
+      cmd LC_SEGMENT_64
+  cmdsize 72
+  segname __LINKEDIT
+   vmaddr 0x000000000000e000
+   vmsize 0x0000000000018000
+  fileoff 57344
+ filesize 85008
+  maxprot 0x00000001
+ initprot 0x00000001
+   nsects 0
+    flags 0x0
+Load command 4
+          cmd LC_ID_DYLIB
+      cmdsize 80
+         name @rpath/FBLPromises.framework/Versions/A/FBLPromises (offset 24)
+   time stamp 1 Wed Dec 31 19:00:01 1969
+      current version 1.0.0
+compatibility version 1.0.0
+Load command 5
+            cmd LC_DYLD_INFO_ONLY
+        cmdsize 48
+     rebase_off 57344
+    rebase_size 232
+       bind_off 57576
+      bind_size 712
+  weak_bind_off 0
+ weak_bind_size 0
+  lazy_bind_off 58288
+ lazy_bind_size 1096
+     export_off 59384
+    export_size 736
+Load command 6
+     cmd LC_SYMTAB
+ cmdsize 24
+  symoff 60496
+   nsyms 1848
+  stroff 90416
+ strsize 32472
+Load command 7
+            cmd LC_DYSYMTAB
+        cmdsize 80
+      ilocalsym 0
+      nlocalsym 1757
+     iextdefsym 1757
+     nextdefsym 28
+      iundefsym 1785
+      nundefsym 63
+         tocoff 0
+           ntoc 0
+      modtaboff 0
+        nmodtab 0
+   extrefsymoff 0
+    nextrefsyms 0
+ indirectsymoff 90064
+  nindirectsyms 88
+      extreloff 0
+        nextrel 0
+      locreloff 0
+        nlocrel 0
+Load command 8
+     cmd LC_UUID
+ cmdsize 24
+    uuid 6D1FE978-24BC-3E31-83FF-64D6D3D617AA
+Load command 9
+      cmd LC_BUILD_VERSION
+  cmdsize 32
+ platform 1
+    minos 11.0
+      sdk 14.5
+   ntools 1
+     tool 3
+  version 1053.12
+Load command 10
+      cmd LC_SOURCE_VERSION
+  cmdsize 16
+  version 0.0
+Load command 11
+          cmd LC_LOAD_DYLIB
+      cmdsize 88
+         name /System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa (offset 24)
+   time stamp 2 Wed Dec 31 19:00:02 1969
+      current version 24.0.0
+compatibility version 1.0.0
+Load command 12
+          cmd LC_LOAD_DYLIB
+      cmdsize 96
+         name /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (offset 24)
+   time stamp 2 Wed Dec 31 19:00:02 1969
+      current version 2503.1.0
+compatibility version 300.0.0
+Load command 13
+          cmd LC_LOAD_DYLIB
+      cmdsize 56
+         name /usr/lib/libobjc.A.dylib (offset 24)
+   time stamp 2 Wed Dec 31 19:00:02 1969
+      current version 228.0.0
+compatibility version 1.0.0
+Load command 14
+          cmd LC_LOAD_DYLIB
+      cmdsize 56
+         name /usr/lib/libSystem.B.dylib (offset 24)
+   time stamp 2 Wed Dec 31 19:00:02 1969
+      current version 1345.120.2
+compatibility version 1.0.0
+Load command 15
+          cmd LC_LOAD_DYLIB
+      cmdsize 104
+         name /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (offset 24)
+   time stamp 2 Wed Dec 31 19:00:02 1969
+      current version 2503.1.0
+compatibility version 150.0.0
+Load command 16
+          cmd LC_RPATH
+      cmdsize 48
+         path @executable_path/../Frameworks (offset 12)
+Load command 17
+          cmd LC_RPATH
+      cmdsize 40
+         path @loader_path/Frameworks (offset 12)
+Load command 18
+      cmd LC_FUNCTION_STARTS
+  cmdsize 16
+  dataoff 60120
+ datasize 376
+Load command 19
+      cmd LC_DATA_IN_CODE
+  cmdsize 16
+  dataoff 60496
+ datasize 0
+Load command 20
+      cmd LC_CODE_SIGNATURE
+  cmdsize 16
+  dataoff 122896
+ datasize 19456

@@ -1,0 +1,1296 @@
+/Applications/Garmin Express.app/Contents/Frameworks/ConnectIQSerialization.framework/ConnectIQSerialization (architecture x86_64):
+Contents of (__DATA_CONST,__objc_classlist) section
+0000000000007278 0x9308 _OBJC_CLASS_$_PodsDummy_ConnectIQSerialization
+    isa        0x92e0 _OBJC_METACLASS_$_PodsDummy_ConnectIQSerialization
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x80d8 __OBJC_CLASS_RO_$_PodsDummy_ConnectIQSerialization
+        flags          0x80
+        instanceStart  8
+        instanceSize   8
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x6168 PodsDummy_ConnectIQSerialization
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x8090 __OBJC_METACLASS_RO_$_PodsDummy_ConnectIQSerialization
+        flags          0x81 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x6168 PodsDummy_ConnectIQSerialization
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+0000000000007280 0x9330 _OBJC_CLASS_$_IQSArray
+    isa        0x9358 _OBJC_METACLASS_$_IQSArray
+    superclass 0x9600 _OBJC_CLASS_$_IQSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x81a8 __OBJC_CLASS_RO_$_IQSArray
+        flags          0x80
+        instanceStart  8
+        instanceSize   16
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x6189 IQSArray
+        baseMethods    0x5d68 __OBJC_$_INSTANCE_METHODS_IQSArray
+            entsize 12 (relative)
+            count   4
+            name    0x3160 (0x8ed0) initWithInputStream:
+            types   0x1025 (0x6d99) @24@0:8@16
+            imp     0xffffb582 (0x12fa) -[IQSArray initWithInputStream:]
+            name    0x307c (0x8df8) childCount
+            types   0x1024 (0x6da4) Q16@0:8
+            imp     0xffffb63e (0x13c2) -[IQSArray childCount]
+            name    0x30e0 (0x8e68) description
+            types   0x1020 (0x6dac) @16@0:8
+            imp     0xffffb643 (0x13d3) -[IQSArray description]
+            name    0x331c (0x90b0) setChildCount:
+            types   0x101c (0x6db4) v24@0:8Q16
+            imp     0xffffb667 (0x1403) -[IQSArray setChildCount:]
+        baseProtocols  0x0
+        ivars          0x8168 __OBJC_$_INSTANCE_VARIABLES_IQSArray
+            entsize   32
+            count     1
+            offset    0x9280 _OBJC_IVAR_$_IQSArray._childCount 8
+            name      0x0 + 0x62f4 __objc_empty_cache _childCount
+            type      0x6dbf Q
+            alignment 3
+            size      8
+        weakIvarLayout 0x0
+        baseProperties 0x8190 __OBJC_$_PROP_LIST_IQSArray
+            entsize    16
+            count      1
+            name       0x6549 childCount
+            attributes 0x62d2 TQ,N,V_childCount
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x9628 _OBJC_METACLASS_$_IQSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x8120 __OBJC_METACLASS_RO_$_IQSArray
+        flags          0x81 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x6189 IQSArray
+        baseMethods    0x5bc0 __OBJC_$_CLASS_METHODS_IQSArray
+            entsize 12 (relative)
+            count   1
+            name    0x34e0 (0x90a8) serializeObject:stringBlock:error:
+            types   0x11bb (0x6d87) @40@0:8@16@24^@32
+            imp     0xffffb67c (0x124c) +[IQSArray serializeObject:stringBlock:error:]
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+0000000000007288 0x9380 _OBJC_CLASS_$_IQSBool
+    isa        0x93a8 _OBJC_METACLASS_$_IQSBool
+    superclass 0x9600 _OBJC_CLASS_$_IQSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x8278 __OBJC_CLASS_RO_$_IQSBool
+        flags          0x184 RO_HAS_CXX_STRUCTORS
+        instanceStart  8
+        instanceSize   16
+        reserved       0x0
+        ivarLayout     0x619a
+        layout map     0x01 
+        name           0x6192 IQSBool
+        baseMethods    0x5da0 __OBJC_$_INSTANCE_METHODS_IQSBool
+            entsize 12 (relative)
+            count   6
+            name    0x3128 (0x8ed0) initWithInputStream:
+            types   0xfed (0x6d99) @24@0:8@16
+            imp     0xffffb716 (0x14c6) -[IQSBool initWithInputStream:]
+            name    0x30f4 (0x8ea8) foundationObjectWithStringBlock:
+            types   0xfe1 (0x6d99) @24@0:8@16
+            imp     0xffffb7ee (0x15aa) -[IQSBool foundationObjectWithStringBlock:]
+            name    0x30a8 (0x8e68) description
+            types   0xfe8 (0x6dac) @16@0:8
+            imp     0xffffb7f7 (0x15bf) -[IQSBool description]
+            name    0x3374 (0x9140) value
+            types   0xfdc (0x6dac) @16@0:8
+            imp     0xffffb846 (0x161a) -[IQSBool value]
+            name    0x3318 (0x90f0) setValue:
+            types   0xfe5 (0x6dc1) v24@0:8@16
+            imp     0xffffb84b (0x162b) -[IQSBool setValue:]
+            name    0x2f4c (0x8d30) .cxx_destruct
+            types   0xfe4 (0x6dcc) v16@0:8
+            imp     0xffffb853 (0x163f) -[IQSBool .cxx_destruct]
+        baseProtocols  0x0
+        ivars          0x8238 __OBJC_$_INSTANCE_VARIABLES_IQSBool
+            entsize   32
+            count     1
+            offset    0x9288 _OBJC_IVAR_$_IQSBool._value 8
+            name      0x642f _value
+            type      0x6dd4 @"NSNumber"
+            alignment 3
+            size      8
+        weakIvarLayout 0x0
+        baseProperties 0x8260 __OBJC_$_PROP_LIST_IQSBool
+            entsize    16
+            count      1
+            name       0x6c94 value
+            attributes 0x62a9 T@"NSNumber",&,N,V_value
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x9628 _OBJC_METACLASS_$_IQSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x81f0 __OBJC_METACLASS_RO_$_IQSBool
+        flags          0x185 RO_META RO_HAS_CXX_STRUCTORS
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x6192 IQSBool
+        baseMethods    0x5bd8 __OBJC_$_CLASS_METHODS_IQSBool
+            entsize 12 (relative)
+            count   1
+            name    0x34c8 (0x90a8) serializeObject:stringBlock:error:
+            types   0x11a3 (0x6d87) @40@0:8@16@24^@32
+            imp     0xffffb82c (0x1414) +[IQSBool serializeObject:stringBlock:error:]
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+0000000000007290 0x93f8 _OBJC_CLASS_$_IQSDataBlock
+    isa        0x93d0 _OBJC_METACLASS_$_IQSDataBlock
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x8308 __OBJC_CLASS_RO_$_IQSDataBlock
+        flags          0x80
+        instanceStart  8
+        instanceSize   8
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x619c IQSDataBlock
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x82c0 __OBJC_METACLASS_RO_$_IQSDataBlock
+        flags          0x81 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x619c IQSDataBlock
+        baseMethods    0x5bf0 __OBJC_$_CLASS_METHODS_IQSDataBlock
+            entsize 12 (relative)
+            count   3
+            name    0x34b0 (0x90a8) serializeObject:stringBlock:error:
+            types   0x118b (0x6d87) @40@0:8@16@24^@32
+            imp     0xffffba52 (0x1652) +[IQSDataBlock serializeObject:stringBlock:error:]
+            name    0x33d4 (0x8fd8) parseData:stringBlock:error:
+            types   0x117f (0x6d87) @40@0:8@16@24^@32
+            imp     0xffffbd3e (0x194a) +[IQSDataBlock parseData:stringBlock:error:]
+            name    0x3290 (0x8ea0) foundationObjectWithObject:stringBlock:
+            types   0x11cc (0x6de0) @32@0:8@16@24
+            imp     0xffffc001 (0x1c19) +[IQSDataBlock foundationObjectWithObject:stringBlock:]
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+0000000000007298 0x9420 _OBJC_CLASS_$_IQSDictionary
+    isa        0x9448 _OBJC_METACLASS_$_IQSDictionary
+    superclass 0x9600 _OBJC_CLASS_$_IQSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x83d8 __OBJC_CLASS_RO_$_IQSDictionary
+        flags          0x80
+        instanceStart  8
+        instanceSize   16
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x61a9 IQSDictionary
+        baseMethods    0x5df0 __OBJC_$_INSTANCE_METHODS_IQSDictionary
+            entsize 12 (relative)
+            count   4
+            name    0x30d8 (0x8ed0) initWithInputStream:
+            types   0xf9d (0x6d99) @24@0:8@16
+            imp     0xffffc3a7 (0x21a7) -[IQSDictionary initWithInputStream:]
+            name    0x2ff4 (0x8df8) childCount
+            types   0xf9c (0x6da4) Q16@0:8
+            imp     0xffffc463 (0x226f) -[IQSDictionary childCount]
+            name    0x3058 (0x8e68) description
+            types   0xf98 (0x6dac) @16@0:8
+            imp     0xffffc468 (0x2280) -[IQSDictionary description]
+            name    0x3294 (0x90b0) setChildCount:
+            types   0xf94 (0x6db4) v24@0:8Q16
+            imp     0xffffc48c (0x22b0) -[IQSDictionary setChildCount:]
+        baseProtocols  0x0
+        ivars          0x8398 __OBJC_$_INSTANCE_VARIABLES_IQSDictionary
+            entsize   32
+            count     1
+            offset    0x9290 _OBJC_IVAR_$_IQSDictionary._childCount 8
+            name      0x0 + 0x62f4 __objc_empty_cache _childCount
+            type      0x6dbf Q
+            alignment 3
+            size      8
+        weakIvarLayout 0x0
+        baseProperties 0x83c0 __OBJC_$_PROP_LIST_IQSDictionary
+            entsize    16
+            count      1
+            name       0x6549 childCount
+            attributes 0x62d2 TQ,N,V_childCount
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x9628 _OBJC_METACLASS_$_IQSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x8350 __OBJC_METACLASS_RO_$_IQSDictionary
+        flags          0x81 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x61a9 IQSDictionary
+        baseMethods    0x5c20 __OBJC_$_CLASS_METHODS_IQSDictionary
+            entsize 12 (relative)
+            count   1
+            name    0x3480 (0x90a8) serializeObject:stringBlock:error:
+            types   0x115b (0x6d87) @40@0:8@16@24^@32
+            imp     0xffffc4c9 (0x20f9) +[IQSDictionary serializeObject:stringBlock:error:]
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+00000000000072a0 0x9470 _OBJC_CLASS_$_IQSDouble
+    isa        0x9498 _OBJC_METACLASS_$_IQSDouble
+    superclass 0x9600 _OBJC_CLASS_$_IQSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x84a8 __OBJC_CLASS_RO_$_IQSDouble
+        flags          0x184 RO_HAS_CXX_STRUCTORS
+        instanceStart  8
+        instanceSize   16
+        reserved       0x0
+        ivarLayout     0x619a
+        layout map     0x01 
+        name           0x61b7 IQSDouble
+        baseMethods    0x5e28 __OBJC_$_INSTANCE_METHODS_IQSDouble
+            entsize 12 (relative)
+            count   6
+            name    0x30a0 (0x8ed0) initWithInputStream:
+            types   0xf65 (0x6d99) @24@0:8@16
+            imp     0xffffc53b (0x2373) -[IQSDouble initWithInputStream:]
+            name    0x306c (0x8ea8) foundationObjectWithStringBlock:
+            types   0xf59 (0x6d99) @24@0:8@16
+            imp     0xffffc5e5 (0x2429) -[IQSDouble foundationObjectWithStringBlock:]
+            name    0x3020 (0x8e68) description
+            types   0xf60 (0x6dac) @16@0:8
+            imp     0xffffc5ee (0x243e) -[IQSDouble description]
+            name    0x32ec (0x9140) value
+            types   0xf54 (0x6dac) @16@0:8
+            imp     0xffffc612 (0x246e) -[IQSDouble value]
+            name    0x3290 (0x90f0) setValue:
+            types   0xf5d (0x6dc1) v24@0:8@16
+            imp     0xffffc617 (0x247f) -[IQSDouble setValue:]
+            name    0x2ec4 (0x8d30) .cxx_destruct
+            types   0xf5c (0x6dcc) v16@0:8
+            imp     0xffffc61f (0x2493) -[IQSDouble .cxx_destruct]
+        baseProtocols  0x0
+        ivars          0x8468 __OBJC_$_INSTANCE_VARIABLES_IQSDouble
+            entsize   32
+            count     1
+            offset    0x9298 _OBJC_IVAR_$_IQSDouble._value 8
+            name      0x642f _value
+            type      0x6dd4 @"NSNumber"
+            alignment 3
+            size      8
+        weakIvarLayout 0x0
+        baseProperties 0x8490 __OBJC_$_PROP_LIST_IQSDouble
+            entsize    16
+            count      1
+            name       0x6c94 value
+            attributes 0x62a9 T@"NSNumber",&,N,V_value
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x9628 _OBJC_METACLASS_$_IQSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x8420 __OBJC_METACLASS_RO_$_IQSDouble
+        flags          0x185 RO_META RO_HAS_CXX_STRUCTORS
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x61b7 IQSDouble
+        baseMethods    0x5c38 __OBJC_$_CLASS_METHODS_IQSDouble
+            entsize 12 (relative)
+            count   1
+            name    0x3468 (0x90a8) serializeObject:stringBlock:error:
+            types   0x1143 (0x6d87) @40@0:8@16@24^@32
+            imp     0xffffc679 (0x22c1) +[IQSDouble serializeObject:stringBlock:error:]
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+00000000000072a8 0x94c0 _OBJC_CLASS_$_IQSFloat
+    isa        0x94e8 _OBJC_METACLASS_$_IQSFloat
+    superclass 0x9600 _OBJC_CLASS_$_IQSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x8578 __OBJC_CLASS_RO_$_IQSFloat
+        flags          0x184 RO_HAS_CXX_STRUCTORS
+        instanceStart  8
+        instanceSize   16
+        reserved       0x0
+        ivarLayout     0x619a
+        layout map     0x01 
+        name           0x61c1 IQSFloat
+        baseMethods    0x5e78 __OBJC_$_INSTANCE_METHODS_IQSFloat
+            entsize 12 (relative)
+            count   6
+            name    0x3050 (0x8ed0) initWithInputStream:
+            types   0xf15 (0x6d99) @24@0:8@16
+            imp     0xffffc6d0 (0x2558) -[IQSFloat initWithInputStream:]
+            name    0x301c (0x8ea8) foundationObjectWithStringBlock:
+            types   0xf09 (0x6d99) @24@0:8@16
+            imp     0xffffc77a (0x260e) -[IQSFloat foundationObjectWithStringBlock:]
+            name    0x2fd0 (0x8e68) description
+            types   0xf10 (0x6dac) @16@0:8
+            imp     0xffffc783 (0x2623) -[IQSFloat description]
+            name    0x329c (0x9140) value
+            types   0xf04 (0x6dac) @16@0:8
+            imp     0xffffc7a7 (0x2653) -[IQSFloat value]
+            name    0x3240 (0x90f0) setValue:
+            types   0xf0d (0x6dc1) v24@0:8@16
+            imp     0xffffc7ac (0x2664) -[IQSFloat setValue:]
+            name    0x2e74 (0x8d30) .cxx_destruct
+            types   0xf0c (0x6dcc) v16@0:8
+            imp     0xffffc7b4 (0x2678) -[IQSFloat .cxx_destruct]
+        baseProtocols  0x0
+        ivars          0x8538 __OBJC_$_INSTANCE_VARIABLES_IQSFloat
+            entsize   32
+            count     1
+            offset    0x92a0 _OBJC_IVAR_$_IQSFloat._value 8
+            name      0x642f _value
+            type      0x6dd4 @"NSNumber"
+            alignment 3
+            size      8
+        weakIvarLayout 0x0
+        baseProperties 0x8560 __OBJC_$_PROP_LIST_IQSFloat
+            entsize    16
+            count      1
+            name       0x6c94 value
+            attributes 0x62a9 T@"NSNumber",&,N,V_value
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x9628 _OBJC_METACLASS_$_IQSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x84f0 __OBJC_METACLASS_RO_$_IQSFloat
+        flags          0x185 RO_META RO_HAS_CXX_STRUCTORS
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x61c1 IQSFloat
+        baseMethods    0x5c50 __OBJC_$_CLASS_METHODS_IQSFloat
+            entsize 12 (relative)
+            count   1
+            name    0x3450 (0x90a8) serializeObject:stringBlock:error:
+            types   0x112b (0x6d87) @40@0:8@16@24^@32
+            imp     0xffffc846 (0x24a6) +[IQSFloat serializeObject:stringBlock:error:]
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+00000000000072b0 0x9510 _OBJC_CLASS_$_IQSInteger
+    isa        0x9538 _OBJC_METACLASS_$_IQSInteger
+    superclass 0x9600 _OBJC_CLASS_$_IQSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x8648 __OBJC_CLASS_RO_$_IQSInteger
+        flags          0x184 RO_HAS_CXX_STRUCTORS
+        instanceStart  8
+        instanceSize   16
+        reserved       0x0
+        ivarLayout     0x619a
+        layout map     0x01 
+        name           0x61ca IQSInteger
+        baseMethods    0x5ec8 __OBJC_$_INSTANCE_METHODS_IQSInteger
+            entsize 12 (relative)
+            count   6
+            name    0x3000 (0x8ed0) initWithInputStream:
+            types   0xec5 (0x6d99) @24@0:8@16
+            imp     0xffffc861 (0x2739) -[IQSInteger initWithInputStream:]
+            name    0x2fcc (0x8ea8) foundationObjectWithStringBlock:
+            types   0xeb9 (0x6d99) @24@0:8@16
+            imp     0xffffc90b (0x27ef) -[IQSInteger foundationObjectWithStringBlock:]
+            name    0x2f80 (0x8e68) description
+            types   0xec0 (0x6dac) @16@0:8
+            imp     0xffffc914 (0x2804) -[IQSInteger description]
+            name    0x324c (0x9140) value
+            types   0xeb4 (0x6dac) @16@0:8
+            imp     0xffffc938 (0x2834) -[IQSInteger value]
+            name    0x31f0 (0x90f0) setValue:
+            types   0xebd (0x6dc1) v24@0:8@16
+            imp     0xffffc93d (0x2845) -[IQSInteger setValue:]
+            name    0x2e24 (0x8d30) .cxx_destruct
+            types   0xebc (0x6dcc) v16@0:8
+            imp     0xffffc945 (0x2859) -[IQSInteger .cxx_destruct]
+        baseProtocols  0x0
+        ivars          0x8608 __OBJC_$_INSTANCE_VARIABLES_IQSInteger
+            entsize   32
+            count     1
+            offset    0x92a8 _OBJC_IVAR_$_IQSInteger._value 8
+            name      0x642f _value
+            type      0x6dd4 @"NSNumber"
+            alignment 3
+            size      8
+        weakIvarLayout 0x0
+        baseProperties 0x8630 __OBJC_$_PROP_LIST_IQSInteger
+            entsize    16
+            count      1
+            name       0x6c94 value
+            attributes 0x62a9 T@"NSNumber",&,N,V_value
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x9628 _OBJC_METACLASS_$_IQSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x85c0 __OBJC_METACLASS_RO_$_IQSInteger
+        flags          0x185 RO_META RO_HAS_CXX_STRUCTORS
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x61ca IQSInteger
+        baseMethods    0x5c68 __OBJC_$_CLASS_METHODS_IQSInteger
+            entsize 12 (relative)
+            count   1
+            name    0x3438 (0x90a8) serializeObject:stringBlock:error:
+            types   0x1113 (0x6d87) @40@0:8@16@24^@32
+            imp     0xffffca13 (0x268b) +[IQSInteger serializeObject:stringBlock:error:]
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+00000000000072b8 0x9560 _OBJC_CLASS_$_IQSLong
+    isa        0x9588 _OBJC_METACLASS_$_IQSLong
+    superclass 0x9600 _OBJC_CLASS_$_IQSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x8718 __OBJC_CLASS_RO_$_IQSLong
+        flags          0x184 RO_HAS_CXX_STRUCTORS
+        instanceStart  8
+        instanceSize   16
+        reserved       0x0
+        ivarLayout     0x619a
+        layout map     0x01 
+        name           0x61d5 IQSLong
+        baseMethods    0x5f18 __OBJC_$_INSTANCE_METHODS_IQSLong
+            entsize 12 (relative)
+            count   6
+            name    0x2fb0 (0x8ed0) initWithInputStream:
+            types   0xe75 (0x6d99) @24@0:8@16
+            imp     0xffffc9f2 (0x291a) -[IQSLong initWithInputStream:]
+            name    0x2f7c (0x8ea8) foundationObjectWithStringBlock:
+            types   0xe69 (0x6d99) @24@0:8@16
+            imp     0xffffca9c (0x29d0) -[IQSLong foundationObjectWithStringBlock:]
+            name    0x2f30 (0x8e68) description
+            types   0xe70 (0x6dac) @16@0:8
+            imp     0xffffcaa5 (0x29e5) -[IQSLong description]
+            name    0x31fc (0x9140) value
+            types   0xe64 (0x6dac) @16@0:8
+            imp     0xffffcac9 (0x2a15) -[IQSLong value]
+            name    0x31a0 (0x90f0) setValue:
+            types   0xe6d (0x6dc1) v24@0:8@16
+            imp     0xffffcace (0x2a26) -[IQSLong setValue:]
+            name    0x2dd4 (0x8d30) .cxx_destruct
+            types   0xe6c (0x6dcc) v16@0:8
+            imp     0xffffcad6 (0x2a3a) -[IQSLong .cxx_destruct]
+        baseProtocols  0x0
+        ivars          0x86d8 __OBJC_$_INSTANCE_VARIABLES_IQSLong
+            entsize   32
+            count     1
+            offset    0x92b0 _OBJC_IVAR_$_IQSLong._value 8
+            name      0x642f _value
+            type      0x6dd4 @"NSNumber"
+            alignment 3
+            size      8
+        weakIvarLayout 0x0
+        baseProperties 0x8700 __OBJC_$_PROP_LIST_IQSLong
+            entsize    16
+            count      1
+            name       0x6c94 value
+            attributes 0x62a9 T@"NSNumber",&,N,V_value
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x9628 _OBJC_METACLASS_$_IQSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x8690 __OBJC_METACLASS_RO_$_IQSLong
+        flags          0x185 RO_META RO_HAS_CXX_STRUCTORS
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x61d5 IQSLong
+        baseMethods    0x5c80 __OBJC_$_CLASS_METHODS_IQSLong
+            entsize 12 (relative)
+            count   1
+            name    0x3420 (0x90a8) serializeObject:stringBlock:error:
+            types   0x10fb (0x6d87) @40@0:8@16@24^@32
+            imp     0xffffcbdc (0x286c) +[IQSLong serializeObject:stringBlock:error:]
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+00000000000072c0 0x95b0 _OBJC_CLASS_$_IQSNull
+    isa        0x95d8 _OBJC_METACLASS_$_IQSNull
+    superclass 0x9600 _OBJC_CLASS_$_IQSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x87a8 __OBJC_CLASS_RO_$_IQSNull
+        flags          0x80
+        instanceStart  8
+        instanceSize   8
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x61dd IQSNull
+        baseMethods    0x5f68 __OBJC_$_INSTANCE_METHODS_IQSNull
+            entsize 12 (relative)
+            count   3
+            name    0x2f60 (0x8ed0) initWithInputStream:
+            types   0xe25 (0x6d99) @24@0:8@16
+            imp     0xffffcb33 (0x2aab) -[IQSNull initWithInputStream:]
+            name    0x2f2c (0x8ea8) foundationObjectWithStringBlock:
+            types   0xe19 (0x6d99) @24@0:8@16
+            imp     0xffffcb5b (0x2adf) -[IQSNull foundationObjectWithStringBlock:]
+            name    0x2ee0 (0x8e68) description
+            types   0xe20 (0x6dac) @16@0:8
+            imp     0xffffcb68 (0x2af8) -[IQSNull description]
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x9628 _OBJC_METACLASS_$_IQSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x8760 __OBJC_METACLASS_RO_$_IQSNull
+        flags          0x81 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x61dd IQSNull
+        baseMethods    0x5c98 __OBJC_$_CLASS_METHODS_IQSNull
+            entsize 12 (relative)
+            count   1
+            name    0x3408 (0x90a8) serializeObject:stringBlock:error:
+            types   0x10e3 (0x6d87) @40@0:8@16@24^@32
+            imp     0xffffcda5 (0x2a4d) +[IQSNull serializeObject:stringBlock:error:]
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+00000000000072c8 0x9600 _OBJC_CLASS_$_IQSObject
+    isa        0x9628 _OBJC_METACLASS_$_IQSObject
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x88a8 __OBJC_CLASS_RO_$_IQSObject
+        flags          0x184 RO_HAS_CXX_STRUCTORS
+        instanceStart  8
+        instanceSize   24
+        reserved       0x0
+        ivarLayout     0x61ef
+        layout map     0x11 
+        name           0x61e5 IQSObject
+        baseMethods    0x5f98 __OBJC_$_INSTANCE_METHODS_IQSObject
+            entsize 12 (relative)
+            count   9
+            name    0x2f40 (0x8ee0) initWithObjectID:
+            types   0xe59 (0x6dfd) @20@0:8C16
+            imp     0xffffd1d8 (0x3180) -[IQSObject initWithObjectID:]
+            name    0x2f24 (0x8ed0) initWithInputStream:
+            types   0xde9 (0x6d99) @24@0:8@16
+            imp     0xffffd207 (0x31bb) -[IQSObject initWithInputStream:]
+            name    0x2e40 (0x8df8) childCount
+            types   0xde8 (0x6da4) Q16@0:8
+            imp     0xffffd209 (0x31c9) -[IQSObject childCount]
+            name    0x2ee4 (0x8ea8) foundationObjectWithStringBlock:
+            types   0xdd1 (0x6d99) @24@0:8@16
+            imp     0xffffd205 (0x31d1) -[IQSObject foundationObjectWithStringBlock:]
+            name    0x2fd0 (0x8fa0) objectID
+            types   0xe34 (0x6e08) C16@0:8
+            imp     0xffffd201 (0x31d9) -[IQSObject objectID]
+            name    0x30fc (0x90d8) setObjectID:
+            types   0xe30 (0x6e10) v20@0:8C16
+            imp     0xffffd1ff (0x31e3) -[IQSObject setObjectID:]
+            name    0x2e18 (0x8e00) children
+            types   0xdc0 (0x6dac) @16@0:8
+            imp     0xffffd1fc (0x31ec) -[IQSObject children]
+            name    0x30c4 (0x90b8) setChildren:
+            types   0xdc9 (0x6dc1) v24@0:8@16
+            imp     0xffffd1fa (0x31f6) -[IQSObject setChildren:]
+            name    0x2d30 (0x8d30) .cxx_destruct
+            types   0xdc8 (0x6dcc) v16@0:8
+            imp     0xffffd1ff (0x3207) -[IQSObject .cxx_destruct]
+        baseProtocols  0x0
+        ivars          0x8838 __OBJC_$_INSTANCE_VARIABLES_IQSObject
+            entsize   32
+            count     2
+            offset    0x92b8 _OBJC_IVAR_$_IQSObject._objectID 8
+            name      0x6415 _objectID
+            type      0x6e1b C
+            alignment 0
+            size      1
+            offset    0x92c0 _OBJC_IVAR_$_IQSObject._children 16
+            name      0x63fb _children
+            type      0x6e1d @"NSArray"
+            alignment 3
+            size      8
+        weakIvarLayout 0x0
+        baseProperties 0x8880 __OBJC_$_PROP_LIST_IQSObject
+            entsize    16
+            count      2
+            name       0x697e objectID
+            attributes 0x6245 TC,N,V_objectID
+            name       0x6554 children
+            attributes 0x627e T@"NSArray",&,N,V_children
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x87f0 __OBJC_METACLASS_RO_$_IQSObject
+        flags          0x185 RO_META RO_HAS_CXX_STRUCTORS
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x61e5 IQSObject
+        baseMethods    0x5cb0 __OBJC_$_CLASS_METHODS_IQSObject
+            entsize 12 (relative)
+            count   2
+            name    0x33f0 (0x90a8) serializeObject:stringBlock:error:
+            types   0x10cb (0x6d87) @40@0:8@16@24^@32
+            imp     0xffffce48 (0x2b08) +[IQSObject serializeObject:stringBlock:error:]
+            name    0x32e4 (0x8fa8) objectWithInputStream:error:
+            types   0x1126 (0x6dee) @32@0:8@16^@24
+            imp     0xffffd334 (0x3000) +[IQSObject objectWithInputStream:error:]
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+00000000000072d0 0x9678 _OBJC_CLASS_$_IQSParser
+    isa        0x9650 _OBJC_METACLASS_$_IQSParser
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x8938 __OBJC_CLASS_RO_$_IQSParser
+        flags          0x80
+        instanceStart  8
+        instanceSize   8
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x61f1 IQSParser
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x88f0 __OBJC_METACLASS_RO_$_IQSParser
+        flags          0x81 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x61f1 IQSParser
+        baseMethods    0x5cd0 __OBJC_$_CLASS_METHODS_IQSParser
+            entsize 12 (relative)
+            count   1
+            name    0x32f8 (0x8fd0) parseData:error:
+            types   0x1112 (0x6dee) @32@0:8@16^@24
+            imp     0xffffd537 (0x3217) +[IQSParser parseData:error:]
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+00000000000072d8 0x96c8 _OBJC_CLASS_$_IQSSerialization
+    isa        0x96a0 _OBJC_METACLASS_$_IQSSerialization
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x89c8 __OBJC_CLASS_RO_$_IQSSerialization
+        flags          0x80
+        instanceStart  8
+        instanceSize   8
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x61fb IQSSerialization
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x8980 __OBJC_METACLASS_RO_$_IQSSerialization
+        flags          0x81 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x61fb IQSSerialization
+        baseMethods    0x5ce8 __OBJC_$_CLASS_METHODS_IQSSerialization
+            entsize 12 (relative)
+            count   6
+            name    0x3118 (0x8e08) connectIQDataWithConnectIQObject:error:
+            types   0x10fa (0x6dee) @32@0:8@16^@24
+            imp     0xffffd7b2 (0x34aa) +[IQSSerialization connectIQDataWithConnectIQObject:error:]
+            name    0x3114 (0x8e10) connectIQDataWithJSONData:error:
+            types   0x10ee (0x6dee) @32@0:8@16^@24
+            imp     0xffffd830 (0x3534) +[IQSSerialization connectIQDataWithJSONData:error:]
+            name    0x3118 (0x8e20) connectIQDataWithUrlEncodedData:withEncoding:error:
+            types   0x111c (0x6e28) @40@0:8@16Q24^@32
+            imp     0xffffda12 (0x3722) +[IQSSerialization connectIQDataWithUrlEncodedData:withEncoding:error:]
+            name    0x3104 (0x8e18) connectIQDataWithStringData:withEncoding:error:
+            types   0x1110 (0x6e28) @40@0:8@16Q24^@32
+            imp     0xffffdd99 (0x3ab5) +[IQSSerialization connectIQDataWithStringData:withEncoding:error:]
+            name    0x3108 (0x8e28) connectIQObjectWithConnectIQData:error:
+            types   0x10ca (0x6dee) @32@0:8@16^@24
+            imp     0xffffde6f (0x3b97) +[IQSSerialization connectIQObjectWithConnectIQData:error:]
+            name    0x300c (0x8d38) JSONDataWithConnectIQData:error:
+            types   0x10be (0x6dee) @32@0:8@16^@24
+            imp     0xffffdf1b (0x3c4f) +[IQSSerialization JSONDataWithConnectIQData:error:]
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+00000000000072e0 0x9718 _OBJC_CLASS_$_IQSSerializer
+    isa        0x96f0 _OBJC_METACLASS_$_IQSSerializer
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x8a58 __OBJC_CLASS_RO_$_IQSSerializer
+        flags          0x80
+        instanceStart  8
+        instanceSize   8
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x620c IQSSerializer
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x8a10 __OBJC_METACLASS_RO_$_IQSSerializer
+        flags          0x81 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x620c IQSSerializer
+        baseMethods    0x5d38 __OBJC_$_CLASS_METHODS_IQSSerializer
+            entsize 12 (relative)
+            count   1
+            name    0x3360 (0x90a0) serializeObject:error:
+            types   0x10aa (0x6dee) @32@0:8@16^@24
+            imp     0xffffe102 (0x3e4a) +[IQSSerializer serializeObject:error:]
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+00000000000072e8 0x9740 _OBJC_CLASS_$_IQSString
+    isa        0x9768 _OBJC_METACLASS_$_IQSString
+    superclass 0x9600 _OBJC_CLASS_$_IQSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x8b28 __OBJC_CLASS_RO_$_IQSString
+        flags          0x80
+        instanceStart  8
+        instanceSize   12
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x621a IQSString
+        baseMethods    0x6010 __OBJC_$_INSTANCE_METHODS_IQSString
+            entsize 12 (relative)
+            count   5
+            name    0x2eb8 (0x8ed0) initWithInputStream:
+            types   0xd7d (0x6d99) @24@0:8@16
+            imp     0xffffe093 (0x40b3) -[IQSString initWithInputStream:]
+            name    0x2e84 (0x8ea8) foundationObjectWithStringBlock:
+            types   0xd71 (0x6d99) @24@0:8@16
+            imp     0xffffe14d (0x4179) -[IQSString foundationObjectWithStringBlock:]
+            name    0x2e38 (0x8e68) description
+            types   0xd78 (0x6dac) @16@0:8
+            imp     0xffffe163 (0x419b) -[IQSString description]
+            name    0x2f74 (0x8fb0) offset
+            types   0xdfa (0x6e3a) I16@0:8
+            imp     0xffffe186 (0x41ca) -[IQSString offset]
+            name    0x3098 (0x90e0) setOffset:
+            types   0xdf6 (0x6e42) v20@0:8I16
+            imp     0xffffe18a (0x41da) -[IQSString setOffset:]
+        baseProtocols  0x0
+        ivars          0x8ae8 __OBJC_$_INSTANCE_VARIABLES_IQSString
+            entsize   32
+            count     1
+            offset    0x92c8 _OBJC_IVAR_$_IQSString._offset 8
+            name      0x634b _offset
+            type      0x6e4d I
+            alignment 2
+            size      4
+        weakIvarLayout 0x0
+        baseProperties 0x8b10 __OBJC_$_PROP_LIST_IQSString
+            entsize    16
+            count      1
+            name       0x69a4 offset
+            attributes 0x63bb TI,N,V_offset
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x9628 _OBJC_METACLASS_$_IQSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x8aa0 __OBJC_METACLASS_RO_$_IQSString
+        flags          0x81 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x621a IQSString
+        baseMethods    0x5d50 __OBJC_$_CLASS_METHODS_IQSString
+            entsize 12 (relative)
+            count   1
+            name    0x3350 (0x90a8) serializeObject:stringBlock:error:
+            types   0x102b (0x6d87) @40@0:8@16@24^@32
+            imp     0xffffe264 (0x3fc4) +[IQSString serializeObject:stringBlock:error:]
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+00000000000072f0 0x9790 _OBJC_CLASS_$_IQSStringBlock
+    isa        0x97b8 _OBJC_METACLASS_$_IQSStringBlock
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x8c28 __OBJC_CLASS_RO_$_IQSStringBlock
+        flags          0x184 RO_HAS_CXX_STRUCTORS
+        instanceStart  8
+        instanceSize   24
+        reserved       0x0
+        ivarLayout     0x619a
+        layout map     0x01 
+        name           0x6224 IQSStringBlock
+        baseMethods    0x6058 __OBJC_$_INSTANCE_METHODS_IQSStringBlock
+            entsize 12 (relative)
+            count   13
+            name    0x2e78 (0x8ed8) initWithObject:
+            types   0xd35 (0x6d99) @24@0:8@16
+            imp     0xffffe182 (0x41ea) -[IQSStringBlock initWithObject:]
+            name    0x2cf4 (0x8d60) addStringsForObject:
+            types   0xd51 (0x6dc1) v24@0:8@16
+            imp     0xffffe206 (0x427a) -[IQSStringBlock addStringsForObject:]
+            name    0x2e50 (0x8ec8) initWithData:
+            types   0xd1d (0x6d99) @24@0:8@16
+            imp     0xffffe524 (0x45a4) -[IQSStringBlock initWithData:]
+            name    0x2cd4 (0x8d58) addStringsForData:
+            types   0xd39 (0x6dc1) v24@0:8@16
+            imp     0xffffe5a8 (0x4634) -[IQSStringBlock addStringsForData:]
+            name    0x2f28 (0x8fb8) offsetOfString:
+            types   0xd05 (0x6d99) @24@0:8@16
+            imp     0xffffe7ec (0x4884) -[IQSStringBlock offsetOfString:]
+            name    0x307c (0x9118) stringWithOffset:
+            types   0xdaf (0x6e4f) @24@0:8Q16
+            imp     0xffffe9e5 (0x4a89) -[IQSStringBlock stringWithOffset:]
+            name    0x2ff0 (0x9098) serialize
+            types   0xd00 (0x6dac) @16@0:8
+            imp     0xffffea40 (0x4af0) -[IQSStringBlock serialize]
+            name    0x2db4 (0x8e68) description
+            types   0xcf4 (0x6dac) @16@0:8
+            imp     0xffffed79 (0x4e35) -[IQSStringBlock description]
+            name    0x3060 (0x9120) strings
+            types   0xce8 (0x6dac) @16@0:8
+            imp     0xffffed83 (0x4e4b) -[IQSStringBlock strings]
+            name    0x301c (0x90e8) setStrings:
+            types   0xcf1 (0x6dc1) v24@0:8@16
+            imp     0xffffed81 (0x4e55) -[IQSStringBlock setStrings:]
+            name    0x2e58 (0x8f30) nextOffset
+            types   0xcc8 (0x6da4) Q16@0:8
+            imp     0xffffed86 (0x4e66) -[IQSStringBlock nextOffset]
+            name    0x2fdc (0x90c0) setNextOffset:
+            types   0xccc (0x6db4) v24@0:8Q16
+            imp     0xffffed84 (0x4e70) -[IQSStringBlock setNextOffset:]
+            name    0x2c40 (0x8d30) .cxx_destruct
+            types   0xcd8 (0x6dcc) v16@0:8
+            imp     0xffffed82 (0x4e7a) -[IQSStringBlock .cxx_destruct]
+        baseProtocols  0x0
+        ivars          0x8bb8 __OBJC_$_INSTANCE_VARIABLES_IQSStringBlock
+            entsize   32
+            count     2
+            offset    0x92d0 _OBJC_IVAR_$_IQSStringBlock._strings 8
+            name      0x632c _strings
+            type      0x6e5a @"NSMutableDictionary"
+            alignment 3
+            size      8
+            offset    0x92d8 _OBJC_IVAR_$_IQSStringBlock._nextOffset 16
+            name      0x6310 _nextOffset
+            type      0x6dbf Q
+            alignment 3
+            size      8
+        weakIvarLayout 0x0
+        baseProperties 0x8c00 __OBJC_$_PROP_LIST_IQSStringBlock
+            entsize    16
+            count      2
+            name       0x6335 strings
+            attributes 0x6385 T@"NSMutableDictionary",&,N,V_strings
+            name       0x6872 nextOffset
+            attributes 0x63d9 TQ,N,V_nextOffset
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x8b70 __OBJC_METACLASS_RO_$_IQSStringBlock
+        flags          0x185 RO_META RO_HAS_CXX_STRUCTORS
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x6224 IQSStringBlock
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Contents of (__DATA,__objc_classrefs) section
+0000000000009148 0x0 _OBJC_CLASS_$_NSMutableData
+0000000000009150 0x0 _OBJC_CLASS_$_NSString
+0000000000009158 0x0 _OBJC_CLASS_$_NSArray
+0000000000009160 0x9600 _OBJC_CLASS_$_IQSObject
+0000000000009168 0x0 _OBJC_CLASS_$_NSDictionary
+0000000000009170 0x0 _OBJC_CLASS_$_NSMutableArray
+0000000000009178 0x0 _OBJC_CLASS_$_NSInputStream
+0000000000009180 0x0 _OBJC_CLASS_$_NSMutableDictionary
+0000000000009188 0x0 _OBJC_CLASS_$_NSNull
+0000000000009190 0x9740 _OBJC_CLASS_$_IQSString
+0000000000009198 0x9330 _OBJC_CLASS_$_IQSArray
+00000000000091a0 0x9420 _OBJC_CLASS_$_IQSDictionary
+00000000000091a8 0x95b0 _OBJC_CLASS_$_IQSNull
+00000000000091b0 0x0 _OBJC_CLASS_$_NSNumber
+00000000000091b8 0x9380 _OBJC_CLASS_$_IQSBool
+00000000000091c0 0x9510 _OBJC_CLASS_$_IQSInteger
+00000000000091c8 0x9560 _OBJC_CLASS_$_IQSLong
+00000000000091d0 0x94c0 _OBJC_CLASS_$_IQSFloat
+00000000000091d8 0x9470 _OBJC_CLASS_$_IQSDouble
+00000000000091e0 0x0 _OBJC_CLASS_$_NSError
+00000000000091e8 0x9790 _OBJC_CLASS_$_IQSStringBlock
+00000000000091f0 0x93f8 _OBJC_CLASS_$_IQSDataBlock
+00000000000091f8 0x9718 _OBJC_CLASS_$_IQSSerializer
+0000000000009200 0x0 _OBJC_CLASS_$_NSJSONSerialization
+0000000000009208 0x0 _OBJC_CLASS_$_NSURLComponents
+0000000000009210 0x9678 _OBJC_CLASS_$_IQSParser
+0000000000009218 0x0 _OBJC_CLASS_$_NSSortDescriptor
+0000000000009220 0x0 _OBJC_CLASS_$_NSData
+Contents of (__DATA,__objc_superrefs) section
+0000000000009228 0x9330 _OBJC_CLASS_$_IQSArray
+0000000000009230 0x9380 _OBJC_CLASS_$_IQSBool
+0000000000009238 0x9420 _OBJC_CLASS_$_IQSDictionary
+0000000000009240 0x9470 _OBJC_CLASS_$_IQSDouble
+0000000000009248 0x94c0 _OBJC_CLASS_$_IQSFloat
+0000000000009250 0x9510 _OBJC_CLASS_$_IQSInteger
+0000000000009258 0x9560 _OBJC_CLASS_$_IQSLong
+0000000000009260 0x95b0 _OBJC_CLASS_$_IQSNull
+0000000000009268 0x9600 _OBJC_CLASS_$_IQSObject
+0000000000009270 0x9740 _OBJC_CLASS_$_IQSString
+0000000000009278 0x9790 _OBJC_CLASS_$_IQSStringBlock
+Contents of (__DATA_CONST,__objc_catlist) section
+00000000000072f8 0x8c70 __OBJC_$_CATEGORY_NSInputStream_$_Read
+    name      0x6233 Read
+    cls       0x0 _OBJC_CLASS_$_NSInputStream
+    instanceMethods 0x5a38 __OBJC_$_CATEGORY_INSTANCE_METHODS_NSInputStream_$_Read
+        entsize 12 (relative)
+        count   17
+        name    0x3640 (0x9080) readUInt8
+        types   0x1368 (0x6dac) @16@0:8
+        imp     0xfffff485 (0x4ecd) -[NSInputStream(Read) readUInt8]
+        name    0x3604 (0x9050) readUInt16Big
+        types   0x135c (0x6dac) @16@0:8
+        imp     0xfffff4e4 (0x4f38) -[NSInputStream(Read) readUInt16Big]
+        name    0x3600 (0x9058) readUInt16Little
+        types   0x1350 (0x6dac) @16@0:8
+        imp     0xfffff54a (0x4faa) -[NSInputStream(Read) readUInt16Little]
+        name    0x35fc (0x9060) readUInt32Big
+        types   0x1344 (0x6dac) @16@0:8
+        imp     0xfffff5a9 (0x5015) -[NSInputStream(Read) readUInt32Big]
+        name    0x35f8 (0x9068) readUInt32Little
+        types   0x1338 (0x6dac) @16@0:8
+        imp     0xfffff609 (0x5081) -[NSInputStream(Read) readUInt32Little]
+        name    0x35b4 (0x9030) readInt32Big
+        types   0x132c (0x6dac) @16@0:8
+        imp     0xfffff667 (0x50eb) -[NSInputStream(Read) readInt32Big]
+        name    0x35b0 (0x9038) readInt32Little
+        types   0x1320 (0x6dac) @16@0:8
+        imp     0xfffff6ca (0x515a) -[NSInputStream(Read) readInt32Little]
+        name    0x35dc (0x9070) readUInt64Big
+        types   0x1314 (0x6dac) @16@0:8
+        imp     0xfffff728 (0x51c4) -[NSInputStream(Read) readUInt64Big]
+        name    0x35d8 (0x9078) readUInt64Little
+        types   0x1308 (0x6dac) @16@0:8
+        imp     0xfffff78a (0x5232) -[NSInputStream(Read) readUInt64Little]
+        name    0x3594 (0x9040) readInt64Big
+        types   0x12fc (0x6dac) @16@0:8
+        imp     0xfffff7e9 (0x529d) -[NSInputStream(Read) readInt64Big]
+        name    0x3590 (0x9048) readInt64Little
+        types   0x12f0 (0x6dac) @16@0:8
+        imp     0xfffff84b (0x530b) -[NSInputStream(Read) readInt64Little]
+        name    0x355c (0x9020) readFloatBig
+        types   0x12e4 (0x6dac) @16@0:8
+        imp     0xfffff8aa (0x5376) -[NSInputStream(Read) readFloatBig]
+        name    0x3558 (0x9028) readFloatLittle
+        types   0x12d8 (0x6dac) @16@0:8
+        imp     0xfffff90e (0x53e6) -[NSInputStream(Read) readFloatLittle]
+        name    0x3534 (0x9010) readDoubleBig
+        types   0x12cc (0x6dac) @16@0:8
+        imp     0xfffff96e (0x5452) -[NSInputStream(Read) readDoubleBig]
+        name    0x3530 (0x9018) readDoubleLittle
+        types   0x12c0 (0x6dac) @16@0:8
+        imp     0xfffff9d5 (0x54c5) -[NSInputStream(Read) readDoubleLittle]
+        name    0x3514 (0x9008) readDataWithLength:
+        types   0x1357 (0x6e4f) @24@0:8Q16
+        imp     0xfffffa35 (0x5531) -[NSInputStream(Read) readDataWithLength:]
+        name    0x3500 (0x9000) readDataUpToLength:
+        types   0x134b (0x6e4f) @24@0:8Q16
+        imp     0xfffffab7 (0x55bf) -[NSInputStream(Read) readDataUpToLength:]
+    classMethods 0x5a20 __OBJC_$_CATEGORY_CLASS_METHODS_NSInputStream_$_Read
+        entsize 12 (relative)
+        count   1
+        name    0x35a0 (0x8fc8) openInputStreamWithData:
+        types   0x136d (0x6d99) @24@0:8@16
+        imp     0xfffff45a (0x4e8a) +[NSInputStream(Read) openInputStreamWithData:]
+    protocols 0x0
+    instanceProperties 0x0
+0000000000007300 0x8cb0 __OBJC_$_CATEGORY_NSMutableArray_$_Queue
+    name      0x6238 Queue
+    cls       0x0 _OBJC_CLASS_$_NSMutableArray
+    instanceMethods 0x5b10 __OBJC_$_CATEGORY_INSTANCE_METHODS_NSMutableArray_$_Queue
+        entsize 12 (relative)
+        count   2
+        name    0x34c8 (0x8fe0) popObject
+        types   0x1290 (0x6dac) @16@0:8
+        imp     0xfffffb24 (0x5644) -[NSMutableArray(Queue) popObject]
+        name    0x34c4 (0x8fe8) popObjects:
+        types   0x1327 (0x6e4f) @24@0:8Q16
+        imp     0xfffffb7e (0x56aa) -[NSMutableArray(Queue) popObjects:]
+    classMethods 0x0
+    protocols 0x0
+    instanceProperties 0x0
+0000000000007308 0x8cf0 __OBJC_$_CATEGORY_NSMutableData_$_Append
+    name      0x623e Append
+    cls       0x0 _OBJC_CLASS_$_NSMutableData
+    instanceMethods 0x5b30 __OBJC_$_CATEGORY_INSTANCE_METHODS_NSMutableData_$_Append
+        entsize 12 (relative)
+        count   11
+        name    0x3298 (0x8dd0) appendInt8:
+        types   0x12d4 (0x6e10) v20@0:8C16
+        imp     0xfffffbd8 (0x5718) -[NSMutableData(Append) appendInt8:]
+        name    0x325c (0x8da0) appendInt16Big:
+        types   0x1329 (0x6e71) v20@0:8S16
+        imp     0xfffffbf5 (0x5741) -[NSMutableData(Append) appendInt16Big:]
+        name    0x3258 (0x8da8) appendInt16Little:
+        types   0x131d (0x6e71) v20@0:8S16
+        imp     0xfffffc17 (0x576f) -[NSMutableData(Append) appendInt16Little:]
+        name    0x3254 (0x8db0) appendInt32Big:
+        types   0x12e2 (0x6e42) v20@0:8I16
+        imp     0xfffffc35 (0x5799) -[NSMutableData(Append) appendInt32Big:]
+        name    0x3250 (0x8db8) appendInt32Little:
+        types   0x12d6 (0x6e42) v20@0:8I16
+        imp     0xfffffc54 (0x57c4) -[NSMutableData(Append) appendInt32Little:]
+        name    0x324c (0x8dc0) appendInt64Big:
+        types   0x123c (0x6db4) v24@0:8Q16
+        imp     0xfffffc71 (0x57ed) -[NSMutableData(Append) appendInt64Big:]
+        name    0x3248 (0x8dc8) appendInt64Little:
+        types   0x1230 (0x6db4) v24@0:8Q16
+        imp     0xfffffc92 (0x581a) -[NSMutableData(Append) appendInt64Little:]
+        name    0x3204 (0x8d90) appendFloatBig:
+        types   0x12ec (0x6e7c) v20@0:8f16
+        imp     0xfffffcb0 (0x5844) -[NSMutableData(Append) appendFloatBig:]
+        name    0x3200 (0x8d98) appendFloatLittle:
+        types   0x12e0 (0x6e7c) v20@0:8f16
+        imp     0xfffffcd0 (0x5870) -[NSMutableData(Append) appendFloatLittle:]
+        name    0x31dc (0x8d80) appendDoubleBig:
+        types   0x12df (0x6e87) v24@0:8d16
+        imp     0xfffffcec (0x5898) -[NSMutableData(Append) appendDoubleBig:]
+        name    0x31d8 (0x8d88) appendDoubleLittle:
+        types   0x12d3 (0x6e87) v24@0:8d16
+        imp     0xfffffd0f (0x58c7) -[NSMutableData(Append) appendDoubleLittle:]
+    classMethods 0x0
+    protocols 0x0
+    instanceProperties 0x0
+Contents of (__DATA,__objc_selrefs) section
+    0x633d .cxx_destruct
+    0x6255 JSONDataWithConnectIQData:error:
+    0x6353 JSONObjectWithData:options:error:
+    0x6436 addObject:
+    0x6441 addObjectsFromArray:
+    0x6456 addStringsForData:
+    0x6469 addStringsForObject:
+    0x6276 allKeys
+    0x647e appendBytes:length:
+    0x6492 appendData:
+    0x649e appendDoubleBig:
+    0x64af appendDoubleLittle:
+    0x6375 appendFloatBig:
+    0x64c3 appendFloatLittle:
+    0x6299 appendInt16Big:
+    0x64d6 appendInt16Little:
+    0x63ab appendInt32Big:
+    0x64e9 appendInt32Little:
+    0x62c2 appendInt64Big:
+    0x64fc appendInt64Little:
+    0x650f appendInt8:
+    0x651b array
+    0x6521 arrayWithObjects:count:
+    0x6539 boolValue
+    0x6543 bytes
+    0x6549 childCount
+    0x6554 children
+    0x655d connectIQDataWithConnectIQObject:error:
+    0x6585 connectIQDataWithJSONData:error:
+    0x65a6 connectIQDataWithStringData:withEncoding:error:
+    0x65d6 connectIQDataWithUrlEncodedData:withEncoding:error:
+    0x660a connectIQObjectWithConnectIQData:error:
+    0x6632 copy
+    0x6637 count
+    0x663d countByEnumeratingWithState:objects:count:
+    0x6668 data
+    0x666d dataUsingEncoding:
+    0x6680 dataWithBytes:length:
+    0x6696 dataWithJSONObject:options:error:
+    0x66b8 description
+    0x66c4 dictionary
+    0x66cf dictionaryWithObjects:forKeys:count:
+    0x66f4 doubleValue
+    0x6700 enumerateKeysAndObjectsUsingBlock:
+    0x6723 errorWithDomain:code:userInfo:
+    0x6742 floatValue
+    0x674d foundationObjectWithObject:stringBlock:
+    0x6775 foundationObjectWithStringBlock:
+    0x6796 hasBytesAvailable
+    0x67a8 init
+    0x67ad initWithBytes:length:encoding:
+    0x67cc initWithData:
+    0x67da initWithInputStream:
+    0x63c9 initWithObject:
+    0x67ef initWithObjectID:
+    0x62e4 initWithString:
+    0x6801 inputStreamWithData:
+    0x6816 intValue
+    0x681f isEqualToString:
+    0x6830 length
+    0x6837 lengthOfBytesUsingEncoding:
+    0x6853 longLongValue
+    0x6861 mutableCopy
+    0x686d name
+    0x6872 nextOffset
+    0x687d null
+    0x6882 numberWithDouble:
+    0x6894 numberWithFloat:
+    0x68a5 numberWithInt:
+    0x68b4 numberWithUnsignedChar:
+    0x68cc numberWithUnsignedInt:
+    0x68e3 numberWithUnsignedInteger:
+    0x68fe numberWithUnsignedLongLong:
+    0x691a numberWithUnsignedShort:
+    0x6933 objCType
+    0x693c objectAtIndex:
+    0x694b objectAtIndexedSubscript:
+    0x6965 objectForKeyedSubscript:
+    0x697e objectID
+    0x6987 objectWithInputStream:error:
+    0x69a4 offset
+    0x63eb offsetOfString:
+    0x69ab open
+    0x69b0 openInputStreamWithData:
+    0x69c9 parseData:error:
+    0x69da parseData:stringBlock:error:
+    0x69f7 popObject
+    0x6a01 popObjects:
+    0x6a0d queryItems
+    0x6300 read:maxLength:
+    0x6a18 readDataUpToLength:
+    0x6a2c readDataWithLength:
+    0x6a40 readDoubleBig
+    0x6a4e readDoubleLittle
+    0x6a5f readFloatBig
+    0x6405 readFloatLittle
+    0x6a6c readInt32Big
+    0x631c readInt32Little
+    0x6a79 readInt64Big
+    0x641f readInt64Little
+    0x6a86 readUInt16Big
+    0x6a94 readUInt16Little
+    0x6aa5 readUInt32Big
+    0x6ab3 readUInt32Little
+    0x6ac4 readUInt64Big
+    0x6ad2 readUInt64Little
+    0x6ae3 readUInt8
+    0x6aed removeObjectAtIndex:
+    0x6b02 removeObjectsInRange:
+    0x6b18 serialize
+    0x6b22 serializeObject:error:
+    0x6b39 serializeObject:stringBlock:error:
+    0x6b5c setChildCount:
+    0x6b6b setChildren:
+    0x6b78 setNextOffset:
+    0x6b87 setObject:forKey:
+    0x6b99 setObject:forKeyedSubscript:
+    0x6bb6 setObjectID:
+    0x6bc3 setOffset:
+    0x6bce setStrings:
+    0x6bda setValue:
+    0x6be4 sortDescriptorWithKey:ascending:
+    0x6c05 sortUsingDescriptors:
+    0x6c1b stringWithCString:encoding:
+    0x6c37 stringWithFormat:
+    0x6c49 stringWithOffset:
+    0x6335 strings
+    0x6c5b subarrayWithRange:
+    0x6c6e unsignedIntValue
+    0x6c7f unsignedIntegerValue
+    0x6c94 value
+Contents of (__DATA_CONST,__objc_imageinfo) section
+    version 0
+    flags   0x40

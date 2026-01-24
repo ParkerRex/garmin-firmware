@@ -1,0 +1,30 @@
+Garmin Express static analysis (from .app bundle)
+Generated: Fri Jan 23 17:35:06 EST 2026
+
+Main app: /Applications/Garmin Express.app/Contents/MacOS/Garmin Express
+Helper app: /Applications/Garmin Express.app/Contents/Library/LoginItems/Garmin Express Service.app/Contents/MacOS/Garmin Express Service
+
+Counts:
+- ApplicationInsightsOSX: classes=0 selectors=801
+- ConnectIQSerialization: classes=0 selectors=154
+- FBLPromises: classes=0 selectors=147
+- OAuthConsumer: classes=0 selectors=196
+- Promises: classes=0 selectors=1
+- Telemetry: classes=0 selectors=88
+- TrueTime: classes=0 selectors=154
+- garmin-express-service: classes=0 selectors=11092
+- garmin-express: classes=0 selectors=19848
+
+Key files (full dumps):
+- garmin-express.objc-runtime.txt
+- garmin-express.nm-m.txt
+- garmin-express.strings.txt
+- garmin-express-service.objc-runtime.txt
+- garmin-express-service.nm-m.txt
+- garmin-express-service.strings.txt
+- *.framework dumps (per-framework)
+
+Quick class list files:
+- garmin-express.objc-classes.txt
+- garmin-express-service.objc-classes.txt
+- *.framework objc-classes.txt

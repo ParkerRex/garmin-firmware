@@ -1,0 +1,88 @@
+            name       0x1c1c9 shared
+            name       0x1de49 shared
+            name      0x0 + 0x1bdba _OBJC_METACLASS_$_NSObject device
+            name      0x0 + 0x1da3a _OBJC_METACLASS_$_NSObject device
+            name      0x1bd61 unitId
+            name      0x1bd69 model
+            name      0x1bd6f firmware
+            name      0x1bdd0 screenResolution
+            name      0x1bde1 value
+            name      0x1bde7 updateGuid
+            name      0x1bdf2 updateFinish
+            name      0x1bdff displayName
+            name      0x1be0b partNumber
+            name      0x1be16 fromVersion
+            name      0x1be22 toVersion
+            name      0x1be2c musicSource
+            name      0x1be38 transferCount
+            name      0x1c24a context
+            name      0x1d9e1 unitId
+            name      0x1d9e9 model
+            name      0x1d9ef firmware
+            name      0x1da50 screenResolution
+            name      0x1da61 value
+            name      0x1da67 updateGuid
+            name      0x1da72 updateFinish
+            name      0x1da7f displayName
+            name      0x1da8b partNumber
+            name      0x1da96 fromVersion
+            name      0x1daa2 toVersion
+            name      0x1daac musicSource
+            name      0x1dab8 transferCount
+            name      0x1deca context
+            name    0x50d8 (0x1f608) .cxx_destruct
+            name    0x511c (0x1f640) init
+            name    0x5180 (0x1f608) .cxx_destruct
+            name    0x51b4 (0x1f6c0) setMusicSource:
+            name    0x51bc (0x1f6b0) setFromVersion:
+            name    0x51cc (0x1f6a8) setDisplayName:
+            name    0x51d0 (0x1f6e8) setTransferCount:
+            name    0x51dc (0x1f608) .cxx_destruct
+            name    0x51e0 (0x1f6c8) setPartNumber:
+            name    0x51e0 (0x1f6e0) setToVersion:
+            name    0x5200 (0x1f640) init
+            name    0x5200 (0x1f6a0) setDevice:
+            name    0x5220 (0x1f640) init
+            name    0x5220 (0x1f6f0) setUpdateFinish:
+            name    0x5224 (0x1f6d0) setScreenResolution:
+            name    0x5234 (0x1f6f8) setUpdateGuid:
+            name    0x523c (0x1f650) initWithUnitId:model:firmware:
+            name    0x5240 (0x1f648) initWithUnitId:model:
+            name    0x5248 (0x1f700) setValue:
+            name    0x52cc (0x1f748) trackPageView:properties:
+            name    0x52d0 (0x1f740) trackOperation:operationId:operationState:properties:
+            name    0x52d4 (0x1f738) trackException:
+            name    0x52d8 (0x1f730) trackEvent:properties:
+            name    0x52dc (0x1f728) trackError:properties:operationId:
+            name    0x5318 (0x1f708) shared
+            name    0x8460 (0x24610) .cxx_destruct
+            name    0x84a4 (0x24648) init
+            name    0x8508 (0x24610) .cxx_destruct
+            name    0x853c (0x246c8) setMusicSource:
+            name    0x8544 (0x246b8) setFromVersion:
+            name    0x8554 (0x246b0) setDisplayName:
+            name    0x8558 (0x246f0) setTransferCount:
+            name    0x8564 (0x24610) .cxx_destruct
+            name    0x8568 (0x246d0) setPartNumber:
+            name    0x8568 (0x246e8) setToVersion:
+            name    0x8588 (0x24648) init
+            name    0x8588 (0x246a8) setDevice:
+            name    0x85a8 (0x24648) init
+            name    0x85a8 (0x246f8) setUpdateFinish:
+            name    0x85ac (0x246d8) setScreenResolution:
+            name    0x85bc (0x24700) setUpdateGuid:
+            name    0x85c4 (0x24658) initWithUnitId:model:firmware:
+            name    0x85c8 (0x24650) initWithUnitId:model:
+            name    0x85d0 (0x24708) setValue:
+            name    0x8654 (0x24750) trackPageView:properties:
+            name    0x8658 (0x24748) trackOperation:operationId:operationState:properties:
+            name    0x865c (0x24740) trackException:
+            name    0x8660 (0x24738) trackEvent:properties:
+            name    0x8664 (0x24730) trackError:properties:operationId:
+            name    0x86a0 (0x24710) shared
+        name           0x1bd10 _TtC9Telemetry15TelemetryDevice
+        name           0x1bd80 _TtC9Telemetry19TelemetryProperties
+        name           0x1c1a0 _TtC9Telemetry16TelemetryManager
+        name           0x1d990 _TtC9Telemetry15TelemetryDevice
+        name           0x1da00 _TtC9Telemetry19TelemetryProperties
+        name           0x1de20 _TtC9Telemetry16TelemetryManager

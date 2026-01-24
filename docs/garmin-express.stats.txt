@@ -1,0 +1,5 @@
+    1138 /Users/parkerrex/Projects/garmin/docs/garmin-express.objc-classes.txt
+   19848 /Users/parkerrex/Projects/garmin/docs/garmin-express.objc-selectors.txt
+     900 /Users/parkerrex/Projects/garmin/docs/garmin-express-service.objc-classes.txt
+   11092 /Users/parkerrex/Projects/garmin/docs/garmin-express-service.objc-selectors.txt
+   32978 total

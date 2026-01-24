@@ -1,0 +1,976 @@
+/Applications/Garmin Express.app/Contents/Frameworks/TrueTime.framework/TrueTime (architecture x86_64):
+Contents of (__DATA_CONST,__objc_classlist) section
+0000000000020bc8 0x22480 _OBJC_CLASS_$_PodsDummy_TrueTime
+    isa        0x22458 _OBJC_METACLASS_$_PodsDummy_TrueTime
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x21680 __OBJC_CLASS_RO_$_PodsDummy_TrueTime
+        flags          0x80
+        instanceStart  8
+        instanceSize   8
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x1c211 PodsDummy_TrueTime
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x21638 __OBJC_METACLASS_RO_$_PodsDummy_TrueTime
+        flags          0x81 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x1c211 PodsDummy_TrueTime
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+0000000000020bd0 0x22aa8 _$s8TrueTime12HostResolverCN
+    isa        0x22a68 _$s8TrueTime12HostResolverCMm
+    superclass 0x0 _OBJC_CLASS_$__TtCs12_SwiftObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x21b42 Swift class
+        flags          0x80
+        instanceStart  16
+        instanceSize   128
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x1b5d0 _TtC8TrueTime12HostResolver
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x219b8 __IVARS__TtC8TrueTime12HostResolver
+            entsize   32
+            count     12
+            offset    0x1aca8 _$s8TrueTime12HostResolverC4hostSSvpWvd 16
+            name      0x1b5ec host
+            type      0x1b4c8 
+            alignment 3
+            size      16
+            offset    0x1acb0 _$s8TrueTime12HostResolverC4portSivpWvd 32
+            name      0x1b734 port
+            type      0x1b4c8 
+            alignment 3
+            size      8
+            offset    0x1acb8 _$s8TrueTime12HostResolverC7timeoutSdvpWvd 40
+            name      0x1b856 timeout
+            type      0x1b4c8 
+            alignment 3
+            size      8
+            offset    0x1acc0 _$s8TrueTime12HostResolverC10onCompleteyyAC_s6ResultOySayAA13SocketAddressOGSo7NSErrorCGtcvpWvd 48
+            name      0x1b5ff onComplete
+            type      0x1b4c8 
+            alignment 3
+            size      16
+            offset    0x1acc8 _$s8TrueTime12HostResolverC13callbackQueueSo17OS_dispatch_queueCvpWvd 64
+            name      0x1b60a callbackQueue
+            type      0x1b4c8 
+            alignment 3
+            size      8
+            offset    0x1acd0 _$s8TrueTime12HostResolverC6loggerySScSgvpWvd 72
+            name      0x1b618 logger
+            type      0x1b4c8 
+            alignment 3
+            size      16
+            offset    0x1acd8 _$s8TrueTime12HostResolverC5timerSo019OS_dispatch_source_E0_pSgvpWvd 88
+            name      0x1b72e timer
+            type      0x1b4c8 
+            alignment 3
+            size      8
+            offset    0x1ace0 _$s8TrueTime12HostResolverC9lockQueue33_974D77A194DE214D8271763D66939F35LLSo17OS_dispatch_queueCvpWvd 96
+            name      0x1b625 lockQueue
+            type      0x1b4c8 
+            alignment 3
+            size      8
+            offset    0x1ace8 _$s8TrueTime12HostResolverC07networkC033_974D77A194DE214D8271763D66939F35LLSo9CFHostRefaSgvpWvd 104
+            name      0x1b62f networkHost
+            type      0x1b4c8 
+            alignment 3
+            size      8
+            offset    0x1acf0 _$s8TrueTime12HostResolverC8resolved33_974D77A194DE214D8271763D66939F35LLSbvpWvd 112
+            name      0x1b63b resolved
+            type      0x1b4c8 
+            alignment 0
+            size      1
+            offset    0x1acf8 _$s8TrueTime12HostResolverC15callbackPending33_974D77A194DE214D8271763D66939F35LLSbvpWvd 113
+            name      0x1b644 callbackPending
+            type      0x1b4c8 
+            alignment 0
+            size      1
+            offset    0x1ad00 _$s8TrueTime12HostResolverC12hostCallback33_974D77A194DE214D8271763D66939F35LLyySo9CFHostRefa_So0M8InfoTypeVSPySo13CFStreamErroraGSgSvSgtXCvpWvd 120
+            name      0x1b654 hostCallback
+            type      0x1b4c8 
+            alignment 3
+            size      8
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$__TtCs12_SwiftObject
+    superclass 0x0 _OBJC_METACLASS_$__TtCs12_SwiftObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x21970 __METACLASS_DATA__TtC8TrueTime12HostResolver
+        flags          0x81 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x1b5d0 _TtC8TrueTime12HostResolver
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+0000000000020bd8 0x22c18 _$s8TrueTime9NTPClientCN
+    isa        0x22bd8 _$s8TrueTime9NTPClientCMm
+    superclass 0x0 _OBJC_CLASS_$__TtCs12_SwiftObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x21d9a Swift class
+        flags          0x80
+        instanceStart  16
+        instanceSize   176
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x1b690 _TtC8TrueTime9NTPClient
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x21bd0 __IVARS__TtC8TrueTime9NTPClient
+            entsize   32
+            count     14
+            offset    0x1ad30 _$s8TrueTime9NTPClientC6configAA9NTPConfigVvpWvd 16
+            name      0x1bd70 config
+            type      0x1b4c8 
+            alignment 3
+            size      48
+            offset    0x1ad38 _$s8TrueTime9NTPClientC09referenceB4Lock33_1287656FA7524B1873A8558648EF240CLLAA7GCDLockCyAA09ReferenceB0CSgGvpWvd 64
+            name      0x1b6b0 referenceTimeLock
+            type      0x1b4c8 
+            alignment 3
+            size      8
+            offset    0x1ad40 _$s8TrueTime9NTPClientC6loggerySScSgvpWvd 72
+            name      0x1b618 logger
+            type      0x1b4c8 
+            alignment 3
+            size      16
+            offset    0x1ad48 _$s8TrueTime9NTPClientC5queue33_1287656FA7524B1873A8558648EF240CLLSo012OS_dispatch_D0CvpWvd 88
+            name      0x1b5c8 queue
+            type      0x1b4c8 
+            alignment 3
+            size      8
+            offset    0x1ad50 _$s8TrueTime9NTPClientC12reachability33_1287656FA7524B1873A8558648EF240CLLAA12ReachabilityCvpWvd 96
+            name      0x1b6cf reachability
+            type      0x1b4c8 
+            alignment 3
+            size      8
+            offset    0x1ad58 _$s8TrueTime9NTPClientC19completionCallbacks33_1287656FA7524B1873A8558648EF240CLLSaySo17OS_dispatch_queueC_ys6ResultOyAA09ReferenceB0CSo7NSErrorCGctGvpWvd 104
+            name      0x1b6e0 completionCallbacks
+            type      0x1b4c8 
+            alignment 3
+            size      8
+            offset    0x1ad60 _$s8TrueTime9NTPClientC11connections33_1287656FA7524B1873A8558648EF240CLLSayAA13NTPConnectionCGvpWvd 112
+            name      0x1b6f4 connections
+            type      0x1b4c8 
+            alignment 3
+            size      8
+            offset    0x1ad68 _$s8TrueTime9NTPClientC8finished33_1287656FA7524B1873A8558648EF240CLLSbvpWvd 120
+            name      0x1b700 finished
+            type      0x1b4c8 
+            alignment 0
+            size      1
+            offset    0x1ad70 _$s8TrueTime9NTPClientC11invalidated33_1287656FA7524B1873A8558648EF240CLLSbvpWvd 121
+            name      0x1b709 invalidated
+            type      0x1b4c8 
+            alignment 0
+            size      1
+            offset    0x1ad78 _$s8TrueTime9NTPClientC14startCallbacks33_1287656FA7524B1873A8558648EF240CLLSaySo17OS_dispatch_queueC_ys6ResultOyAA09ReferenceB0CSo7NSErrorCGctGvpWvd 128
+            name      0x1b715 startCallbacks
+            type      0x1b4c8 
+            alignment 3
+            size      8
+            offset    0x1ad80 _$s8TrueTime9NTPClientC05startB033_1287656FA7524B1873A8558648EF240CLLSdSgvpWvd 136
+            name      0x1b724 startTime
+            type      0x1b4c8 
+            alignment 3
+            size      9
+            offset    0x1ad88 _$s8TrueTime9NTPClientC5timer33_1287656FA7524B1873A8558648EF240CLLSo019OS_dispatch_source_D0_pSgvpWvd 152
+            name      0x1b72e timer
+            type      0x1b4c8 
+            alignment 3
+            size      8
+            offset    0x1ad90 _$s8TrueTime9NTPClientC4port33_1287656FA7524B1873A8558648EF240CLLSivpWvd 160
+            name      0x1b734 port
+            type      0x1b4c8 
+            alignment 3
+            size      8
+            offset    0x1ad98 _$s8TrueTime9NTPClientC4pool33_1287656FA7524B1873A8558648EF240CLLSaySSGvpWvd 168
+            name      0x1b739 pool
+            type      0x1b4c8 
+            alignment 3
+            size      8
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$__TtCs12_SwiftObject
+    superclass 0x0 _OBJC_METACLASS_$__TtCs12_SwiftObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x21b88 __METACLASS_DATA__TtC8TrueTime9NTPClient
+        flags          0x81 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x1b690 _TtC8TrueTime9NTPClient
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+0000000000020be0 0x22d60 _$s8TrueTime13NTPConnectionCN
+    isa        0x22d20 _$s8TrueTime13NTPConnectionCMm
+    superclass 0x0 _OBJC_CLASS_$__TtCs12_SwiftObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x22032 Swift class
+        flags          0x80
+        instanceStart  16
+        instanceSize   194
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x1b830 _TtC8TrueTime13NTPConnection
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x21e28 __IVARS__TtC8TrueTime13NTPConnection
+            entsize   32
+            count     16
+            offset    0x1add0 _$s8TrueTime13NTPConnectionC7addressAA13SocketAddressOvpWvd 16
+            name      0x1b84d address
+            type      0x1b4c8 
+            alignment 2
+            size      29
+            offset    0x1add8 _$s8TrueTime13NTPConnectionC7timeoutSdvpWvd 48
+            name      0x1b856 timeout
+            type      0x1b4c8 
+            alignment 3
+            size      8
+            offset    0x1ade0 _$s8TrueTime13NTPConnectionC10maxRetriesSivpWvd 56
+            name      0x1b85e maxRetries
+            type      0x1b4c8 
+            alignment 3
+            size      8
+            offset    0x1ade8 _$s8TrueTime13NTPConnectionC6loggerySScSgvpWvd 64
+            name      0x1b618 logger
+            type      0x1b4c8 
+            alignment 3
+            size      16
+            offset    0x1adf0 _$s8TrueTime13NTPConnectionC12dataCallback33_2A79C9048389EB5D5F57E571231D0EE3LLyySo11CFSocketRefaSg_So0N12CallBackTypeVSo06CFDataO0aSgSVSgSvSgtXCvpWvd 80
+            name      0x1b870 dataCallback
+            type      0x1b4c8 
+            alignment 3
+            size      8
+            offset    0x1adf8 _$s8TrueTime13NTPConnectionC5timerSo019OS_dispatch_source_D0_pSgvpWvd 88
+            name      0x1b72e timer
+            type      0x1b4c8 
+            alignment 3
+            size      8
+            offset    0x1ae00 _$s8TrueTime13NTPConnectionC9lockQueue33_2A79C9048389EB5D5F57E571231D0EE3LLSo17OS_dispatch_queueCvpWvd 96
+            name      0x1b625 lockQueue
+            type      0x1b4c8 
+            alignment 3
+            size      8
+            offset    0x1ae08 _$s8TrueTime13NTPConnectionC8attempts33_2A79C9048389EB5D5F57E571231D0EE3LLSivpWvd 104
+            name      0x1b87d attempts
+            type      0x1b4c8 
+            alignment 3
+            size      8
+            offset    0x1ae10 _$s8TrueTime13NTPConnectionC13callbackQueue33_2A79C9048389EB5D5F57E571231D0EE3LLSo17OS_dispatch_queueCSgvpWvd 112
+            name      0x1b60a callbackQueue
+            type      0x1b4c8 
+            alignment 3
+            size      8
+            offset    0x1ae18 _$s8TrueTime13NTPConnectionC10didTimeout33_2A79C9048389EB5D5F57E571231D0EE3LLSbvpWvd 120
+            name      0x1b894 didTimeout
+            type      0x1b4c8 
+            alignment 0
+            size      1
+            offset    0x1ae20 _$s8TrueTime13NTPConnectionC10onComplete33_2A79C9048389EB5D5F57E571231D0EE3LLyAC_s6ResultOyAA013FrozenNetworkB0VSo7NSErrorCGtcSgvpWvd 128
+            name      0x1b5ff onComplete
+            type      0x1b4c8 
+            alignment 3
+            size      16
+            offset    0x1ae28 _$s8TrueTime13NTPConnectionC12requestTicks33_2A79C9048389EB5D5F57E571231D0EE3LLSo7timevalVSgvpWvd 144
+            name      0x1b8aa requestTicks
+            type      0x1b4c8 
+            alignment 3
+            size      17
+            offset    0x1ae30 _$s8TrueTime13NTPConnectionC6socket33_2A79C9048389EB5D5F57E571231D0EE3LLSo11CFSocketRefaSgvpWvd 168
+            name      0x1b8b7 socket
+            type      0x1b4c8 
+            alignment 3
+            size      8
+            offset    0x1ae38 _$s8TrueTime13NTPConnectionC6source33_2A79C9048389EB5D5F57E571231D0EE3LLSo18CFRunLoopSourceRefaSgvpWvd 176
+            name      0x1b8be source
+            type      0x1b4c8 
+            alignment 3
+            size      8
+            offset    0x1ae40 _$s8TrueTime13NTPConnectionC05startB033_2A79C9048389EB5D5F57E571231D0EE3LLSo12ntp_time64_taSgvpWvd 184
+            name      0x1b724 startTime
+            type      0x1b4c8 
+            alignment 0
+            size      9
+            offset    0x1ae48 _$s8TrueTime13NTPConnectionC8finished33_2A79C9048389EB5D5F57E571231D0EE3LLSbvpWvd 193
+            name      0x1b700 finished
+            type      0x1b4c8 
+            alignment 0
+            size      1
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$__TtCs12_SwiftObject
+    superclass 0x0 _OBJC_METACLASS_$__TtCs12_SwiftObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x21de0 __METACLASS_DATA__TtC8TrueTime13NTPConnection
+        flags          0x81 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x1b830 _TtC8TrueTime13NTPConnection
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+0000000000020be8 0x22fd0 _$s8TrueTime12ReachabilityCN
+    isa        0x22f90 _$s8TrueTime12ReachabilityCMm
+    superclass 0x0 _OBJC_CLASS_$__TtCs12_SwiftObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x2212a Swift class
+        flags          0x80
+        instanceStart  16
+        instanceSize   48
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x1bb80 _TtC8TrueTime12Reachability
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x220c0 __IVARS__TtC8TrueTime12Reachability
+            entsize   32
+            count     3
+            offset    0x1b0e0 _$s8TrueTime12ReachabilityC8callbackyAA0C6StatusOcSgvpWvd 16
+            name      0x1bb9c callback
+            type      0x1b4c8 
+            alignment 3
+            size      16
+            offset    0x1b0e8 _$s8TrueTime12ReachabilityC13callbackQueueSo17OS_dispatch_queueCvpWvd 32
+            name      0x1b60a callbackQueue
+            type      0x1b4c8 
+            alignment 3
+            size      8
+            offset    0x1b0f0 _$s8TrueTime12ReachabilityC07networkC033_7910B8A06714C74F2307E59CC9DAC8E5LLSo09SCNetworkC3RefaSgvpWvd 40
+            name      0x1bbb0 networkReachability
+            type      0x1b4c8 
+            alignment 3
+            size      8
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$__TtCs12_SwiftObject
+    superclass 0x0 _OBJC_METACLASS_$__TtCs12_SwiftObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x22078 __METACLASS_DATA__TtC8TrueTime12Reachability
+        flags          0x81 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x1bb80 _TtC8TrueTime12Reachability
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+0000000000020bf0 0x227a0 _$s8TrueTime09ReferenceB0CN
+    isa        0x231a8 _OBJC_METACLASS_$_NTPReferenceTime
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x22742 Swift class
+        flags          0x184 RO_HAS_CXX_STRUCTORS
+        instanceStart  8
+        instanceSize   16
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x1bc30 NTPReferenceTime
+        baseMethods    0x1a858 __INSTANCE_METHODS_NTPReferenceTime
+            entsize 12 (relative)
+            count   7
+            name    0x7bb0 (0x22410) uptimeInterval
+            types   0x13dd (0x1bc41) d16@0:8
+            imp     0xffffbd28 (0x16590) _$s8TrueTime09ReferenceB0C14uptimeIntervalSdvgTo
+            name    0x7b8c (0x223f8) time
+            types   0xc37 (0x1b4a7) @16@0:8
+            imp     0xffffbe0c (0x16680) _$s8TrueTime09ReferenceB0C4time10Foundation4DateVvgTo
+            name    0x7b90 (0x22408) uptime
+            types   0x13d4 (0x1bc50) {timeval=qi}16@0:8
+            imp     0xffffbf40 (0x167c0) _$s8TrueTime09ReferenceB0C6uptimeSo7timevalVvgTo
+            name    0x7b3c (0x223c0) now
+            types   0xc1f (0x1b4a7) @16@0:8
+            imp     0xffffc094 (0x16920) _$s8TrueTime09ReferenceB0C3now10Foundation4DateVyFTo
+            name    0x7ac8 (0x22358) description
+            types   0xc13 (0x1b4a7) @16@0:8
+            imp     0xffffc2a8 (0x16b40) _$s8TrueTime09ReferenceB0C11descriptionSSvgTo
+            name    0x7ae4 (0x22380) init
+            types   0xc07 (0x1b4a7) @16@0:8
+            imp     0xffffc42c (0x16cd0) _$s8TrueTime09ReferenceB0CACycfcTo
+            name    0x7a90 (0x22338) .cxx_destruct
+            types   0x13b7 (0x1bc63) v16@0:8
+            imp     0xffffc460 (0x16d10) _$s8TrueTime09ReferenceB0CfETo
+        baseProtocols  0x0
+        ivars          0x221b8 __IVARS_NTPReferenceTime
+            entsize   32
+            count     1
+            offset    0x23180 _$s8TrueTime09ReferenceB0C19underlyingValueLock33_96F9EC3DADFE2715DFF7BF53F1BBCC65LLAA7GCDLockCyAA06FrozenB0_pGvpWvd 8
+            name      0x1bc70 underlyingValueLock
+            type      0x1b4c8 
+            alignment 3
+            size      8
+        weakIvarLayout 0x0
+        baseProperties 0x221e0 __PROPERTIES_NTPReferenceTime
+            entsize    16
+            count      4
+            name       0x1bc85 uptimeInterval
+            attributes 0x1bc94 Td,N,R
+            name       0x1bc9b time
+            attributes 0x1bca0 T@"NSDate",N,R
+            name       0x1bcaf uptime
+            attributes 0x1bcc0 T{timeval=qi},N,R
+            name       0x1b540 description
+            attributes 0x1b550 T@"NSString",N,R
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x22170 __METACLASS_DATA_NTPReferenceTime
+        flags          0x81 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x1bc30 NTPReferenceTime
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+0000000000020bf8 0x22860 _OBJC_CLASS_$__TtC8TrueTime14TrueTimeClient
+    isa        0x231d0 _OBJC_METACLASS_$__TtC8TrueTime14TrueTimeClient
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x22802 Swift class
+        flags          0x184 RO_HAS_CXX_STRUCTORS
+        instanceStart  8
+        instanceSize   64
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x1bce0 _TtC8TrueTime14TrueTimeClient
+        baseMethods    0x1a8b8 __OBJC_$_INSTANCE_METHODS__TtC8TrueTime14TrueTimeClient(TrueTime)
+            entsize 12 (relative)
+            count   15
+            name    0x7aa0 (0x22360) fetchFirstIfNeededWithSuccess:failure:
+            types   0x1519 (0x1bddd) v32@0:8@?16@?24
+            imp     0xffffcde8 (0x176b0) _$s8TrueTime0aB6ClientC18fetchFirstIfNeeded7success7failureyyAA09ReferenceB0Cc_ySo7NSErrorCcSgtFTo
+            name    0x7aa4 (0x22370) fetchIfNeededWithSuccess:failure:
+            types   0x150d (0x1bddd) v32@0:8@?16@?24
+            imp     0xffffd0ec (0x179c0) _$s8TrueTime0aB6ClientC13fetchIfNeeded7success7failureyyAA09ReferenceB0Cc_ySo7NSErrorCcSgtFTo
+            name    0x7a90 (0x22368) fetchFirstIfNeededWithSuccess:failure:onQueue:
+            types   0x1514 (0x1bdf0) v40@0:8@?16@?24@32
+            imp     0xffffd250 (0x17b30) _$s8TrueTime0aB6ClientC18fetchFirstIfNeeded7success7failure7onQueueyyAA09ReferenceB0Cc_ySo7NSErrorCcSgSo17OS_dispatch_queueCtFTo
+            name    0x7a94 (0x22378) fetchIfNeededWithSuccess:failure:onQueue:
+            types   0x1508 (0x1bdf0) v40@0:8@?16@?24@32
+            imp     0xffffd3a4 (0x17c90) _$s8TrueTime0aB6ClientC13fetchIfNeeded7success7failure7onQueueyyAA09ReferenceB0Cc_ySo7NSErrorCcSgSo17OS_dispatch_queueCtFTo
+            name    0x7aa0 (0x22390) initWithTimeout:maxRetries:maxConnections:maxServers:numberOfSamples:pollInterval:
+            types   0x144c (0x1bd40) @64@0:8d16q24q32q40q48d56
+            imp     0xffffc7b8 (0x170b0) _$s8TrueTime0aB6ClientC7timeout10maxRetries0E11Connections0E7Servers15numberOfSamples12pollIntervalACSd_S4iSdtcfcTo
+            name    0x7af4 (0x223f0) startWithPool:port:
+            types   0x145a (0x1bd5a) v32@0:8@16q24
+            imp     0xffffc8bc (0x171c0) _$s8TrueTime0aB6ClientC5start4pool4portySaySSG_SitFTo
+            name    0x7ac8 (0x223d0) pause
+            types   0x1357 (0x1bc63) v16@0:8
+            imp     0xffffc930 (0x17240) _$s8TrueTime0aB6ClientC5pauseyyFTo
+            name    0x7acc (0x223e0) referenceTime
+            types   0xb8f (0x1b4a7) @16@0:8
+            imp     0xffffc974 (0x17290) _$s8TrueTime0aB6ClientC09referenceB0AA09ReferenceB0CSgvgTo
+            name    0x7ae0 (0x22400) timeout
+            types   0x131d (0x1bc41) d16@0:8
+            imp     0xffffc9e8 (0x17310) _$s8TrueTime0aB6ClientC7timeoutSdvgTo
+            name    0x7a84 (0x223b0) maxRetries
+            types   0x1438 (0x1bd68) q16@0:8
+            imp     0xffffca1c (0x17350) _$s8TrueTime0aB6ClientC10maxRetriesSivgTo
+            name    0x7a70 (0x223a8) maxConnections
+            types   0x142c (0x1bd68) q16@0:8
+            imp     0xffffca50 (0x17390) _$s8TrueTime0aB6ClientC14maxConnectionsSivgTo
+            name    0x7a74 (0x223b8) maxServers
+            types   0x1420 (0x1bd68) q16@0:8
+            imp     0xffffca84 (0x173d0) _$s8TrueTime0aB6ClientC10maxServersSivgTo
+            name    0x7a78 (0x223c8) numberOfSamples
+            types   0x1414 (0x1bd68) q16@0:8
+            imp     0xffffcab8 (0x17410) _$s8TrueTime0aB6ClientC15numberOfSamplesSivgTo
+            name    0x7a24 (0x22380) init
+            types   0xb47 (0x1b4a7) @16@0:8
+            imp     0xffffcb1c (0x17480) _$s8TrueTime0aB6ClientCACycfcTo
+            name    0x79d0 (0x22338) .cxx_destruct
+            types   0x12f7 (0x1bc63) v16@0:8
+            imp     0xffffcb80 (0x174f0) _$s8TrueTime0aB6ClientCfETo
+        baseProtocols  0x0
+        ivars          0x22288 __IVARS__TtC8TrueTime14TrueTimeClient
+            entsize   32
+            count     2
+            offset    0x23190 _$s8TrueTime0aB6ClientC6config33_96F9EC3DADFE2715DFF7BF53F1BBCC65LLAA9NTPConfigVvpWvd 8
+            name      0x1bd70 config
+            type      0x1b4c8 
+            alignment 3
+            size      48
+            offset    0x23198 _$s8TrueTime0aB6ClientC3ntp33_96F9EC3DADFE2715DFF7BF53F1BBCC65LLAA9NTPClientCvpWvd 56
+            name      0x1bd77 ntp
+            type      0x1b4c8 
+            alignment 3
+            size      8
+        weakIvarLayout 0x0
+        baseProperties 0x222d0 __PROPERTIES__TtC8TrueTime14TrueTimeClient
+            entsize    16
+            count      6
+            name       0x1bd7b referenceTime
+            attributes 0x1bd90 T@"NTPReferenceTime",N,R
+            name       0x1b856 timeout
+            attributes 0x1bc94 Td,N,R
+            name       0x1b85e maxRetries
+            attributes 0x1bdac Tq,N,R
+            name       0x1bdb3 maxConnections
+            attributes 0x1bdac Tq,N,R
+            name       0x1bdc2 maxServers
+            attributes 0x1bdac Tq,N,R
+            name       0x1bdcd numberOfSamples
+            attributes 0x1bdac Tq,N,R
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x22240 __METACLASS_DATA__TtC8TrueTime14TrueTimeClient
+        flags          0x81 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x1bce0 _TtC8TrueTime14TrueTimeClient
+        baseMethods    0x1a840 __CLASS_METHODS__TtC8TrueTime14TrueTimeClient
+            entsize 12 (relative)
+            count   1
+            name    0x7ba0 (0x223e8) sharedInstance
+            types   0xc5b (0x1b4a7) @16@0:8
+            imp     0xffffc740 (0x16f90) _$s8TrueTime0aB6ClientC14sharedInstanceACvgZTo
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x22228 __CLASS_PROPERTIES__TtC8TrueTime14TrueTimeClient
+            entsize    16
+            count      1
+            name       0x1bcfe sharedInstance
+            attributes 0x1bd10 T@"_TtC8TrueTime14TrueTimeClient",N,R
+Contents of (__DATA,__objc_classrefs) section
+0000000000022430 0x0 _OBJC_CLASS_$_NSError
+0000000000022438 0x0 _OBJC_CLASS_$_OS_dispatch_source
+0000000000022440 0x0 _OBJC_CLASS_$_OS_dispatch_queue
+0000000000022448 0x0 _OBJC_CLASS_$_NSNotificationCenter
+0000000000022450 0x0 _OBJC_CLASS_$_NSBundle
+Contents of (__DATA_CONST,__objc_protolist) section
+0000000000020c00 0x216c8 __PROTOCOL_OS_dispatch_source_timer
+    isa       0x0
+    name      0x1b450 OS_dispatch_source_timer
+    protocols 0x21788 __PROTOCOL_PROTOCOLS_OS_dispatch_source_timer
+        count    1
+        list[0]  0x21728 __PROTOCOL_OS_dispatch_source
+            isa       0x0
+            name      0x1b470 OS_dispatch_source
+            protocols 0x217f8 __PROTOCOL_PROTOCOLS_OS_dispatch_source
+                count    1
+                list[0]  0x21798 __PROTOCOL_NSObject
+                    isa       0x0
+                    name      0x1b483 NSObject
+                    protocols 0x0
+                    instanceMethods 0x224a8 __PROTOCOL_INSTANCE_METHODS_NSObject
+                        entsize 24
+                        count   26
+                        name    0x1dfce isEqual:
+                        types   0x1b48c c24@0:8@16
+                        imp     0x0
+                        name    0x1df53 hash
+                        types   0x1bd68 q16@0:8
+                        imp     0x0
+                        name    0x1e113 superclass
+                        types   0x1b49f #16@0:8
+                        imp     0x0
+                        name    0x1de30 class
+                        types   0x1b49f #16@0:8
+                        imp     0x0
+                        name    0x1e0eb self
+                        types   0x1b4a7 @16@0:8
+                        imp     0x0
+                        name    0x1e050 performSelector:
+                        types   0x1b4af @24@0:8:16
+                        imp     0x0
+                        name    0x1e050 performSelector:
+                        types   0x1b4af @24@0:8:16
+                        imp     0x0
+                        name    0x1e061 performSelector:withObject:
+                        types   0x1b4ba @32@0:8:16@24
+                        imp     0x0
+                        name    0x1e061 performSelector:withObject:
+                        types   0x1b4ba @32@0:8:16@24
+                        imp     0x0
+                        name    0x1e07d performSelector:withObject:withObject:
+                        types   0x1b4d0 @40@0:8:16@24@32
+                        imp     0x0
+                        name    0x1e07d performSelector:withObject:withObject:
+                        types   0x1b4d0 @40@0:8:16@24@32
+                        imp     0x0
+                        name    0x1de5d isProxy
+                        types   0x1b4e1 c16@0:8
+                        imp     0x0
+                        name    0x1dfd7 isKindOfClass:
+                        types   0x1b4e9 c24@0:8#16
+                        imp     0x0
+                        name    0x1dfd7 isKindOfClass:
+                        types   0x1b4e9 c24@0:8#16
+                        imp     0x0
+                        name    0x1dfe6 isMemberOfClass:
+                        types   0x1b4e9 c24@0:8#16
+                        imp     0x0
+                        name    0x1dfe6 isMemberOfClass:
+                        types   0x1b4e9 c24@0:8#16
+                        imp     0x0
+                        name    0x1de7b conformsToProtocol:
+                        types   0x1b48c c24@0:8@16
+                        imp     0x0
+                        name    0x1de7b conformsToProtocol:
+                        types   0x1b48c c24@0:8@16
+                        imp     0x0
+                        name    0x1e0c4 respondsToSelector:
+                        types   0x1b4f4 c24@0:8:16
+                        imp     0x0
+                        name    0x1e0c4 respondsToSelector:
+                        types   0x1b4f4 c24@0:8:16
+                        imp     0x0
+                        name    0x1e0d8 retain
+                        types   0x1b4a7 @16@0:8
+                        imp     0x0
+                        name    0x1de36 release
+                        types   0x1b4ff Vv16@0:8
+                        imp     0x0
+                        name    0x1de20 autorelease
+                        types   0x1b4a7 @16@0:8
+                        imp     0x0
+                        name    0x1e0df retainCount
+                        types   0x1b508 Q16@0:8
+                        imp     0x0
+                        name    0x1e139 zone
+                        types   0x1b510 ^{_NSZone=}16@0:8
+                        imp     0x0
+                        name    0x1dea5 description
+                        types   0x1b4a7 @16@0:8
+                        imp     0x0
+                    classMethods 0x0
+                    optionalInstanceMethods 0x22720 __PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+                        entsize 24
+                        count   1
+                        name    0x1de3e debugDescription
+                        types   0x1b4a7 @16@0:8
+                        imp     0x0
+                    optionalClassMethods 0x0
+                    instanceProperties 0x21808 __PROTOCOL_PROPERTIES_NSObject
+                        entsize    16
+                        count      4
+                        name       0x1b522 hash
+                        attributes 0x1bdac Tq,N,R
+                        name       0x1b52e superclass
+                        attributes 0x1b539 T#,N,R
+                        name       0x1b540 description
+                        attributes 0x1b550 T@"NSString",N,R
+                        name       0x1b570 debugDescription
+                        attributes 0x1b550 T@"NSString",N,R
+            instanceMethods 0x0
+            classMethods 0x0
+            optionalInstanceMethods 0x0
+            optionalClassMethods 0x0
+            instanceProperties 0x0
+    instanceMethods 0x0
+    classMethods 0x0
+    optionalInstanceMethods 0x0
+    optionalClassMethods 0x0
+    instanceProperties 0x0
+0000000000020c08 0x21728 __PROTOCOL_OS_dispatch_source
+    isa       0x0
+    name      0x1b470 OS_dispatch_source
+    protocols 0x217f8 __PROTOCOL_PROTOCOLS_OS_dispatch_source
+        count    1
+        list[0]  0x21798 __PROTOCOL_NSObject
+            isa       0x0
+            name      0x1b483 NSObject
+            protocols 0x0
+            instanceMethods 0x224a8 __PROTOCOL_INSTANCE_METHODS_NSObject
+                entsize 24
+                count   26
+                name    0x1dfce isEqual:
+                types   0x1b48c c24@0:8@16
+                imp     0x0
+                name    0x1df53 hash
+                types   0x1bd68 q16@0:8
+                imp     0x0
+                name    0x1e113 superclass
+                types   0x1b49f #16@0:8
+                imp     0x0
+                name    0x1de30 class
+                types   0x1b49f #16@0:8
+                imp     0x0
+                name    0x1e0eb self
+                types   0x1b4a7 @16@0:8
+                imp     0x0
+                name    0x1e050 performSelector:
+                types   0x1b4af @24@0:8:16
+                imp     0x0
+                name    0x1e050 performSelector:
+                types   0x1b4af @24@0:8:16
+                imp     0x0
+                name    0x1e061 performSelector:withObject:
+                types   0x1b4ba @32@0:8:16@24
+                imp     0x0
+                name    0x1e061 performSelector:withObject:
+                types   0x1b4ba @32@0:8:16@24
+                imp     0x0
+                name    0x1e07d performSelector:withObject:withObject:
+                types   0x1b4d0 @40@0:8:16@24@32
+                imp     0x0
+                name    0x1e07d performSelector:withObject:withObject:
+                types   0x1b4d0 @40@0:8:16@24@32
+                imp     0x0
+                name    0x1de5d isProxy
+                types   0x1b4e1 c16@0:8
+                imp     0x0
+                name    0x1dfd7 isKindOfClass:
+                types   0x1b4e9 c24@0:8#16
+                imp     0x0
+                name    0x1dfd7 isKindOfClass:
+                types   0x1b4e9 c24@0:8#16
+                imp     0x0
+                name    0x1dfe6 isMemberOfClass:
+                types   0x1b4e9 c24@0:8#16
+                imp     0x0
+                name    0x1dfe6 isMemberOfClass:
+                types   0x1b4e9 c24@0:8#16
+                imp     0x0
+                name    0x1de7b conformsToProtocol:
+                types   0x1b48c c24@0:8@16
+                imp     0x0
+                name    0x1de7b conformsToProtocol:
+                types   0x1b48c c24@0:8@16
+                imp     0x0
+                name    0x1e0c4 respondsToSelector:
+                types   0x1b4f4 c24@0:8:16
+                imp     0x0
+                name    0x1e0c4 respondsToSelector:
+                types   0x1b4f4 c24@0:8:16
+                imp     0x0
+                name    0x1e0d8 retain
+                types   0x1b4a7 @16@0:8
+                imp     0x0
+                name    0x1de36 release
+                types   0x1b4ff Vv16@0:8
+                imp     0x0
+                name    0x1de20 autorelease
+                types   0x1b4a7 @16@0:8
+                imp     0x0
+                name    0x1e0df retainCount
+                types   0x1b508 Q16@0:8
+                imp     0x0
+                name    0x1e139 zone
+                types   0x1b510 ^{_NSZone=}16@0:8
+                imp     0x0
+                name    0x1dea5 description
+                types   0x1b4a7 @16@0:8
+                imp     0x0
+            classMethods 0x0
+            optionalInstanceMethods 0x22720 __PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+                entsize 24
+                count   1
+                name    0x1de3e debugDescription
+                types   0x1b4a7 @16@0:8
+                imp     0x0
+            optionalClassMethods 0x0
+            instanceProperties 0x21808 __PROTOCOL_PROPERTIES_NSObject
+                entsize    16
+                count      4
+                name       0x1b522 hash
+                attributes 0x1bdac Tq,N,R
+                name       0x1b52e superclass
+                attributes 0x1b539 T#,N,R
+                name       0x1b540 description
+                attributes 0x1b550 T@"NSString",N,R
+                name       0x1b570 debugDescription
+                attributes 0x1b550 T@"NSString",N,R
+    instanceMethods 0x0
+    classMethods 0x0
+    optionalInstanceMethods 0x0
+    optionalClassMethods 0x0
+    instanceProperties 0x0
+0000000000020c10 0x21798 __PROTOCOL_NSObject
+    isa       0x0
+    name      0x1b483 NSObject
+    protocols 0x0
+    instanceMethods 0x224a8 __PROTOCOL_INSTANCE_METHODS_NSObject
+        entsize 24
+        count   26
+        name    0x1dfce isEqual:
+        types   0x1b48c c24@0:8@16
+        imp     0x0
+        name    0x1df53 hash
+        types   0x1bd68 q16@0:8
+        imp     0x0
+        name    0x1e113 superclass
+        types   0x1b49f #16@0:8
+        imp     0x0
+        name    0x1de30 class
+        types   0x1b49f #16@0:8
+        imp     0x0
+        name    0x1e0eb self
+        types   0x1b4a7 @16@0:8
+        imp     0x0
+        name    0x1e050 performSelector:
+        types   0x1b4af @24@0:8:16
+        imp     0x0
+        name    0x1e050 performSelector:
+        types   0x1b4af @24@0:8:16
+        imp     0x0
+        name    0x1e061 performSelector:withObject:
+        types   0x1b4ba @32@0:8:16@24
+        imp     0x0
+        name    0x1e061 performSelector:withObject:
+        types   0x1b4ba @32@0:8:16@24
+        imp     0x0
+        name    0x1e07d performSelector:withObject:withObject:
+        types   0x1b4d0 @40@0:8:16@24@32
+        imp     0x0
+        name    0x1e07d performSelector:withObject:withObject:
+        types   0x1b4d0 @40@0:8:16@24@32
+        imp     0x0
+        name    0x1de5d isProxy
+        types   0x1b4e1 c16@0:8
+        imp     0x0
+        name    0x1dfd7 isKindOfClass:
+        types   0x1b4e9 c24@0:8#16
+        imp     0x0
+        name    0x1dfd7 isKindOfClass:
+        types   0x1b4e9 c24@0:8#16
+        imp     0x0
+        name    0x1dfe6 isMemberOfClass:
+        types   0x1b4e9 c24@0:8#16
+        imp     0x0
+        name    0x1dfe6 isMemberOfClass:
+        types   0x1b4e9 c24@0:8#16
+        imp     0x0
+        name    0x1de7b conformsToProtocol:
+        types   0x1b48c c24@0:8@16
+        imp     0x0
+        name    0x1de7b conformsToProtocol:
+        types   0x1b48c c24@0:8@16
+        imp     0x0
+        name    0x1e0c4 respondsToSelector:
+        types   0x1b4f4 c24@0:8:16
+        imp     0x0
+        name    0x1e0c4 respondsToSelector:
+        types   0x1b4f4 c24@0:8:16
+        imp     0x0
+        name    0x1e0d8 retain
+        types   0x1b4a7 @16@0:8
+        imp     0x0
+        name    0x1de36 release
+        types   0x1b4ff Vv16@0:8
+        imp     0x0
+        name    0x1de20 autorelease
+        types   0x1b4a7 @16@0:8
+        imp     0x0
+        name    0x1e0df retainCount
+        types   0x1b508 Q16@0:8
+        imp     0x0
+        name    0x1e139 zone
+        types   0x1b510 ^{_NSZone=}16@0:8
+        imp     0x0
+        name    0x1dea5 description
+        types   0x1b4a7 @16@0:8
+        imp     0x0
+    classMethods 0x0
+    optionalInstanceMethods 0x22720 __PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+        entsize 24
+        count   1
+        name    0x1de3e debugDescription
+        types   0x1b4a7 @16@0:8
+        imp     0x0
+    optionalClassMethods 0x0
+    instanceProperties 0x21808 __PROTOCOL_PROPERTIES_NSObject
+        entsize    16
+        count      4
+        name       0x1b522 hash
+        attributes 0x1bdac Tq,N,R
+        name       0x1b52e superclass
+        attributes 0x1b539 T#,N,R
+        name       0x1b540 description
+        attributes 0x1b550 T@"NSString",N,R
+        name       0x1b570 debugDescription
+        attributes 0x1b550 T@"NSString",N,R
+Contents of (__DATA,__objc_selrefs) section
+    0x1de4f .cxx_destruct
+    0x1de65 bytes
+    0x1de18 dealloc
+    0x1de97 defaultCenter
+    0x1dea5 description
+    0x1deb1 fetchFirstIfNeededWithSuccess:failure:
+    0x1ded8 fetchFirstIfNeededWithSuccess:failure:onQueue:
+    0x1df07 fetchIfNeededWithSuccess:failure:
+    0x1df29 fetchIfNeededWithSuccess:failure:onQueue:
+    0x1df58 init
+    0x1df5d initWithDomain:code:userInfo:
+    0x1df7b initWithTimeout:maxRetries:maxConnections:maxServers:numberOfSamples:pollInterval:
+    0x1dff7 localizedStringForKey:value:table:
+    0x1e01a mainBundle
+    0x1e025 maxConnections
+    0x1e034 maxRetries
+    0x1e03f maxServers
+    0x1de2c now
+    0x1de6b numberOfSamples
+    0x1e04a pause
+    0x1e0a4 postNotification:
+    0x1e0b6 referenceTime
+    0x1e0f0 sharedInstance
+    0x1e0ff startWithPool:port:
+    0x1e11e time
+    0x1de8f timeout
+    0x1e123 uptime
+    0x1e12a uptimeInterval
+Contents of (__DATA_CONST,__objc_imageinfo) section
+    version 0
+    flags   0x50a0740 Swift 5 or later

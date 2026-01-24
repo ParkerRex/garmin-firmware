@@ -1,0 +1,154 @@
+            name       0x6335 strings
+            name       0x6549 childCount
+            name       0x6554 children
+            name       0x6872 nextOffset
+            name       0x697e objectID
+            name       0x69a4 offset
+            name       0x6c94 value
+            name      0x0 + 0x62f4 __objc_empty_cache _childCount
+            name      0x6310 _nextOffset
+            name      0x632c _strings
+            name      0x634b _offset
+            name      0x63fb _children
+            name      0x6415 _objectID
+            name      0x642f _value
+            name    0x2c40 (0x8d30) .cxx_destruct
+            name    0x2cd4 (0x8d58) addStringsForData:
+            name    0x2cf4 (0x8d60) addStringsForObject:
+            name    0x2d30 (0x8d30) .cxx_destruct
+            name    0x2db4 (0x8e68) description
+            name    0x2dd4 (0x8d30) .cxx_destruct
+            name    0x2e18 (0x8e00) children
+            name    0x2e24 (0x8d30) .cxx_destruct
+            name    0x2e38 (0x8e68) description
+            name    0x2e40 (0x8df8) childCount
+            name    0x2e50 (0x8ec8) initWithData:
+            name    0x2e58 (0x8f30) nextOffset
+            name    0x2e74 (0x8d30) .cxx_destruct
+            name    0x2e78 (0x8ed8) initWithObject:
+            name    0x2e84 (0x8ea8) foundationObjectWithStringBlock:
+            name    0x2eb8 (0x8ed0) initWithInputStream:
+            name    0x2ec4 (0x8d30) .cxx_destruct
+            name    0x2ee0 (0x8e68) description
+            name    0x2ee4 (0x8ea8) foundationObjectWithStringBlock:
+            name    0x2f24 (0x8ed0) initWithInputStream:
+            name    0x2f28 (0x8fb8) offsetOfString:
+            name    0x2f2c (0x8ea8) foundationObjectWithStringBlock:
+            name    0x2f30 (0x8e68) description
+            name    0x2f40 (0x8ee0) initWithObjectID:
+            name    0x2f4c (0x8d30) .cxx_destruct
+            name    0x2f60 (0x8ed0) initWithInputStream:
+            name    0x2f74 (0x8fb0) offset
+            name    0x2f7c (0x8ea8) foundationObjectWithStringBlock:
+            name    0x2f80 (0x8e68) description
+            name    0x2fb0 (0x8ed0) initWithInputStream:
+            name    0x2fcc (0x8ea8) foundationObjectWithStringBlock:
+            name    0x2fd0 (0x8e68) description
+            name    0x2fd0 (0x8fa0) objectID
+            name    0x2fdc (0x90c0) setNextOffset:
+            name    0x2ff0 (0x9098) serialize
+            name    0x2ff4 (0x8df8) childCount
+            name    0x3000 (0x8ed0) initWithInputStream:
+            name    0x300c (0x8d38) JSONDataWithConnectIQData:error:
+            name    0x301c (0x8ea8) foundationObjectWithStringBlock:
+            name    0x301c (0x90e8) setStrings:
+            name    0x3020 (0x8e68) description
+            name    0x3050 (0x8ed0) initWithInputStream:
+            name    0x3058 (0x8e68) description
+            name    0x3060 (0x9120) strings
+            name    0x306c (0x8ea8) foundationObjectWithStringBlock:
+            name    0x307c (0x8df8) childCount
+            name    0x307c (0x9118) stringWithOffset:
+            name    0x3098 (0x90e0) setOffset:
+            name    0x30a0 (0x8ed0) initWithInputStream:
+            name    0x30a8 (0x8e68) description
+            name    0x30c4 (0x90b8) setChildren:
+            name    0x30d8 (0x8ed0) initWithInputStream:
+            name    0x30e0 (0x8e68) description
+            name    0x30f4 (0x8ea8) foundationObjectWithStringBlock:
+            name    0x30fc (0x90d8) setObjectID:
+            name    0x3104 (0x8e18) connectIQDataWithStringData:withEncoding:error:
+            name    0x3108 (0x8e28) connectIQObjectWithConnectIQData:error:
+            name    0x3114 (0x8e10) connectIQDataWithJSONData:error:
+            name    0x3118 (0x8e08) connectIQDataWithConnectIQObject:error:
+            name    0x3118 (0x8e20) connectIQDataWithUrlEncodedData:withEncoding:error:
+            name    0x3128 (0x8ed0) initWithInputStream:
+            name    0x3160 (0x8ed0) initWithInputStream:
+            name    0x31a0 (0x90f0) setValue:
+            name    0x31f0 (0x90f0) setValue:
+            name    0x31fc (0x9140) value
+            name    0x3240 (0x90f0) setValue:
+            name    0x324c (0x9140) value
+            name    0x3290 (0x8ea0) foundationObjectWithObject:stringBlock:
+            name    0x3290 (0x90f0) setValue:
+            name    0x3294 (0x90b0) setChildCount:
+            name    0x329c (0x9140) value
+            name    0x32e4 (0x8fa8) objectWithInputStream:error:
+            name    0x32ec (0x9140) value
+            name    0x32f8 (0x8fd0) parseData:error:
+            name    0x3318 (0x90f0) setValue:
+            name    0x331c (0x90b0) setChildCount:
+            name    0x3350 (0x90a8) serializeObject:stringBlock:error:
+            name    0x3360 (0x90a0) serializeObject:error:
+            name    0x3374 (0x9140) value
+            name    0x33d4 (0x8fd8) parseData:stringBlock:error:
+            name    0x33f0 (0x90a8) serializeObject:stringBlock:error:
+            name    0x3408 (0x90a8) serializeObject:stringBlock:error:
+            name    0x3420 (0x90a8) serializeObject:stringBlock:error:
+            name    0x3438 (0x90a8) serializeObject:stringBlock:error:
+            name    0x3450 (0x90a8) serializeObject:stringBlock:error:
+            name    0x3468 (0x90a8) serializeObject:stringBlock:error:
+            name    0x3480 (0x90a8) serializeObject:stringBlock:error:
+            name    0x34b0 (0x90a8) serializeObject:stringBlock:error:
+            name    0x34c8 (0x90a8) serializeObject:stringBlock:error:
+            name    0x34e0 (0x90a8) serializeObject:stringBlock:error:
+        name           0x6168 PodsDummy_ConnectIQSerialization
+        name           0x6189 IQSArray
+        name           0x6192 IQSBool
+        name           0x619c IQSDataBlock
+        name           0x61a9 IQSDictionary
+        name           0x61b7 IQSDouble
+        name           0x61c1 IQSFloat
+        name           0x61ca IQSInteger
+        name           0x61d5 IQSLong
+        name           0x61dd IQSNull
+        name           0x61e5 IQSObject
+        name           0x61f1 IQSParser
+        name           0x61fb IQSSerialization
+        name           0x620c IQSSerializer
+        name           0x621a IQSString
+        name           0x6224 IQSStringBlock
+        name    0x31d8 (0x8d88) appendDoubleLittle:
+        name    0x31dc (0x8d80) appendDoubleBig:
+        name    0x3200 (0x8d98) appendFloatLittle:
+        name    0x3204 (0x8d90) appendFloatBig:
+        name    0x3248 (0x8dc8) appendInt64Little:
+        name    0x324c (0x8dc0) appendInt64Big:
+        name    0x3250 (0x8db8) appendInt32Little:
+        name    0x3254 (0x8db0) appendInt32Big:
+        name    0x3258 (0x8da8) appendInt16Little:
+        name    0x325c (0x8da0) appendInt16Big:
+        name    0x3298 (0x8dd0) appendInt8:
+        name    0x34c4 (0x8fe8) popObjects:
+        name    0x34c8 (0x8fe0) popObject
+        name    0x3500 (0x9000) readDataUpToLength:
+        name    0x3514 (0x9008) readDataWithLength:
+        name    0x3530 (0x9018) readDoubleLittle
+        name    0x3534 (0x9010) readDoubleBig
+        name    0x3558 (0x9028) readFloatLittle
+        name    0x355c (0x9020) readFloatBig
+        name    0x3590 (0x9048) readInt64Little
+        name    0x3594 (0x9040) readInt64Big
+        name    0x35a0 (0x8fc8) openInputStreamWithData:
+        name    0x35b0 (0x9038) readInt32Little
+        name    0x35b4 (0x9030) readInt32Big
+        name    0x35d8 (0x9078) readUInt64Little
+        name    0x35dc (0x9070) readUInt64Big
+        name    0x35f8 (0x9068) readUInt32Little
+        name    0x35fc (0x9060) readUInt32Big
+        name    0x3600 (0x9058) readUInt16Little
+        name    0x3604 (0x9050) readUInt16Big
+        name    0x3640 (0x9080) readUInt8
+    name      0x6233 Read
+    name      0x6238 Queue
+    name      0x623e Append

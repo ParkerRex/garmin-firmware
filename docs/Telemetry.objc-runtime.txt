@@ -1,0 +1,646 @@
+/Applications/Garmin Express.app/Contents/Frameworks/Telemetry.framework/Telemetry (architecture x86_64):
+Contents of (__DATA_CONST,__objc_classlist) section
+000000000001ec88 0x1f7d8 _OBJC_CLASS_$__TtC9Telemetry15TelemetryDevice
+    isa        0x1fca0 _OBJC_METACLASS_$__TtC9Telemetry15TelemetryDevice
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x1f77a Swift class
+        flags          0x184 RO_HAS_CXX_STRUCTORS
+        instanceStart  8
+        instanceSize   48
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x1bd10 _TtC9Telemetry15TelemetryDevice
+        baseMethods    0x1a400 __INSTANCE_METHODS__TtC9Telemetry15TelemetryDevice
+            entsize 12 (relative)
+            count   4
+            name    0x5240 (0x1f648) initWithUnitId:model:
+            types   0x1924 (0x1bd30) @32@0:8Q16@24
+            imp     0xfffe7300 (0x1710) _$s9Telemetry0A6DeviceC6unitId5modelACSu_SStcfcTo
+            name    0x523c (0x1f650) initWithUnitId:model:firmware:
+            types   0x1928 (0x1bd40) @40@0:8Q16@24@32
+            imp     0xfffe75a4 (0x19c0) _$s9Telemetry0A6DeviceC6unitId5model8firmwareACSu_S2StcfcTo
+            name    0x5220 (0x1f640) init
+            types   0x192d (0x1bd51) @16@0:8
+            imp     0xfffe7738 (0x1b60) _$s9Telemetry0A6DeviceCACycfcTo
+            name    0x51dc (0x1f608) .cxx_destruct
+            types   0x1e12 (0x1c242) v16@0:8
+            imp     0xfffe7d2c (0x2160) _$s9Telemetry0A6DeviceCfETo
+        baseProtocols  0x0
+        ivars          0x1f368 __IVARS__TtC9Telemetry15TelemetryDevice
+            entsize   32
+            count     3
+            offset    0x1fbe8 _$s9Telemetry0A6DeviceC6unitIdSuvpWvd 8
+            name      0x1bd61 unitId
+            type      0x1c190 
+            alignment 3
+            size      8
+            offset    0x1fbf0 _$s9Telemetry0A6DeviceC5modelSSvpWvd 16
+            name      0x1bd69 model
+            type      0x1c190 
+            alignment 3
+            size      16
+            offset    0x1fbe0 _$s9Telemetry0A6DeviceC8firmwareSSSgvpWvd 32
+            name      0x1bd6f firmware
+            type      0x1c190 
+            alignment 3
+            size      16
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x1f320 __METACLASS_DATA__TtC9Telemetry15TelemetryDevice
+        flags          0x81 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x1bd10 _TtC9Telemetry15TelemetryDevice
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+000000000001ec90 0x1f8d0 _$s9Telemetry0A10PropertiesCN
+    isa        0x1fcc8 _OBJC_METACLASS_$__TtC9Telemetry19TelemetryProperties
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x1f872 Swift class
+        flags          0x184 RO_HAS_CXX_STRUCTORS
+        instanceStart  8
+        instanceSize   169
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x1bd80 _TtC9Telemetry19TelemetryProperties
+        baseMethods    0x1a498 __INSTANCE_METHODS__TtC9Telemetry19TelemetryProperties
+            entsize 12 (relative)
+            count   13
+            name    0x5200 (0x1f6a0) setDevice:
+            types   0x1900 (0x1bda4) v24@0:8@16
+            imp     0xfffe9218 (0x36c0) _$s9Telemetry0A10PropertiesC9setDeviceyyAA0aD0CFTo
+            name    0x5224 (0x1f6d0) setScreenResolution:
+            types   0x18f4 (0x1bda4) v24@0:8@16
+            imp     0xfffe92bc (0x3770) _$s9Telemetry0A10PropertiesC19setScreenResolutionyySSFTo
+            name    0x5248 (0x1f700) setValue:
+            types   0x18e8 (0x1bda4) v24@0:8@16
+            imp     0xfffe9370 (0x3830) _$s9Telemetry0A10PropertiesC8setValueyySSFTo
+            name    0x5234 (0x1f6f8) setUpdateGuid:
+            types   0x18dc (0x1bda4) v24@0:8@16
+            imp     0xfffe9424 (0x38f0) _$s9Telemetry0A10PropertiesC13setUpdateGuidyySSFTo
+            name    0x5220 (0x1f6f0) setUpdateFinish:
+            types   0x18d0 (0x1bda4) v24@0:8@16
+            imp     0xfffe94d8 (0x39b0) _$s9Telemetry0A10PropertiesC15setUpdateFinishyySSFTo
+            name    0x51cc (0x1f6a8) setDisplayName:
+            types   0x18c4 (0x1bda4) v24@0:8@16
+            imp     0xfffe958c (0x3a70) _$s9Telemetry0A10PropertiesC14setDisplayNameyySSFTo
+            name    0x51e0 (0x1f6c8) setPartNumber:
+            types   0x18b8 (0x1bda4) v24@0:8@16
+            imp     0xfffe9640 (0x3b30) _$s9Telemetry0A10PropertiesC13setPartNumberyySSFTo
+            name    0x51bc (0x1f6b0) setFromVersion:
+            types   0x18ac (0x1bda4) v24@0:8@16
+            imp     0xfffe96f4 (0x3bf0) _$s9Telemetry0A10PropertiesC14setFromVersionyySSFTo
+            name    0x51e0 (0x1f6e0) setToVersion:
+            types   0x18a0 (0x1bda4) v24@0:8@16
+            imp     0xfffe97a8 (0x3cb0) _$s9Telemetry0A10PropertiesC12setToVersionyySSFTo
+            name    0x51b4 (0x1f6c0) setMusicSource:
+            types   0x1894 (0x1bda4) v24@0:8@16
+            imp     0xfffe985c (0x3d70) _$s9Telemetry0A10PropertiesC14setMusicSourceyySSFTo
+            name    0x51d0 (0x1f6e8) setTransferCount:
+            types   0x1893 (0x1bdaf) v24@0:8q16
+            imp     0xfffe98f0 (0x3e10) _$s9Telemetry0A10PropertiesC16setTransferCountyySiFTo
+            name    0x511c (0x1f640) init
+            types   0x1829 (0x1bd51) @16@0:8
+            imp     0xfffeb214 (0x5740) _$s9Telemetry0A10PropertiesCACycfcTo
+            name    0x50d8 (0x1f608) .cxx_destruct
+            types   0x1d0e (0x1c242) v16@0:8
+            imp     0xfffeb268 (0x57a0) _$s9Telemetry0A10PropertiesCfETo
+        baseProtocols  0x0
+        ivars          0x1f418 __IVARS__TtC9Telemetry19TelemetryProperties
+            entsize   32
+            count     11
+            offset    0x1fc48 _$s9Telemetry0A10PropertiesC6deviceAA0A6DeviceCSgvpWvd 8
+            name      0x0 + 0x1bdba _OBJC_METACLASS_$_NSObject device
+            type      0x0 + 0x1c190 __objc_empty_cache 
+            alignment 3
+            size      8
+            offset    0x1fc50 _$s9Telemetry0A10PropertiesC16screenResolutionSSSgvpWvd 16
+            name      0x1bdd0 screenResolution
+            type      0x1c190 
+            alignment 3
+            size      16
+            offset    0x1fc58 _$s9Telemetry0A10PropertiesC5valueSSSgvpWvd 32
+            name      0x1bde1 value
+            type      0x1c190 
+            alignment 3
+            size      16
+            offset    0x1fc60 _$s9Telemetry0A10PropertiesC10updateGuidSSSgvpWvd 48
+            name      0x1bde7 updateGuid
+            type      0x1c190 
+            alignment 3
+            size      16
+            offset    0x1fc68 _$s9Telemetry0A10PropertiesC12updateFinishSSSgvpWvd 64
+            name      0x1bdf2 updateFinish
+            type      0x1c190 
+            alignment 3
+            size      16
+            offset    0x1fc70 _$s9Telemetry0A10PropertiesC11displayNameSSSgvpWvd 80
+            name      0x1bdff displayName
+            type      0x1c190 
+            alignment 3
+            size      16
+            offset    0x1fc78 _$s9Telemetry0A10PropertiesC10partNumberSSSgvpWvd 96
+            name      0x1be0b partNumber
+            type      0x1c190 
+            alignment 3
+            size      16
+            offset    0x1fc80 _$s9Telemetry0A10PropertiesC11fromVersionSSSgvpWvd 112
+            name      0x1be16 fromVersion
+            type      0x1c190 
+            alignment 3
+            size      16
+            offset    0x1fc88 _$s9Telemetry0A10PropertiesC9toVersionSSSgvpWvd 128
+            name      0x1be22 toVersion
+            type      0x1c190 
+            alignment 3
+            size      16
+            offset    0x1fc90 _$s9Telemetry0A10PropertiesC11musicSourceSSSgvpWvd 144
+            name      0x1be2c musicSource
+            type      0x1c190 
+            alignment 3
+            size      16
+            offset    0x1fc98 _$s9Telemetry0A10PropertiesC13transferCountSiSgvpWvd 160
+            name      0x1be38 transferCount
+            type      0x1c190 
+            alignment 3
+            size      9
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x1f3d0 __METACLASS_DATA__TtC9Telemetry19TelemetryProperties
+        flags          0x81 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x1bd80 _TtC9Telemetry19TelemetryProperties
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+000000000001ec98 0x1fb40 _OBJC_CLASS_$__TtC9Telemetry16TelemetryManager
+    isa        0x1ffa0 _OBJC_METACLASS_$__TtC9Telemetry16TelemetryManager
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x1fae2 Swift class
+        flags          0x184 RO_HAS_CXX_STRUCTORS
+        instanceStart  8
+        instanceSize   136
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x1c1a0 _TtC9Telemetry16TelemetryManager
+        baseMethods    0x1a438 __INSTANCE_METHODS__TtC9Telemetry16TelemetryManager
+            entsize 12 (relative)
+            count   7
+            name    0x5200 (0x1f640) init
+            types   0x190d (0x1bd51) @16@0:8
+            imp     0xffff53d8 (0xf820) _$s9Telemetry0A7ManagerCACyc33_AEA96C1BAEA3A038FC7608C417498FFALlfcTo
+            name    0x52dc (0x1f728) trackError:properties:operationId:
+            types   0x1db0 (0x1c200) v40@0:8@16@24@32
+            imp     0xffff5d2c (0x10180) _$s9Telemetry0A7ManagerC10trackError_10properties11operationIdySo7NSErrorC_AA0A10PropertiesCSgSStFTo
+            name    0x52d8 (0x1f730) trackEvent:properties:
+            types   0x1db5 (0x1c211) v32@0:8q16@24
+            imp     0xffff5f70 (0x103d0) _$s9Telemetry0A7ManagerC10trackEvent_10propertiesyAA0aD0O_AA0A10PropertiesCSgtFTo
+            name    0x52d4 (0x1f738) trackException:
+            types   0x193c (0x1bda4) v24@0:8@16
+            imp     0xffff67f4 (0x10c60) _$s9Telemetry0A7ManagerC14trackExceptionyySo11NSExceptionCFTo
+            name    0x52d0 (0x1f740) trackOperation:operationId:operationState:properties:
+            types   0x1dac (0x1c220) v48@0:8@16@24q32@40
+            imp     0xffff6d78 (0x111f0) _$s9Telemetry0A7ManagerC14trackOperation_11operationId0E5State10propertiesySS_SSAA0dG0OAA0A10PropertiesCSgtFTo
+            name    0x52cc (0x1f748) trackPageView:properties:
+            types   0x1db4 (0x1c234) v32@0:8@16@24
+            imp     0xffff6fec (0x11470) _$s9Telemetry0A7ManagerC13trackPageView_10propertiesySS_AA0A10PropertiesCSgtFTo
+            name    0x5180 (0x1f608) .cxx_destruct
+            types   0x1db6 (0x1c242) v16@0:8
+            imp     0xffffd330 (0x177c0) _$s9Telemetry0A7ManagerCfETo
+        baseProtocols  0x0
+        ivars          0x1f5e0 __IVARS__TtC9Telemetry16TelemetryManager
+            entsize   32
+            count     1
+            offset    0x1fd68 _$s9Telemetry0A7ManagerC7context33_AEA96C1BAEA3A038FC7608C417498FFALLAA0A7ContextAELLVvpWvd 8
+            name      0x1c24a context
+            type      0x1c190 
+            alignment 3
+            size      128
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x1f598 __METACLASS_DATA__TtC9Telemetry16TelemetryManager
+        flags          0x81 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x1c1a0 _TtC9Telemetry16TelemetryManager
+        baseMethods    0x1a3e8 __CLASS_METHODS__TtC9Telemetry16TelemetryManager
+            entsize 12 (relative)
+            count   1
+            name    0x5318 (0x1f708) shared
+            types   0x195d (0x1bd51) @16@0:8
+            imp     0xffff4d98 (0xf190) _$s9Telemetry0A7ManagerC6sharedACvgZTo
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x1f580 __CLASS_PROPERTIES__TtC9Telemetry16TelemetryManager
+            entsize    16
+            count      1
+            name       0x1c1c9 shared
+            attributes 0x1c1d0 T@"_TtC9Telemetry16TelemetryManager",N,R
+Contents of (__DATA,__objc_classrefs) section
+000000000001f750 0x0 _OBJC_CLASS_$_NSUserDefaults
+000000000001f758 0x0 _OBJC_CLASS_$_NSURLSession
+000000000001f760 0x0 _OBJC_CLASS_$_NSDateFormatter
+000000000001f768 0x0 _OBJC_CLASS_$_NSProcessInfo
+000000000001f770 0x0 _OBJC_CLASS_$_NSBundle
+Contents of (__DATA,__objc_selrefs) section
+    0x1b9e5 .cxx_destruct
+    0x1b990 callStackSymbols
+    0x1ba03 code
+    0x1b9b1 dataTaskWithRequest:
+    0x1b988 dealloc
+    0x1ba18 domain
+    0x1b9d6 infoDictionary
+    0x1ba2f init
+    0x1ba34 initWithUnitId:model:
+    0x1ba4a initWithUnitId:model:firmware:
+    0x1ba69 localizedDescription
+    0x1ba7e mainBundle
+    0x1ba89 name
+    0x1ba8e operatingSystemVersion
+    0x1baa5 persistentDomainForName:
+    0x1babe processInfo
+    0x1baca reason
+    0x1bad1 resume
+    0x1bad8 setDateFormat:
+    0x1bae7 setDevice:
+    0x1b9f3 setDisplayName:
+    0x1b9a1 setFromVersion:
+    0x1baf2 setLocale:
+    0x1ba08 setMusicSource:
+    0x1bafd setPartNumber:
+    0x1bb0c setScreenResolution:
+    0x1bb21 setTimeZone:
+    0x1bb2e setToVersion:
+    0x1bb3c setTransferCount:
+    0x1bb4e setUpdateFinish:
+    0x1bb5f setUpdateGuid:
+    0x1bb6e setValue:
+    0x1bb78 shared
+    0x1bb7f sharedSession
+    0x1bb8d standardUserDefaults
+    0x1b9c6 stringFromDate:
+    0x1bba2 trackError:properties:operationId:
+    0x1bbc5 trackEvent:properties:
+    0x1ba1f trackException:
+    0x1bbdc trackOperation:operationId:operationState:properties:
+    0x1bc12 trackPageView:properties:
+Contents of (__DATA_CONST,__objc_imageinfo) section
+    version 0
+    flags   0x50a0740 Swift 5 or later
+/Applications/Garmin Express.app/Contents/Frameworks/Telemetry.framework/Telemetry (architecture arm64):
+Contents of (__DATA_CONST,__objc_classlist) section
+0000000000020de8 0x247e0 _$s9Telemetry0A6DeviceCN
+    isa        0x24ca8 _OBJC_METACLASS_$__TtC9Telemetry15TelemetryDevice
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x24782 Swift class
+        flags          0x184 RO_HAS_CXX_STRUCTORS
+        instanceStart  8
+        instanceSize   48
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x1d990 _TtC9Telemetry15TelemetryDevice
+        baseMethods    0x1c080 __INSTANCE_METHODS__TtC9Telemetry15TelemetryDevice
+            entsize 12 (relative)
+            count   4
+            name    0x85c8 (0x24650) initWithUnitId:model:
+            types   0x1924 (0x1d9b0) @32@0:8Q16@24
+            imp     0xfffe6204 (0x2294) _$s9Telemetry0A6DeviceC6unitId5modelACSu_SStcfcTo
+            name    0x85c4 (0x24658) initWithUnitId:model:firmware:
+            types   0x1928 (0x1d9c0) @40@0:8Q16@24@32
+            imp     0xfffe6468 (0x2504) _$s9Telemetry0A6DeviceC6unitId5model8firmwareACSu_S2StcfcTo
+            name    0x85a8 (0x24648) init
+            types   0x192d (0x1d9d1) @16@0:8
+            imp     0xfffe664c (0x26f4) _$s9Telemetry0A6DeviceCACycfcTo
+            name    0x8564 (0x24610) .cxx_destruct
+            types   0x1e12 (0x1dec2) v16@0:8
+            imp     0xfffe6ce0 (0x2d94) _$s9Telemetry0A6DeviceCfETo
+        baseProtocols  0x0
+        ivars          0x24370 __IVARS__TtC9Telemetry15TelemetryDevice
+            entsize   32
+            count     3
+            offset    0x24bf0 _$s9Telemetry0A6DeviceC6unitIdSuvpWvd 8
+            name      0x1d9e1 unitId
+            type      0x1de10 
+            alignment 3
+            size      8
+            offset    0x24bf8 _$s9Telemetry0A6DeviceC5modelSSvpWvd 16
+            name      0x1d9e9 model
+            type      0x1de10 
+            alignment 3
+            size      16
+            offset    0x24be8 _$s9Telemetry0A6DeviceC8firmwareSSSgvpWvd 32
+            name      0x1d9ef firmware
+            type      0x1de10 
+            alignment 3
+            size      16
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x24328 __METACLASS_DATA__TtC9Telemetry15TelemetryDevice
+        flags          0x81 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x1d990 _TtC9Telemetry15TelemetryDevice
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+0000000000020df0 0x248d8 _OBJC_CLASS_$__TtC9Telemetry19TelemetryProperties
+    isa        0x24cd0 _OBJC_METACLASS_$__TtC9Telemetry19TelemetryProperties
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x2487a Swift class
+        flags          0x184 RO_HAS_CXX_STRUCTORS
+        instanceStart  8
+        instanceSize   169
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x1da00 _TtC9Telemetry19TelemetryProperties
+        baseMethods    0x1c118 __INSTANCE_METHODS__TtC9Telemetry19TelemetryProperties
+            entsize 12 (relative)
+            count   13
+            name    0x8588 (0x246a8) setDevice:
+            types   0x1900 (0x1da24) v24@0:8@16
+            imp     0xfffe8194 (0x42bc) _$s9Telemetry0A10PropertiesC9setDeviceyyAA0aD0CFTo
+            name    0x85ac (0x246d8) setScreenResolution:
+            types   0x18f4 (0x1da24) v24@0:8@16
+            imp     0xfffe8230 (0x4364) _$s9Telemetry0A10PropertiesC19setScreenResolutionyySSFTo
+            name    0x85d0 (0x24708) setValue:
+            types   0x18e8 (0x1da24) v24@0:8@16
+            imp     0xfffe82dc (0x441c) _$s9Telemetry0A10PropertiesC8setValueyySSFTo
+            name    0x85bc (0x24700) setUpdateGuid:
+            types   0x18dc (0x1da24) v24@0:8@16
+            imp     0xfffe8388 (0x44d4) _$s9Telemetry0A10PropertiesC13setUpdateGuidyySSFTo
+            name    0x85a8 (0x246f8) setUpdateFinish:
+            types   0x18d0 (0x1da24) v24@0:8@16
+            imp     0xfffe8434 (0x458c) _$s9Telemetry0A10PropertiesC15setUpdateFinishyySSFTo
+            name    0x8554 (0x246b0) setDisplayName:
+            types   0x18c4 (0x1da24) v24@0:8@16
+            imp     0xfffe84e0 (0x4644) _$s9Telemetry0A10PropertiesC14setDisplayNameyySSFTo
+            name    0x8568 (0x246d0) setPartNumber:
+            types   0x18b8 (0x1da24) v24@0:8@16
+            imp     0xfffe858c (0x46fc) _$s9Telemetry0A10PropertiesC13setPartNumberyySSFTo
+            name    0x8544 (0x246b8) setFromVersion:
+            types   0x18ac (0x1da24) v24@0:8@16
+            imp     0xfffe8638 (0x47b4) _$s9Telemetry0A10PropertiesC14setFromVersionyySSFTo
+            name    0x8568 (0x246e8) setToVersion:
+            types   0x18a0 (0x1da24) v24@0:8@16
+            imp     0xfffe86e4 (0x486c) _$s9Telemetry0A10PropertiesC12setToVersionyySSFTo
+            name    0x853c (0x246c8) setMusicSource:
+            types   0x1894 (0x1da24) v24@0:8@16
+            imp     0xfffe8790 (0x4924) _$s9Telemetry0A10PropertiesC14setMusicSourceyySSFTo
+            name    0x8558 (0x246f0) setTransferCount:
+            types   0x1893 (0x1da2f) v24@0:8q16
+            imp     0xfffe881c (0x49bc) _$s9Telemetry0A10PropertiesC16setTransferCountyySiFTo
+            name    0x84a4 (0x24648) init
+            types   0x1829 (0x1d9d1) @16@0:8
+            imp     0xfffe9f84 (0x6130) _$s9Telemetry0A10PropertiesCACycfcTo
+            name    0x8460 (0x24610) .cxx_destruct
+            types   0x1d0e (0x1dec2) v16@0:8
+            imp     0xfffe9fe0 (0x6198) _$s9Telemetry0A10PropertiesCfETo
+        baseProtocols  0x0
+        ivars          0x24420 __IVARS__TtC9Telemetry19TelemetryProperties
+            entsize   32
+            count     11
+            offset    0x24c50 _$s9Telemetry0A10PropertiesC6deviceAA0A6DeviceCSgvpWvd 8
+            name      0x0 + 0x1da3a _OBJC_METACLASS_$_NSObject device
+            type      0x0 + 0x1de10 __objc_empty_cache 
+            alignment 3
+            size      8
+            offset    0x24c58 _$s9Telemetry0A10PropertiesC16screenResolutionSSSgvpWvd 16
+            name      0x1da50 screenResolution
+            type      0x1de10 
+            alignment 3
+            size      16
+            offset    0x24c60 _$s9Telemetry0A10PropertiesC5valueSSSgvpWvd 32
+            name      0x1da61 value
+            type      0x1de10 
+            alignment 3
+            size      16
+            offset    0x24c68 _$s9Telemetry0A10PropertiesC10updateGuidSSSgvpWvd 48
+            name      0x1da67 updateGuid
+            type      0x1de10 
+            alignment 3
+            size      16
+            offset    0x24c70 _$s9Telemetry0A10PropertiesC12updateFinishSSSgvpWvd 64
+            name      0x1da72 updateFinish
+            type      0x1de10 
+            alignment 3
+            size      16
+            offset    0x24c78 _$s9Telemetry0A10PropertiesC11displayNameSSSgvpWvd 80
+            name      0x1da7f displayName
+            type      0x1de10 
+            alignment 3
+            size      16
+            offset    0x24c80 _$s9Telemetry0A10PropertiesC10partNumberSSSgvpWvd 96
+            name      0x1da8b partNumber
+            type      0x1de10 
+            alignment 3
+            size      16
+            offset    0x24c88 _$s9Telemetry0A10PropertiesC11fromVersionSSSgvpWvd 112
+            name      0x1da96 fromVersion
+            type      0x1de10 
+            alignment 3
+            size      16
+            offset    0x24c90 _$s9Telemetry0A10PropertiesC9toVersionSSSgvpWvd 128
+            name      0x1daa2 toVersion
+            type      0x1de10 
+            alignment 3
+            size      16
+            offset    0x24c98 _$s9Telemetry0A10PropertiesC11musicSourceSSSgvpWvd 144
+            name      0x1daac musicSource
+            type      0x1de10 
+            alignment 3
+            size      16
+            offset    0x24ca0 _$s9Telemetry0A10PropertiesC13transferCountSiSgvpWvd 160
+            name      0x1dab8 transferCount
+            type      0x1de10 
+            alignment 3
+            size      9
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x243d8 __METACLASS_DATA__TtC9Telemetry19TelemetryProperties
+        flags          0x81 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x1da00 _TtC9Telemetry19TelemetryProperties
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+0000000000020df8 0x24b48 _OBJC_CLASS_$__TtC9Telemetry16TelemetryManager
+    isa        0x24fa8 _OBJC_METACLASS_$__TtC9Telemetry16TelemetryManager
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x24aea Swift class
+        flags          0x184 RO_HAS_CXX_STRUCTORS
+        instanceStart  8
+        instanceSize   136
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x1de20 _TtC9Telemetry16TelemetryManager
+        baseMethods    0x1c0b8 __INSTANCE_METHODS__TtC9Telemetry16TelemetryManager
+            entsize 12 (relative)
+            count   7
+            name    0x8588 (0x24648) init
+            types   0x190d (0x1d9d1) @16@0:8
+            imp     0xffff4584 (0x1064c) _$s9Telemetry0A7ManagerCACyc33_AEA96C1BAEA3A038FC7608C417498FFALlfcTo
+            name    0x8664 (0x24730) trackError:properties:operationId:
+            types   0x1db0 (0x1de80) v40@0:8@16@24@32
+            imp     0xffff4c6c (0x10d40) _$s9Telemetry0A7ManagerC10trackError_10properties11operationIdySo7NSErrorC_AA0A10PropertiesCSgSStFTo
+            name    0x8660 (0x24738) trackEvent:properties:
+            types   0x1db5 (0x1de91) v32@0:8q16@24
+            imp     0xffff4e18 (0x10ef8) _$s9Telemetry0A7ManagerC10trackEvent_10propertiesyAA0aD0O_AA0A10PropertiesCSgtFTo
+            name    0x865c (0x24740) trackException:
+            types   0x193c (0x1da24) v24@0:8@16
+            imp     0xffff5468 (0x11554) _$s9Telemetry0A7ManagerC14trackExceptionyySo11NSExceptionCFTo
+            name    0x8658 (0x24748) trackOperation:operationId:operationState:properties:
+            types   0x1dac (0x1dea0) v48@0:8@16@24q32@40
+            imp     0xffff5830 (0x11928) _$s9Telemetry0A7ManagerC14trackOperation_11operationId0E5State10propertiesySS_SSAA0dG0OAA0A10PropertiesCSgtFTo
+            name    0x8654 (0x24750) trackPageView:properties:
+            types   0x1db4 (0x1deb4) v32@0:8@16@24
+            imp     0xffff5a14 (0x11b18) _$s9Telemetry0A7ManagerC13trackPageView_10propertiesySS_AA0A10PropertiesCSgtFTo
+            name    0x8508 (0x24610) .cxx_destruct
+            types   0x1db6 (0x1dec2) v16@0:8
+            imp     0xffffcb20 (0x18c30) _$s9Telemetry0A7ManagerCfETo
+        baseProtocols  0x0
+        ivars          0x245e8 __IVARS__TtC9Telemetry16TelemetryManager
+            entsize   32
+            count     1
+            offset    0x24d70 _$s9Telemetry0A7ManagerC7context33_AEA96C1BAEA3A038FC7608C417498FFALLAA0A7ContextAELLVvpWvd 8
+            name      0x1deca context
+            type      0x1de10 
+            alignment 3
+            size      128
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x245a0 __METACLASS_DATA__TtC9Telemetry16TelemetryManager
+        flags          0x81 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x1de20 _TtC9Telemetry16TelemetryManager
+        baseMethods    0x1c068 __CLASS_METHODS__TtC9Telemetry16TelemetryManager
+            entsize 12 (relative)
+            count   1
+            name    0x86a0 (0x24710) shared
+            types   0x195d (0x1d9d1) @16@0:8
+            imp     0xffff40c4 (0x1013c) _$s9Telemetry0A7ManagerC6sharedACvgZTo
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x24588 __CLASS_PROPERTIES__TtC9Telemetry16TelemetryManager
+            entsize    16
+            count      1
+            name       0x1de49 shared
+            attributes 0x1de50 T@"_TtC9Telemetry16TelemetryManager",N,R
+Contents of (__DATA,__objc_classrefs) section
+0000000000024758 0x0 _OBJC_CLASS_$_NSUserDefaults
+0000000000024760 0x0 _OBJC_CLASS_$_NSURLSession
+0000000000024768 0x0 _OBJC_CLASS_$_NSDateFormatter
+0000000000024770 0x0 _OBJC_CLASS_$_NSProcessInfo
+0000000000024778 0x0 _OBJC_CLASS_$_NSBundle
+Contents of (__DATA,__objc_selrefs) section
+    0x1d665 .cxx_destruct
+    0x1d610 callStackSymbols
+    0x1d683 code
+    0x1d631 dataTaskWithRequest:
+    0x1d608 dealloc
+    0x1d698 domain
+    0x1d656 infoDictionary
+    0x1d6af init
+    0x1d6b4 initWithUnitId:model:
+    0x1d6ca initWithUnitId:model:firmware:
+    0x1d6e9 localizedDescription
+    0x1d6fe mainBundle
+    0x1d709 name
+    0x1d70e operatingSystemVersion
+    0x1d725 persistentDomainForName:
+    0x1d73e processInfo
+    0x1d74a reason
+    0x1d751 resume
+    0x1d758 setDateFormat:
+    0x1d767 setDevice:
+    0x1d673 setDisplayName:
+    0x1d621 setFromVersion:
+    0x1d772 setLocale:
+    0x1d688 setMusicSource:
+    0x1d77d setPartNumber:
+    0x1d78c setScreenResolution:
+    0x1d7a1 setTimeZone:
+    0x1d7ae setToVersion:
+    0x1d7bc setTransferCount:
+    0x1d7ce setUpdateFinish:
+    0x1d7df setUpdateGuid:
+    0x1d7ee setValue:
+    0x1d7f8 shared
+    0x1d7ff sharedSession
+    0x1d80d standardUserDefaults
+    0x1d646 stringFromDate:
+    0x1d822 trackError:properties:operationId:
+    0x1d845 trackEvent:properties:
+    0x1d69f trackException:
+    0x1d85c trackOperation:operationId:operationState:properties:
+    0x1d892 trackPageView:properties:
+Contents of (__DATA_CONST,__objc_imageinfo) section
+    version 0
+    flags   0x50a0740 Swift 5 or later

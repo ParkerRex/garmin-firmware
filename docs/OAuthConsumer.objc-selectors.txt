@@ -1,0 +1,196 @@
+                            name       0x505a debugDescription
+                            name       0x5074 description
+                            name       0x5144 hash
+                            name       0x572a superclass
+                            name    0x4c26 isProxy
+                            name    0x4d08 release
+                            name    0x4ed4 autorelease
+                            name    0x4eed class
+                            name    0x4f38 conformsToProtocol:
+                            name    0x505a debugDescription
+                            name    0x5074 description
+                            name    0x5144 hash
+                            name    0x5377 isEqual:
+                            name    0x5391 isKindOfClass:
+                            name    0x53a0 isMemberOfClass:
+                            name    0x53eb performSelector:
+                            name    0x53fc performSelector:withObject:
+                            name    0x5418 performSelector:withObject:withObject:
+                            name    0x5462 respondsToSelector:
+                            name    0x548c retain
+                            name    0x5493 retainCount
+                            name    0x54a6 self
+                            name    0x572a superclass
+                            name    0x5779 zone
+                        name      0x5a7d NSObject
+                    name    0x53b8 name
+                    name    0x5598 signClearText:withSecret:
+                name       0x505a debugDescription
+                name       0x5074 description
+                name       0x5144 hash
+                name       0x572a superclass
+                name      0x5a68 OASignatureProviding
+                name    0x4c26 isProxy
+                name    0x4d08 release
+                name    0x4ed4 autorelease
+                name    0x4eed class
+                name    0x4f38 conformsToProtocol:
+                name    0x505a debugDescription
+                name    0x5074 description
+                name    0x5144 hash
+                name    0x5377 isEqual:
+                name    0x5391 isKindOfClass:
+                name    0x53a0 isMemberOfClass:
+                name    0x53eb performSelector:
+                name    0x53fc performSelector:withObject:
+                name    0x5418 performSelector:withObject:withObject:
+                name    0x5462 respondsToSelector:
+                name    0x548c retain
+                name    0x5493 retainCount
+                name    0x54a6 self
+                name    0x572a superclass
+                name    0x5779 zone
+            name       0x4c5f request
+            name       0x4cf3 key
+            name       0x505a debugDescription
+            name       0x5074 description
+            name       0x50b7 didSucceed
+            name       0x5144 hash
+            name       0x53b8 name
+            name       0x53bd nonce
+            name       0x5476 response
+            name       0x549f secret
+            name       0x55b2 signature
+            name       0x572a superclass
+            name       0x575a value
+            name      0x0 + 0x4cf3 _OBJC_CLASS_$_NSObject key
+            name      0x0 + 0x549f _OBJC_METACLASS_$_NSObject secret
+            name      0x0 + 0x549f __objc_empty_cache secret
+            name      0x4bff didFailSelector
+            name      0x4c5f request
+            name      0x4cf3 key
+            name      0x4f4c connection
+            name      0x4fca consumer
+            name      0x506b delegate
+            name      0x50a5 didFinishSelector
+            name      0x50b7 didSucceed
+            name      0x50c9 error
+            name      0x50ee extraOAuthParameters
+            name      0x53b8 name
+            name      0x53bd nonce
+            name      0x545c realm
+            name      0x5476 response
+            name      0x547f responseData
+            name      0x55b2 signature
+            name      0x55bc signatureProvider
+            name      0x5741 timestamp
+            name      0x574b token
+            name      0x575a value
+            name      0x5a7d NSObject
+            name    0x3870 (0x82f8) URLEncodedNameValuePair
+            name    0x3874 (0x8400) dealloc
+            name    0x3880 (0x82f0) URLEncodedName
+            name    0x388c (0x8308) URLEncodedValue
+            name    0x38dc (0x8438) init
+            name    0x38e4 (0x8458) initWithHTTPResponseBody:
+            name    0x38f8 (0x8460) initWithKey:secret:
+            name    0x3900 (0x8418) didSucceed
+            name    0x3924 (0x8400) dealloc
+            name    0x3924 (0x84c8) key
+            name    0x392c (0x8328) _generateNonce
+            name    0x3930 (0x8338) _signatureBaseString
+            name    0x3930 (0x8468) initWithKeychainUsingAppName:serviceProviderName:
+            name    0x3938 (0x84b8) initWithUserDefaultsUsingServiceProviderName:prefix:
+            name    0x3940 (0x8330) _generateTimestamp
+            name    0x397c (0x8538) secret
+            name    0x399c (0x8400) dealloc
+            name    0x39a8 (0x8558) setKey:
+            name    0x39b8 (0x8488) initWithRequest:response:didSucceed:
+            name    0x39d0 (0x8598) setSecret:
+            name    0x3a18 (0x8470) initWithName:value:
+            name    0x3a24 (0x8548) setDidSucceed:
+            name    0x3a30 (0x8530) response
+            name    0x3a34 (0x8400) dealloc
+            name    0x3a38 (0x8520) request
+            name    0x3a44 (0x84d8) name
+            name    0x3a60 (0x85f8) storeInUserDefaultsWithServiceProviderName:prefix:
+            name    0x3a84 (0x8590) setResponse:
+            name    0x3a94 (0x8588) setRequest:
+            name    0x3aa0 (0x84d8) name
+            name    0x3aa0 (0x85f0) storeInKeychain:appName:serviceProviderName:
+            name    0x3aa4 (0x85e8) storeInDefaultKeychainWithAppName:serviceProviderName:
+            name    0x3ab0 (0x83b0) connection:didFailWithError:
+            name    0x3ab8 (0x8388) cancel
+            name    0x3abc (0x83c8) connectionDidFinishLoading:
+            name    0x3ac0 (0x8430) fetchDataWithRequest:delegate:didFinishSelector:didFailSelector:
+            name    0x3ac0 (0x84e0) nonce
+            name    0x3ac4 (0x83b8) connection:didReceiveData:
+            name    0x3ac8 (0x8568) setName:
+            name    0x3ad4 (0x8400) dealloc
+            name    0x3ad8 (0x83c0) connection:didReceiveResponse:
+            name    0x3af0 (0x8378) asynchronousFetcherWithRequest:delegate:didFinishSelector:didFailSelector:
+            name    0x3af0 (0x84b0) initWithURL:consumer:token:realm:signatureProvider:nonce:timestamp:
+            name    0x3af0 (0x85a8) setValue:
+            name    0x3af4 (0x84a8) initWithURL:consumer:token:realm:signatureProvider:
+            name    0x3af8 (0x84a0) initWithURL:consumer:token:
+            name    0x3b24 (0x8400) dealloc
+            name    0x3b24 (0x8508) prepare
+            name    0x3b40 (0x8460) initWithKey:secret:
+            name    0x3b50 (0x84d8) name
+            name    0x3b74 (0x85b8) signClearText:withSecret:
+            name    0x3b90 (0x84c8) key
+            name    0x3b94 (0x8640) value
+            name    0x3b98 (0x8570) setOAuthParameterName:withValue:
+            name    0x3bac (0x85c0) signature
+            name    0x3bc8 (0x8480) initWithRequest:delegate:didFinishSelector:didFailSelector:
+            name    0x3be8 (0x8538) secret
+            name    0x3c14 (0x8558) setKey:
+            name    0x3c24 (0x85b8) signClearText:withSecret:
+            name    0x3c3c (0x8598) setSecret:
+            name    0x3c88 (0x8528) requestParameterWithName:value:
+            name    0x3d14 (0x85d8) start
+        name           0x5a25 OARequestParameter
+        name           0x5a38 OAToken
+        name           0x5a40 OAConsumer
+        name           0x5a4b OAHMAC_SHA1SignatureProvider
+        name           0x5a9d OAMutableURLRequest
+        name           0x5ac6 OAPlaintextSignatureProvider
+        name           0x5af3 OAServiceTicket
+        name           0x5b03 OADataFetcher
+        name           0x5b11 OAAsynchronousDataFetcher
+        name       0x505a debugDescription
+        name       0x5074 description
+        name       0x5144 hash
+        name       0x572a superclass
+        name    0x3a8c (0x82e8) URLDecodedString
+        name    0x3aa0 (0x8310) URLStringWithoutQuery
+        name    0x3ab0 (0x8300) URLEncodedString
+        name    0x3cc8 (0x84f8) parameters
+        name    0x3d44 (0x8580) setParameters:
+        name    0x4c26 isProxy
+        name    0x4d08 release
+        name    0x4ed4 autorelease
+        name    0x4eed class
+        name    0x4f38 conformsToProtocol:
+        name    0x505a debugDescription
+        name    0x5074 description
+        name    0x5144 hash
+        name    0x5377 isEqual:
+        name    0x5391 isKindOfClass:
+        name    0x53a0 isMemberOfClass:
+        name    0x53b8 name
+        name    0x53eb performSelector:
+        name    0x53fc performSelector:withObject:
+        name    0x5418 performSelector:withObject:withObject:
+        name    0x5462 respondsToSelector:
+        name    0x548c retain
+        name    0x5493 retainCount
+        name    0x54a6 self
+        name    0x5598 signClearText:withSecret:
+        name    0x572a superclass
+        name    0x5779 zone
+    name      0x5a68 OASignatureProviding
+    name      0x5a7d NSObject
+    name      0x5a86 OAURLEncodingAdditions
+    name      0x5ab1 OAParameterAdditions
+    name      0x5ae3 OABaseAdditions

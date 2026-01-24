@@ -1,0 +1,1518 @@
+/Applications/Garmin Express.app/Contents/Frameworks/OAuthConsumer.framework/OAuthConsumer:
+Contents of (__DATA_CONST,__objc_classlist) section
+0000000000006490 0x8800 _OBJC_CLASS_$_OARequestParameter
+    isa        0x8828 _OBJC_METACLASS_$_OARequestParameter
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x7178 __OBJC_CLASS_RO_$_OARequestParameter
+        flags          0x0
+        instanceStart  8
+        instanceSize   24
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x5a25 OARequestParameter
+        baseMethods    0x4a50 __OBJC_$_INSTANCE_METHODS_OARequestParameter
+            entsize 12 (relative)
+            count   9
+            name    0x3a18 (0x8470) initWithName:value:
+            types   0x10ea (0x5b46) @32@0:8@16@24
+            imp     0xffffcf3f (0x199f) -[OARequestParameter initWithName:value:]
+            name    0x399c (0x8400) dealloc
+            types   0x10ec (0x5b54) v16@0:8
+            imp     0xffffcfa8 (0x1a14) -[OARequestParameter dealloc]
+            name    0x3880 (0x82f0) URLEncodedName
+            types   0x10e8 (0x5b5c) @16@0:8
+            imp     0xffffcfe6 (0x1a5e) -[OARequestParameter URLEncodedName]
+            name    0x388c (0x8308) URLEncodedValue
+            types   0x10dc (0x5b5c) @16@0:8
+            imp     0xffffd005 (0x1a89) -[OARequestParameter URLEncodedValue]
+            name    0x3870 (0x82f8) URLEncodedNameValuePair
+            types   0x10d0 (0x5b5c) @16@0:8
+            imp     0xffffd024 (0x1ab4) -[OARequestParameter URLEncodedNameValuePair]
+            name    0x3a44 (0x84d8) name
+            types   0x10c4 (0x5b5c) @16@0:8
+            imp     0xffffd075 (0x1b11) -[OARequestParameter name]
+            name    0x3ac8 (0x8568) setName:
+            types   0x10c0 (0x5b64) v24@0:8@16
+            imp     0xffffd07d (0x1b25) -[OARequestParameter setName:]
+            name    0x3b94 (0x8640) value
+            types   0x10ac (0x5b5c) @16@0:8
+            imp     0xffffd080 (0x1b34) -[OARequestParameter value]
+            name    0x3af0 (0x85a8) setValue:
+            types   0x10a8 (0x5b64) v24@0:8@16
+            imp     0xffffd088 (0x1b48) -[OARequestParameter setValue:]
+        baseProtocols  0x0
+        ivars          0x7108 __OBJC_$_INSTANCE_VARIABLES_OARequestParameter
+            entsize   32
+            count     2
+            offset    0x8700 _OBJC_IVAR_$_OARequestParameter.name 8
+            name      0x53b8 name
+            type      0x5b6f @"NSString"
+            alignment 3
+            size      8
+            offset    0x8708 _OBJC_IVAR_$_OARequestParameter.value 16
+            name      0x575a value
+            type      0x5b6f @"NSString"
+            alignment 3
+            size      8
+        weakIvarLayout 0x0
+        baseProperties 0x7150 __OBJC_$_PROP_LIST_OARequestParameter
+            entsize    16
+            count      2
+            name       0x53b8 name
+            attributes 0x4cb8 T@"NSString",&,Vname
+            name       0x575a value
+            attributes 0x4cdd T@"NSString",&,Vvalue
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x70c0 __OBJC_METACLASS_RO_$_OARequestParameter
+        flags          0x1 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x5a25 OARequestParameter
+        baseMethods    0x4898 __OBJC_$_CLASS_METHODS_OARequestParameter
+            entsize 12 (relative)
+            count   1
+            name    0x3c88 (0x8528) requestParameterWithName:value:
+            types   0x12a2 (0x5b46) @32@0:8@16@24
+            imp     0xffffd0bc (0x1964) +[OARequestParameter requestParameterWithName:value:]
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+0000000000006498 0x8850 _OBJC_CLASS_$_OAToken
+    isa        0x8878 _OBJC_METACLASS_$_OAToken
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x7278 __OBJC_CLASS_RO_$_OAToken
+        flags          0x0
+        instanceStart  8
+        instanceSize   24
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x5a38 OAToken
+        baseMethods    0x4b30 __OBJC_$_INSTANCE_METHODS_OAToken(OAToken_KeychainExtensions)
+            entsize 12 (relative)
+            count   13
+            name    0x3930 (0x8468) initWithKeychainUsingAppName:serviceProviderName:
+            types   0x100a (0x5b46) @32@0:8@16@24
+            imp     0xfffff7c8 (0x4308) -[OAToken(OAToken_KeychainExtensions) initWithKeychainUsingAppName:serviceProviderName:]
+            name    0x3aa4 (0x85e8) storeInDefaultKeychainWithAppName:serviceProviderName:
+            types   0x103e (0x5b86) i32@0:8@16@24
+            imp     0xfffff9f3 (0x453f) -[OAToken(OAToken_KeychainExtensions) storeInDefaultKeychainWithAppName:serviceProviderName:]
+            name    0x3aa0 (0x85f0) storeInKeychain:appName:serviceProviderName:
+            types   0x1259 (0x5dad) i40@0:8^{__SecKeychain=}16@24@32
+            imp     0xfffffa01 (0x4559) -[OAToken(OAToken_KeychainExtensions) storeInKeychain:appName:serviceProviderName:]
+            name    0x38dc (0x8438) init
+            types   0xffc (0x5b5c) @16@0:8
+            imp     0xffffcff3 (0x1b57) -[OAToken init]
+            name    0x38f8 (0x8460) initWithKey:secret:
+            types   0xfda (0x5b46) @32@0:8@16@24
+            imp     0xffffd059 (0x1bc9) -[OAToken initWithKey:secret:]
+            name    0x38e4 (0x8458) initWithHTTPResponseBody:
+            types   0x1003 (0x5b7b) @24@0:8@16
+            imp     0xffffd0c2 (0x1c3e) -[OAToken initWithHTTPResponseBody:]
+            name    0x3938 (0x84b8) initWithUserDefaultsUsingServiceProviderName:prefix:
+            types   0xfc2 (0x5b46) @32@0:8@16@24
+            imp     0xffffd300 (0x1e88) -[OAToken initWithUserDefaultsUsingServiceProviderName:prefix:]
+            name    0x3874 (0x8400) dealloc
+            types   0xfc4 (0x5b54) v16@0:8
+            imp     0xffffd41b (0x1faf) -[OAToken dealloc]
+            name    0x3a60 (0x85f8) storeInUserDefaultsWithServiceProviderName:prefix:
+            types   0xfea (0x5b86) i32@0:8@16@24
+            imp     0xffffd459 (0x1ff9) -[OAToken storeInUserDefaultsWithServiceProviderName:prefix:]
+            name    0x3924 (0x84c8) key
+            types   0xfb4 (0x5b5c) @16@0:8
+            imp     0xffffd554 (0x2100) -[OAToken key]
+            name    0x39a8 (0x8558) setKey:
+            types   0xfb0 (0x5b64) v24@0:8@16
+            imp     0xffffd55c (0x2114) -[OAToken setKey:]
+            name    0x397c (0x8538) secret
+            types   0xf9c (0x5b5c) @16@0:8
+            imp     0xffffd55f (0x2123) -[OAToken secret]
+            name    0x39d0 (0x8598) setSecret:
+            types   0xf98 (0x5b64) v24@0:8@16
+            imp     0xffffd567 (0x2137) -[OAToken setSecret:]
+        baseProtocols  0x0
+        ivars          0x7208 __OBJC_$_INSTANCE_VARIABLES_OAToken
+            entsize   32
+            count     2
+            offset    0x8710 _OBJC_IVAR_$_OAToken.key 8
+            name      0x0 + 0x4cf3 _OBJC_CLASS_$_NSObject key
+            type      0x0 + 0x5b6f __objc_empty_cache @"NSString"
+            alignment 3
+            size      8
+            offset    0x8718 _OBJC_IVAR_$_OAToken.secret 16
+            name      0x0 + 0x549f _OBJC_METACLASS_$_NSObject secret
+            type      0x0 + 0x5b6f _OBJC_METACLASS_$_NSObject @"NSString"
+            alignment 3
+            size      8
+        weakIvarLayout 0x0
+        baseProperties 0x7250 __OBJC_$_PROP_LIST_OAToken
+            entsize    16
+            count      2
+            name       0x4cf3 key
+            attributes 0x4beb T@"NSString",&,Vkey
+            name       0x549f secret
+            attributes 0x4c0f T@"NSString",&,Vsecret
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x71c0 __OBJC_METACLASS_RO_$_OAToken
+        flags          0x1 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x5a38 OAToken
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+00000000000064a0 0x88a0 _OBJC_CLASS_$_OAConsumer
+    isa        0x88c8 _OBJC_METACLASS_$_OAConsumer
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x7378 __OBJC_CLASS_RO_$_OAConsumer
+        flags          0x0
+        instanceStart  8
+        instanceSize   24
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x5a40 OAConsumer
+        baseMethods    0x4918 __OBJC_$_INSTANCE_METHODS_OAConsumer
+            entsize 12 (relative)
+            count   6
+            name    0x3b40 (0x8460) initWithKey:secret:
+            types   0x1222 (0x5b46) @32@0:8@16@24
+            imp     0xffffd81e (0x2146) -[OAConsumer initWithKey:secret:]
+            name    0x3ad4 (0x8400) dealloc
+            types   0x1224 (0x5b54) v16@0:8
+            imp     0xffffd887 (0x21bb) -[OAConsumer dealloc]
+            name    0x3b90 (0x84c8) key
+            types   0x1220 (0x5b5c) @16@0:8
+            imp     0xffffd8c5 (0x2205) -[OAConsumer key]
+            name    0x3c14 (0x8558) setKey:
+            types   0x121c (0x5b64) v24@0:8@16
+            imp     0xffffd8cd (0x2219) -[OAConsumer setKey:]
+            name    0x3be8 (0x8538) secret
+            types   0x1208 (0x5b5c) @16@0:8
+            imp     0xffffd8d0 (0x2228) -[OAConsumer secret]
+            name    0x3c3c (0x8598) setSecret:
+            types   0x1204 (0x5b64) v24@0:8@16
+            imp     0xffffd8d8 (0x223c) -[OAConsumer setSecret:]
+        baseProtocols  0x0
+        ivars          0x7308 __OBJC_$_INSTANCE_VARIABLES_OAConsumer
+            entsize   32
+            count     2
+            offset    0x8720 _OBJC_IVAR_$_OAConsumer.key 8
+            name      0x4cf3 key
+            type      0x5b6f @"NSString"
+            alignment 3
+            size      8
+            offset    0x8728 _OBJC_IVAR_$_OAConsumer.secret 16
+            name      0x0 + 0x549f __objc_empty_cache secret
+            type      0x5b6f @"NSString"
+            alignment 3
+            size      8
+        weakIvarLayout 0x0
+        baseProperties 0x7350 __OBJC_$_PROP_LIST_OAConsumer
+            entsize    16
+            count      2
+            name       0x4cf3 key
+            attributes 0x4beb T@"NSString",&,Vkey
+            name       0x549f secret
+            attributes 0x4c0f T@"NSString",&,Vsecret
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x72c0 __OBJC_METACLASS_RO_$_OAConsumer
+        flags          0x1 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x5a40 OAConsumer
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+00000000000064a8 0x8918 _OBJC_CLASS_$_OAHMAC_SHA1SignatureProvider
+    isa        0x88f0 _OBJC_METACLASS_$_OAHMAC_SHA1SignatureProvider
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x77a0 __OBJC_CLASS_RO_$_OAHMAC_SHA1SignatureProvider
+        flags          0x0
+        instanceStart  8
+        instanceSize   8
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x5a4b OAHMAC_SHA1SignatureProvider
+        baseMethods    0x4980 __OBJC_$_INSTANCE_METHODS_OAHMAC_SHA1SignatureProvider
+            entsize 12 (relative)
+            count   2
+            name    0x3b50 (0x84d8) name
+            types   0x11d0 (0x5b5c) @16@0:8
+            imp     0xffffd8bb (0x224b) -[OAHMAC_SHA1SignatureProvider name]
+            name    0x3c24 (0x85b8) signClearText:withSecret:
+            types   0x11ae (0x5b46) @32@0:8@16@24
+            imp     0xffffd8bc (0x2258) -[OAHMAC_SHA1SignatureProvider signClearText:withSecret:]
+        baseProtocols  0x76f8 __OBJC_CLASS_PROTOCOLS_$_OAHMAC_SHA1SignatureProvider
+            count    1
+            list[0]  0x8b38 __OBJC_PROTOCOL_$_OASignatureProviding
+                isa       0x0
+                name      0x5a68 OASignatureProviding
+                protocols 0x7698 __OBJC_$_PROTOCOL_REFS_OASignatureProviding
+                    count    1
+                    list[0]  0x8ad8 __OBJC_PROTOCOL_$_NSObject
+                        isa       0x0
+                        name      0x5a7d NSObject
+                        protocols 0x0
+                        instanceMethods 0x73c0 __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+                            entsize 24
+                            count   19
+                            name    0x5377 isEqual:
+                            types   0x5b94 c24@0:8@16
+                            imp     0x0
+                            name    0x4eed class
+                            types   0x5b9f #16@0:8
+                            imp     0x0
+                            name    0x54a6 self
+                            types   0x5b5c @16@0:8
+                            imp     0x0
+                            name    0x53eb performSelector:
+                            types   0x5ba7 @24@0:8:16
+                            imp     0x0
+                            name    0x53fc performSelector:withObject:
+                            types   0x5bb2 @32@0:8:16@24
+                            imp     0x0
+                            name    0x5418 performSelector:withObject:withObject:
+                            types   0x5bc0 @40@0:8:16@24@32
+                            imp     0x0
+                            name    0x4c26 isProxy
+                            types   0x5bd1 c16@0:8
+                            imp     0x0
+                            name    0x5391 isKindOfClass:
+                            types   0x5bd9 c24@0:8#16
+                            imp     0x0
+                            name    0x53a0 isMemberOfClass:
+                            types   0x5bd9 c24@0:8#16
+                            imp     0x0
+                            name    0x4f38 conformsToProtocol:
+                            types   0x5b94 c24@0:8@16
+                            imp     0x0
+                            name    0x5462 respondsToSelector:
+                            types   0x5be4 c24@0:8:16
+                            imp     0x0
+                            name    0x548c retain
+                            types   0x5b5c @16@0:8
+                            imp     0x0
+                            name    0x4d08 release
+                            types   0x5bef Vv16@0:8
+                            imp     0x0
+                            name    0x4ed4 autorelease
+                            types   0x5b5c @16@0:8
+                            imp     0x0
+                            name    0x5493 retainCount
+                            types   0x5bf8 Q16@0:8
+                            imp     0x0
+                            name    0x5779 zone
+                            types   0x5c00 ^{_NSZone=}16@0:8
+                            imp     0x0
+                            name    0x5144 hash
+                            types   0x5bf8 Q16@0:8
+                            imp     0x0
+                            name    0x572a superclass
+                            types   0x5b9f #16@0:8
+                            imp     0x0
+                            name    0x5074 description
+                            types   0x5b5c @16@0:8
+                            imp     0x0
+                        classMethods 0x0
+                        optionalInstanceMethods 0x7590 __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+                            entsize 24
+                            count   1
+                            name    0x505a debugDescription
+                            types   0x5b5c @16@0:8
+                            imp     0x0
+                        optionalClassMethods 0x0
+                        instanceProperties 0x75b0 __OBJC_$_PROP_LIST_NSObject
+                            entsize    16
+                            count      4
+                            name       0x5144 hash
+                            attributes 0x4c8d TQ,R
+                            name       0x572a superclass
+                            attributes 0x4cab T#,R
+                            name       0x5074 description
+                            attributes 0x4cf7 T@"NSString",R,C
+                            name       0x505a debugDescription
+                            attributes 0x4c2e T@"NSString",?,R,C
+                instanceMethods 0x76b0 __OBJC_$_PROTOCOL_INSTANCE_METHODS_OASignatureProviding
+                    entsize 24
+                    count   2
+                    name    0x53b8 name
+                    types   0x5b5c @16@0:8
+                    imp     0x0
+                    name    0x5598 signClearText:withSecret:
+                    types   0x5b46 @32@0:8@16@24
+                    imp     0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x7758 __OBJC_$_PROP_LIST_OAHMAC_SHA1SignatureProvider
+            entsize    16
+            count      4
+            name       0x5144 hash
+            attributes 0x4c8d TQ,R
+            name       0x572a superclass
+            attributes 0x4cab T#,R
+            name       0x5074 description
+            attributes 0x4cf7 T@"NSString",R,C
+            name       0x505a debugDescription
+            attributes 0x4c2e T@"NSString",?,R,C
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x7710 __OBJC_METACLASS_RO_$_OAHMAC_SHA1SignatureProvider
+        flags          0x1 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x5a4b OAHMAC_SHA1SignatureProvider
+        baseMethods    0x0
+        baseProtocols  0x76f8 __OBJC_CLASS_PROTOCOLS_$_OAHMAC_SHA1SignatureProvider
+            count    1
+            list[0]  0x8b38 __OBJC_PROTOCOL_$_OASignatureProviding
+                isa       0x0
+                name      0x5a68 OASignatureProviding
+                protocols 0x7698 __OBJC_$_PROTOCOL_REFS_OASignatureProviding
+                    count    1
+                    list[0]  0x8ad8 __OBJC_PROTOCOL_$_NSObject
+                        isa       0x0
+                        name      0x5a7d NSObject
+                        protocols 0x0
+                        instanceMethods 0x73c0 __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+                            entsize 24
+                            count   19
+                            name    0x5377 isEqual:
+                            types   0x5b94 c24@0:8@16
+                            imp     0x0
+                            name    0x4eed class
+                            types   0x5b9f #16@0:8
+                            imp     0x0
+                            name    0x54a6 self
+                            types   0x5b5c @16@0:8
+                            imp     0x0
+                            name    0x53eb performSelector:
+                            types   0x5ba7 @24@0:8:16
+                            imp     0x0
+                            name    0x53fc performSelector:withObject:
+                            types   0x5bb2 @32@0:8:16@24
+                            imp     0x0
+                            name    0x5418 performSelector:withObject:withObject:
+                            types   0x5bc0 @40@0:8:16@24@32
+                            imp     0x0
+                            name    0x4c26 isProxy
+                            types   0x5bd1 c16@0:8
+                            imp     0x0
+                            name    0x5391 isKindOfClass:
+                            types   0x5bd9 c24@0:8#16
+                            imp     0x0
+                            name    0x53a0 isMemberOfClass:
+                            types   0x5bd9 c24@0:8#16
+                            imp     0x0
+                            name    0x4f38 conformsToProtocol:
+                            types   0x5b94 c24@0:8@16
+                            imp     0x0
+                            name    0x5462 respondsToSelector:
+                            types   0x5be4 c24@0:8:16
+                            imp     0x0
+                            name    0x548c retain
+                            types   0x5b5c @16@0:8
+                            imp     0x0
+                            name    0x4d08 release
+                            types   0x5bef Vv16@0:8
+                            imp     0x0
+                            name    0x4ed4 autorelease
+                            types   0x5b5c @16@0:8
+                            imp     0x0
+                            name    0x5493 retainCount
+                            types   0x5bf8 Q16@0:8
+                            imp     0x0
+                            name    0x5779 zone
+                            types   0x5c00 ^{_NSZone=}16@0:8
+                            imp     0x0
+                            name    0x5144 hash
+                            types   0x5bf8 Q16@0:8
+                            imp     0x0
+                            name    0x572a superclass
+                            types   0x5b9f #16@0:8
+                            imp     0x0
+                            name    0x5074 description
+                            types   0x5b5c @16@0:8
+                            imp     0x0
+                        classMethods 0x0
+                        optionalInstanceMethods 0x7590 __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+                            entsize 24
+                            count   1
+                            name    0x505a debugDescription
+                            types   0x5b5c @16@0:8
+                            imp     0x0
+                        optionalClassMethods 0x0
+                        instanceProperties 0x75b0 __OBJC_$_PROP_LIST_NSObject
+                            entsize    16
+                            count      4
+                            name       0x5144 hash
+                            attributes 0x4c8d TQ,R
+                            name       0x572a superclass
+                            attributes 0x4cab T#,R
+                            name       0x5074 description
+                            attributes 0x4cf7 T@"NSString",R,C
+                            name       0x505a debugDescription
+                            attributes 0x4c2e T@"NSString",?,R,C
+                instanceMethods 0x76b0 __OBJC_$_PROTOCOL_INSTANCE_METHODS_OASignatureProviding
+                    entsize 24
+                    count   2
+                    name    0x53b8 name
+                    types   0x5b5c @16@0:8
+                    imp     0x0
+                    name    0x5598 signClearText:withSecret:
+                    types   0x5b46 @32@0:8@16@24
+                    imp     0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+00000000000064b0 0x8940 _OBJC_CLASS_$_OAMutableURLRequest
+    isa        0x8968 _OBJC_METACLASS_$_OAMutableURLRequest
+    superclass 0x0 _OBJC_CLASS_$_NSMutableURLRequest
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x79a0 __OBJC_CLASS_RO_$_OAMutableURLRequest
+        flags          0x0
+        instanceStart  16
+        instanceSize   80
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x5a9d OAMutableURLRequest
+        baseMethods    0x49a0 __OBJC_$_INSTANCE_METHODS_OAMutableURLRequest
+            entsize 12 (relative)
+            count   11
+            name    0x3af8 (0x84a0) initWithURL:consumer:token:
+            types   0x12b9 (0x5c65) @40@0:8@16@24@32
+            imp     0xffffda4e (0x23fe) -[OAMutableURLRequest initWithURL:consumer:token:]
+            name    0x3af4 (0x84a8) initWithURL:consumer:token:realm:signatureProvider:
+            types   0x12be (0x5c76) @56@0:8@16@24@32@40@48
+            imp     0xffffda68 (0x2424) -[OAMutableURLRequest initWithURL:consumer:token:realm:signatureProvider:]
+            name    0x3af0 (0x84b0) initWithURL:consumer:token:realm:signatureProvider:nonce:timestamp:
+            types   0x12c9 (0x5c8d) @72@0:8@16@24@32@40@48@56@64
+            imp     0xffffdb83 (0x254b) -[OAMutableURLRequest initWithURL:consumer:token:realm:signatureProvider:nonce:timestamp:]
+            name    0x3a34 (0x8400) dealloc
+            types   0x1184 (0x5b54) v16@0:8
+            imp     0xffffdcae (0x2682) -[OAMutableURLRequest dealloc]
+            name    0x3b98 (0x8570) setOAuthParameterName:withValue:
+            types   0x12ce (0x5caa) v32@0:8@16@24
+            imp     0xffffdd40 (0x2720) -[OAMutableURLRequest setOAuthParameterName:withValue:]
+            name    0x3b24 (0x8508) prepare
+            types   0x116c (0x5b54) v16@0:8
+            imp     0xffffdd9e (0x278a) -[OAMutableURLRequest prepare]
+            name    0x3940 (0x8330) _generateTimestamp
+            types   0x1160 (0x5b54) v16@0:8
+            imp     0xffffe18b (0x2b83) -[OAMutableURLRequest _generateTimestamp]
+            name    0x392c (0x8328) _generateNonce
+            types   0x1154 (0x5b54) v16@0:8
+            imp     0xffffe1cc (0x2bd0) -[OAMutableURLRequest _generateNonce]
+            name    0x3930 (0x8338) _signatureBaseString
+            types   0x1150 (0x5b5c) @16@0:8
+            imp     0xffffe1ec (0x2bfc) -[OAMutableURLRequest _signatureBaseString]
+            name    0x3bac (0x85c0) signature
+            types   0x1144 (0x5b5c) @16@0:8
+            imp     0xffffe5d2 (0x2fee) -[OAMutableURLRequest signature]
+            name    0x3ac0 (0x84e0) nonce
+            types   0x1138 (0x5b5c) @16@0:8
+            imp     0xffffe5d7 (0x2fff) -[OAMutableURLRequest nonce]
+        baseProtocols  0x0
+        ivars          0x7870 __OBJC_$_INSTANCE_VARIABLES_OAMutableURLRequest
+            entsize   32
+            count     8
+            offset    0x8730 _OBJC_IVAR_$_OAMutableURLRequest.consumer 16
+            name      0x4fca consumer
+            type      0x5cb8 @"OAConsumer"
+            alignment 3
+            size      8
+            offset    0x8738 _OBJC_IVAR_$_OAMutableURLRequest.token 24
+            name      0x574b token
+            type      0x5cc6 @"OAToken"
+            alignment 3
+            size      8
+            offset    0x8740 _OBJC_IVAR_$_OAMutableURLRequest.realm 32
+            name      0x545c realm
+            type      0x5b6f @"NSString"
+            alignment 3
+            size      8
+            offset    0x8768 _OBJC_IVAR_$_OAMutableURLRequest.signature 40
+            name      0x55b2 signature
+            type      0x5b6f @"NSString"
+            alignment 3
+            size      8
+            offset    0x8748 _OBJC_IVAR_$_OAMutableURLRequest.signatureProvider 48
+            name      0x55bc signatureProvider
+            type      0x5cd1 @"<OASignatureProviding>"
+            alignment 3
+            size      8
+            offset    0x8758 _OBJC_IVAR_$_OAMutableURLRequest.nonce 56
+            name      0x53bd nonce
+            type      0x5b6f @"NSString"
+            alignment 3
+            size      8
+            offset    0x8750 _OBJC_IVAR_$_OAMutableURLRequest.timestamp 64
+            name      0x5741 timestamp
+            type      0x5b6f @"NSString"
+            alignment 3
+            size      8
+            offset    0x8760 _OBJC_IVAR_$_OAMutableURLRequest.extraOAuthParameters 72
+            name      0x50ee extraOAuthParameters
+            type      0x5ceb @"NSMutableDictionary"
+            alignment 3
+            size      8
+        weakIvarLayout 0x0
+        baseProperties 0x7978 __OBJC_$_PROP_LIST_OAMutableURLRequest
+            entsize    16
+            count      2
+            name       0x55b2 signature
+            attributes 0x4d10 T@"NSString",R,Vsignature
+            name       0x53bd nonce
+            attributes 0x4c49 T@"NSString",R,Vnonce
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSMutableURLRequest
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x7828 __OBJC_METACLASS_RO_$_OAMutableURLRequest
+        flags          0x1 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x5a9d OAMutableURLRequest
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+00000000000064b8 0x89b8 _OBJC_CLASS_$_OAPlaintextSignatureProvider
+    isa        0x8990 _OBJC_METACLASS_$_OAPlaintextSignatureProvider
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x7e08 __OBJC_CLASS_RO_$_OAPlaintextSignatureProvider
+        flags          0x0
+        instanceStart  8
+        instanceSize   8
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x5ac6 OAPlaintextSignatureProvider
+        baseMethods    0x4a30 __OBJC_$_INSTANCE_METHODS_OAPlaintextSignatureProvider
+            entsize 12 (relative)
+            count   2
+            name    0x3aa0 (0x84d8) name
+            types   0x1120 (0x5b5c) @16@0:8
+            imp     0xffffec81 (0x36c1) -[OAPlaintextSignatureProvider name]
+            name    0x3b74 (0x85b8) signClearText:withSecret:
+            types   0x10fe (0x5b46) @32@0:8@16@24
+            imp     0xffffec82 (0x36ce) -[OAPlaintextSignatureProvider signClearText:withSecret:]
+        baseProtocols  0x7d60 __OBJC_CLASS_PROTOCOLS_$_OAPlaintextSignatureProvider
+            count    1
+            list[0]  0x8b38 __OBJC_PROTOCOL_$_OASignatureProviding
+                isa       0x0
+                name      0x5a68 OASignatureProviding
+                protocols 0x7698 __OBJC_$_PROTOCOL_REFS_OASignatureProviding
+                    count    1
+                    list[0]  0x8ad8 __OBJC_PROTOCOL_$_NSObject
+                        isa       0x0
+                        name      0x5a7d NSObject
+                        protocols 0x0
+                        instanceMethods 0x73c0 __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+                            entsize 24
+                            count   19
+                            name    0x5377 isEqual:
+                            types   0x5b94 c24@0:8@16
+                            imp     0x0
+                            name    0x4eed class
+                            types   0x5b9f #16@0:8
+                            imp     0x0
+                            name    0x54a6 self
+                            types   0x5b5c @16@0:8
+                            imp     0x0
+                            name    0x53eb performSelector:
+                            types   0x5ba7 @24@0:8:16
+                            imp     0x0
+                            name    0x53fc performSelector:withObject:
+                            types   0x5bb2 @32@0:8:16@24
+                            imp     0x0
+                            name    0x5418 performSelector:withObject:withObject:
+                            types   0x5bc0 @40@0:8:16@24@32
+                            imp     0x0
+                            name    0x4c26 isProxy
+                            types   0x5bd1 c16@0:8
+                            imp     0x0
+                            name    0x5391 isKindOfClass:
+                            types   0x5bd9 c24@0:8#16
+                            imp     0x0
+                            name    0x53a0 isMemberOfClass:
+                            types   0x5bd9 c24@0:8#16
+                            imp     0x0
+                            name    0x4f38 conformsToProtocol:
+                            types   0x5b94 c24@0:8@16
+                            imp     0x0
+                            name    0x5462 respondsToSelector:
+                            types   0x5be4 c24@0:8:16
+                            imp     0x0
+                            name    0x548c retain
+                            types   0x5b5c @16@0:8
+                            imp     0x0
+                            name    0x4d08 release
+                            types   0x5bef Vv16@0:8
+                            imp     0x0
+                            name    0x4ed4 autorelease
+                            types   0x5b5c @16@0:8
+                            imp     0x0
+                            name    0x5493 retainCount
+                            types   0x5bf8 Q16@0:8
+                            imp     0x0
+                            name    0x5779 zone
+                            types   0x5c00 ^{_NSZone=}16@0:8
+                            imp     0x0
+                            name    0x5144 hash
+                            types   0x5bf8 Q16@0:8
+                            imp     0x0
+                            name    0x572a superclass
+                            types   0x5b9f #16@0:8
+                            imp     0x0
+                            name    0x5074 description
+                            types   0x5b5c @16@0:8
+                            imp     0x0
+                        classMethods 0x0
+                        optionalInstanceMethods 0x7590 __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+                            entsize 24
+                            count   1
+                            name    0x505a debugDescription
+                            types   0x5b5c @16@0:8
+                            imp     0x0
+                        optionalClassMethods 0x0
+                        instanceProperties 0x75b0 __OBJC_$_PROP_LIST_NSObject
+                            entsize    16
+                            count      4
+                            name       0x5144 hash
+                            attributes 0x4c8d TQ,R
+                            name       0x572a superclass
+                            attributes 0x4cab T#,R
+                            name       0x5074 description
+                            attributes 0x4cf7 T@"NSString",R,C
+                            name       0x505a debugDescription
+                            attributes 0x4c2e T@"NSString",?,R,C
+                instanceMethods 0x76b0 __OBJC_$_PROTOCOL_INSTANCE_METHODS_OASignatureProviding
+                    entsize 24
+                    count   2
+                    name    0x53b8 name
+                    types   0x5b5c @16@0:8
+                    imp     0x0
+                    name    0x5598 signClearText:withSecret:
+                    types   0x5b46 @32@0:8@16@24
+                    imp     0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x7dc0 __OBJC_$_PROP_LIST_OAPlaintextSignatureProvider
+            entsize    16
+            count      4
+            name       0x5144 hash
+            attributes 0x4c8d TQ,R
+            name       0x572a superclass
+            attributes 0x4cab T#,R
+            name       0x5074 description
+            attributes 0x4cf7 T@"NSString",R,C
+            name       0x505a debugDescription
+            attributes 0x4c2e T@"NSString",?,R,C
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x7d78 __OBJC_METACLASS_RO_$_OAPlaintextSignatureProvider
+        flags          0x1 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x5ac6 OAPlaintextSignatureProvider
+        baseMethods    0x0
+        baseProtocols  0x7d60 __OBJC_CLASS_PROTOCOLS_$_OAPlaintextSignatureProvider
+            count    1
+            list[0]  0x8b38 __OBJC_PROTOCOL_$_OASignatureProviding
+                isa       0x0
+                name      0x5a68 OASignatureProviding
+                protocols 0x7698 __OBJC_$_PROTOCOL_REFS_OASignatureProviding
+                    count    1
+                    list[0]  0x8ad8 __OBJC_PROTOCOL_$_NSObject
+                        isa       0x0
+                        name      0x5a7d NSObject
+                        protocols 0x0
+                        instanceMethods 0x73c0 __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+                            entsize 24
+                            count   19
+                            name    0x5377 isEqual:
+                            types   0x5b94 c24@0:8@16
+                            imp     0x0
+                            name    0x4eed class
+                            types   0x5b9f #16@0:8
+                            imp     0x0
+                            name    0x54a6 self
+                            types   0x5b5c @16@0:8
+                            imp     0x0
+                            name    0x53eb performSelector:
+                            types   0x5ba7 @24@0:8:16
+                            imp     0x0
+                            name    0x53fc performSelector:withObject:
+                            types   0x5bb2 @32@0:8:16@24
+                            imp     0x0
+                            name    0x5418 performSelector:withObject:withObject:
+                            types   0x5bc0 @40@0:8:16@24@32
+                            imp     0x0
+                            name    0x4c26 isProxy
+                            types   0x5bd1 c16@0:8
+                            imp     0x0
+                            name    0x5391 isKindOfClass:
+                            types   0x5bd9 c24@0:8#16
+                            imp     0x0
+                            name    0x53a0 isMemberOfClass:
+                            types   0x5bd9 c24@0:8#16
+                            imp     0x0
+                            name    0x4f38 conformsToProtocol:
+                            types   0x5b94 c24@0:8@16
+                            imp     0x0
+                            name    0x5462 respondsToSelector:
+                            types   0x5be4 c24@0:8:16
+                            imp     0x0
+                            name    0x548c retain
+                            types   0x5b5c @16@0:8
+                            imp     0x0
+                            name    0x4d08 release
+                            types   0x5bef Vv16@0:8
+                            imp     0x0
+                            name    0x4ed4 autorelease
+                            types   0x5b5c @16@0:8
+                            imp     0x0
+                            name    0x5493 retainCount
+                            types   0x5bf8 Q16@0:8
+                            imp     0x0
+                            name    0x5779 zone
+                            types   0x5c00 ^{_NSZone=}16@0:8
+                            imp     0x0
+                            name    0x5144 hash
+                            types   0x5bf8 Q16@0:8
+                            imp     0x0
+                            name    0x572a superclass
+                            types   0x5b9f #16@0:8
+                            imp     0x0
+                            name    0x5074 description
+                            types   0x5b5c @16@0:8
+                            imp     0x0
+                        classMethods 0x0
+                        optionalInstanceMethods 0x7590 __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+                            entsize 24
+                            count   1
+                            name    0x505a debugDescription
+                            types   0x5b5c @16@0:8
+                            imp     0x0
+                        optionalClassMethods 0x0
+                        instanceProperties 0x75b0 __OBJC_$_PROP_LIST_NSObject
+                            entsize    16
+                            count      4
+                            name       0x5144 hash
+                            attributes 0x4c8d TQ,R
+                            name       0x572a superclass
+                            attributes 0x4cab T#,R
+                            name       0x5074 description
+                            attributes 0x4cf7 T@"NSString",R,C
+                            name       0x505a debugDescription
+                            attributes 0x4c2e T@"NSString",?,R,C
+                instanceMethods 0x76b0 __OBJC_$_PROTOCOL_INSTANCE_METHODS_OASignatureProviding
+                    entsize 24
+                    count   2
+                    name    0x53b8 name
+                    types   0x5b5c @16@0:8
+                    imp     0x0
+                    name    0x5598 signClearText:withSecret:
+                    types   0x5b46 @32@0:8@16@24
+                    imp     0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+00000000000064c0 0x89e0 _OBJC_CLASS_$_OAServiceTicket
+    isa        0x8a08 _OBJC_METACLASS_$_OAServiceTicket
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x7f78 __OBJC_CLASS_RO_$_OAServiceTicket
+        flags          0x0
+        instanceStart  8
+        instanceSize   25
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x5af3 OAServiceTicket
+        baseMethods    0x4ac8 __OBJC_$_INSTANCE_METHODS_OAServiceTicket
+            entsize 12 (relative)
+            count   8
+            name    0x39b8 (0x8488) initWithRequest:response:didSucceed:
+            types   0x122e (0x5d02) @36@0:8@16@24c32
+            imp     0xffffec3f (0x3717) -[OAServiceTicket initWithRequest:response:didSucceed:]
+            name    0x3924 (0x8400) dealloc
+            types   0x1074 (0x5b54) v16@0:8
+            imp     0xffffecbf (0x37a3) -[OAServiceTicket dealloc]
+            name    0x3a38 (0x8520) request
+            types   0x1070 (0x5b5c) @16@0:8
+            imp     0xffffecfd (0x37ed) -[OAServiceTicket request]
+            name    0x3a94 (0x8588) setRequest:
+            types   0x106c (0x5b64) v24@0:8@16
+            imp     0xffffed05 (0x3801) -[OAServiceTicket setRequest:]
+            name    0x3a30 (0x8530) response
+            types   0x1058 (0x5b5c) @16@0:8
+            imp     0xffffed08 (0x3810) -[OAServiceTicket response]
+            name    0x3a84 (0x8590) setResponse:
+            types   0x1054 (0x5b64) v24@0:8@16
+            imp     0xffffed10 (0x3824) -[OAServiceTicket setResponse:]
+            name    0x3900 (0x8418) didSucceed
+            types   0x10b5 (0x5bd1) c16@0:8
+            imp     0xffffed13 (0x3833) -[OAServiceTicket didSucceed]
+            name    0x3a24 (0x8548) setDidSucceed:
+            types   0x11eb (0x5d13) v20@0:8c16
+            imp     0xffffed11 (0x383d) -[OAServiceTicket setDidSucceed:]
+        baseProtocols  0x0
+        ivars          0x7ed8 __OBJC_$_INSTANCE_VARIABLES_OAServiceTicket
+            entsize   32
+            count     3
+            offset    0x8770 _OBJC_IVAR_$_OAServiceTicket.request 8
+            name      0x4c5f request
+            type      0x5d1e @"OAMutableURLRequest"
+            alignment 3
+            size      8
+            offset    0x8778 _OBJC_IVAR_$_OAServiceTicket.response 16
+            name      0x5476 response
+            type      0x5d35 @"NSURLResponse"
+            alignment 3
+            size      8
+            offset    0x8780 _OBJC_IVAR_$_OAServiceTicket.didSucceed 24
+            name      0x50b7 didSucceed
+            type      0x5d46 c
+            alignment 0
+            size      1
+        weakIvarLayout 0x0
+        baseProperties 0x7f40 __OBJC_$_PROP_LIST_OAServiceTicket
+            entsize    16
+            count      3
+            name       0x4c5f request
+            attributes 0x4d4a T@"OAMutableURLRequest",&,Vrequest
+            name       0x5476 response
+            attributes 0x4c67 T@"NSURLResponse",&,Vresponse
+            name       0x50b7 didSucceed
+            attributes 0x4d75 Tc,VdidSucceed
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x7e90 __OBJC_METACLASS_RO_$_OAServiceTicket
+        flags          0x1 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x5af3 OAServiceTicket
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+00000000000064c8 0x8a58 _OBJC_CLASS_$_OADataFetcher
+    isa        0x8a30 _OBJC_METACLASS_$_OADataFetcher
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x8110 __OBJC_CLASS_RO_$_OADataFetcher
+        flags          0x0
+        instanceStart  8
+        instanceSize   72
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x5b03 OADataFetcher
+        baseMethods    0x4968 __OBJC_$_INSTANCE_METHODS_OADataFetcher
+            entsize 12 (relative)
+            count   1
+            name    0x3ac0 (0x8430) fetchDataWithRequest:delegate:didFinishSelector:didFailSelector:
+            types   0x13d4 (0x5d48) v48@0:8@16@24:32:40
+            imp     0xffffeece (0x3846) -[OADataFetcher fetchDataWithRequest:delegate:didFinishSelector:didFailSelector:]
+        baseProtocols  0x0
+        ivars          0x8008 __OBJC_$_INSTANCE_VARIABLES_OADataFetcher
+            entsize   32
+            count     8
+            offset    0x8788 _OBJC_IVAR_$_OADataFetcher.request 8
+            name      0x4c5f request
+            type      0x5d1e @"OAMutableURLRequest"
+            alignment 3
+            size      8
+            offset    0x8790 _OBJC_IVAR_$_OADataFetcher.response 16
+            name      0x5476 response
+            type      0x5d35 @"NSURLResponse"
+            alignment 3
+            size      8
+            offset    0x8798 _OBJC_IVAR_$_OADataFetcher.connection 24
+            name      0x4f4c connection
+            type      0x5d5c @"NSURLConnection"
+            alignment 3
+            size      8
+            offset    0x87a0 _OBJC_IVAR_$_OADataFetcher.error 32
+            name      0x50c9 error
+            type      0x5d6f @"NSError"
+            alignment 3
+            size      8
+            offset    0x87a8 _OBJC_IVAR_$_OADataFetcher.responseData 40
+            name      0x547f responseData
+            type      0x5d7a @"NSData"
+            alignment 3
+            size      8
+            offset    0x87b0 _OBJC_IVAR_$_OADataFetcher.delegate 48
+            name      0x506b delegate
+            type      0x5d84 @
+            alignment 3
+            size      8
+            offset    0x87b8 _OBJC_IVAR_$_OADataFetcher.didFinishSelector 56
+            name      0x50a5 didFinishSelector
+            type      0x5d86 :
+            alignment 3
+            size      8
+            offset    0x87c0 _OBJC_IVAR_$_OADataFetcher.didFailSelector 64
+            name      0x4bff didFailSelector
+            type      0x5d86 :
+            alignment 3
+            size      8
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x7fc0 __OBJC_METACLASS_RO_$_OADataFetcher
+        flags          0x1 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x5b03 OADataFetcher
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+00000000000064d0 0x8a80 _OBJC_CLASS_$_OAAsynchronousDataFetcher
+    isa        0x8aa8 _OBJC_METACLASS_$_OAAsynchronousDataFetcher
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x8288 __OBJC_CLASS_RO_$_OAAsynchronousDataFetcher
+        flags          0x0
+        instanceStart  8
+        instanceSize   64
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x5b11 OAAsynchronousDataFetcher
+        baseMethods    0x48b0 __OBJC_$_INSTANCE_METHODS_OAAsynchronousDataFetcher
+            entsize 12 (relative)
+            count   8
+            name    0x3bc8 (0x8480) initWithRequest:delegate:didFinishSelector:didFailSelector:
+            types   0x14cc (0x5d88) @48@0:8@16@24:32:40
+            imp     0xfffff206 (0x3ac6) -[OAAsynchronousDataFetcher initWithRequest:delegate:didFinishSelector:didFailSelector:]
+            name    0x3d14 (0x85d8) start
+            types   0x128c (0x5b54) v16@0:8
+            imp     0xfffff26b (0x3b37) -[OAAsynchronousDataFetcher start]
+            name    0x3ab8 (0x8388) cancel
+            types   0x1280 (0x5b54) v16@0:8
+            imp     0xfffff34a (0x3c22) -[OAAsynchronousDataFetcher cancel]
+            name    0x3b24 (0x8400) dealloc
+            types   0x1274 (0x5b54) v16@0:8
+            imp     0xfffff376 (0x3c5a) -[OAAsynchronousDataFetcher dealloc]
+            name    0x3ad8 (0x83c0) connection:didReceiveResponse:
+            types   0x13be (0x5caa) v32@0:8@16@24
+            imp     0xfffff3d7 (0x3cc7) -[OAAsynchronousDataFetcher connection:didReceiveResponse:]
+            name    0x3ac4 (0x83b8) connection:didReceiveData:
+            types   0x13b2 (0x5caa) v32@0:8@16@24
+            imp     0xfffff40b (0x3d07) -[OAAsynchronousDataFetcher connection:didReceiveData:]
+            name    0x3ab0 (0x83b0) connection:didFailWithError:
+            types   0x13a6 (0x5caa) v32@0:8@16@24
+            imp     0xfffff418 (0x3d20) -[OAAsynchronousDataFetcher connection:didFailWithError:]
+            name    0x3abc (0x83c8) connectionDidFinishLoading:
+            types   0x1254 (0x5b64) v24@0:8@16
+            imp     0xfffff474 (0x3d88) -[OAAsynchronousDataFetcher connectionDidFinishLoading:]
+        baseProtocols  0x0
+        ivars          0x81a0 __OBJC_$_INSTANCE_VARIABLES_OAAsynchronousDataFetcher
+            entsize   32
+            count     7
+            offset    0x87c8 _OBJC_IVAR_$_OAAsynchronousDataFetcher.request 8
+            name      0x4c5f request
+            type      0x5d1e @"OAMutableURLRequest"
+            alignment 3
+            size      8
+            offset    0x87d0 _OBJC_IVAR_$_OAAsynchronousDataFetcher.response 16
+            name      0x5476 response
+            type      0x5d35 @"NSURLResponse"
+            alignment 3
+            size      8
+            offset    0x87d8 _OBJC_IVAR_$_OAAsynchronousDataFetcher.connection 24
+            name      0x4f4c connection
+            type      0x5d5c @"NSURLConnection"
+            alignment 3
+            size      8
+            offset    0x87e0 _OBJC_IVAR_$_OAAsynchronousDataFetcher.responseData 32
+            name      0x547f responseData
+            type      0x5d9c @"NSMutableData"
+            alignment 3
+            size      8
+            offset    0x87e8 _OBJC_IVAR_$_OAAsynchronousDataFetcher.delegate 40
+            name      0x506b delegate
+            type      0x5d84 @
+            alignment 3
+            size      8
+            offset    0x87f0 _OBJC_IVAR_$_OAAsynchronousDataFetcher.didFinishSelector 48
+            name      0x50a5 didFinishSelector
+            type      0x5d86 :
+            alignment 3
+            size      8
+            offset    0x87f8 _OBJC_IVAR_$_OAAsynchronousDataFetcher.didFailSelector 56
+            name      0x4bff didFailSelector
+            type      0x5d86 :
+            alignment 3
+            size      8
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0x8158 __OBJC_METACLASS_RO_$_OAAsynchronousDataFetcher
+        flags          0x1 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0x5b11 OAAsynchronousDataFetcher
+        baseMethods    0x4880 __OBJC_$_CLASS_METHODS_OAAsynchronousDataFetcher
+            entsize 12 (relative)
+            count   1
+            name    0x3af0 (0x8378) asynchronousFetcherWithRequest:delegate:didFinishSelector:didFailSelector:
+            types   0x14fc (0x5d88) @48@0:8@16@24:32:40
+            imp     0xfffff1e7 (0x3a77) +[OAAsynchronousDataFetcher asynchronousFetcherWithRequest:delegate:didFinishSelector:didFailSelector:]
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Contents of (__DATA,__objc_classrefs) section
+0000000000008650 0x8800 _OBJC_CLASS_$_OARequestParameter
+0000000000008658 0x0 _OBJC_CLASS_$_NSString
+0000000000008660 0x0 _OBJC_CLASS_$_NSUserDefaults
+0000000000008668 0x0 _OBJC_CLASS_$_NSData
+0000000000008670 0x8850 _OBJC_CLASS_$_OAToken
+0000000000008678 0x8918 _OBJC_CLASS_$_OAHMAC_SHA1SignatureProvider
+0000000000008680 0x0 _OBJC_CLASS_$_NSMutableDictionary
+0000000000008688 0x0 _OBJC_CLASS_$_NSMutableString
+0000000000008690 0x0 _OBJC_CLASS_$_NSMutableArray
+0000000000008698 0x0 _OBJC_CLASS_$_NSURL
+00000000000086a0 0x0 _OBJC_CLASS_$_NSURLConnection
+00000000000086a8 0x89e0 _OBJC_CLASS_$_OAServiceTicket
+00000000000086b0 0x0 _OBJC_CLASS_$_NSError
+00000000000086b8 0x8a80 _OBJC_CLASS_$_OAAsynchronousDataFetcher
+00000000000086c0 0x0 _OBJC_CLASS_$_NSMutableData
+Contents of (__DATA,__objc_superrefs) section
+00000000000086c8 0x8800 _OBJC_CLASS_$_OARequestParameter
+00000000000086d0 0x8850 _OBJC_CLASS_$_OAToken
+00000000000086d8 0x88a0 _OBJC_CLASS_$_OAConsumer
+00000000000086e0 0x8940 _OBJC_CLASS_$_OAMutableURLRequest
+00000000000086e8 0x89e0 _OBJC_CLASS_$_OAServiceTicket
+00000000000086f0 0x8a80 _OBJC_CLASS_$_OAAsynchronousDataFetcher
+00000000000086f8 0x8850 _OBJC_CLASS_$_OAToken
+Contents of (__DATA_CONST,__objc_catlist) section
+00000000000064d8 0x77e8 __OBJC_$_CATEGORY_NSString_$_OAURLEncodingAdditions
+    name      0x5a86 OAURLEncodingAdditions
+    cls       0x0 _OBJC_CLASS_$_NSString
+    instanceMethods 0x4848 __OBJC_$_CATEGORY_INSTANCE_METHODS_NSString_$_OAURLEncodingAdditions
+        entsize 12 (relative)
+        count   2
+        name    0x3ab0 (0x8300) URLEncodedString
+        types   0x1308 (0x5b5c) @16@0:8
+        imp     0xffffdb31 (0x2389) -[NSString(OAURLEncodingAdditions) URLEncodedString]
+        name    0x3a8c (0x82e8) URLDecodedString
+        types   0x12fc (0x5b5c) @16@0:8
+        imp     0xffffdb61 (0x23c5) -[NSString(OAURLEncodingAdditions) URLDecodedString]
+    classMethods 0x0
+    protocols 0x0
+    instanceProperties 0x0
+00000000000064e0 0x79e8 __OBJC_$_CATEGORY_NSMutableURLRequest_$_OAParameterAdditions
+    name      0x5ab1 OAParameterAdditions
+    cls       0x0 _OBJC_CLASS_$_NSMutableURLRequest
+    instanceMethods 0x4828 __OBJC_$_CATEGORY_INSTANCE_METHODS_NSMutableURLRequest_$_OAParameterAdditions
+        entsize 12 (relative)
+        count   2
+        name    0x3cc8 (0x84f8) parameters
+        types   0x1328 (0x5b5c) @16@0:8
+        imp     0xffffe7d8 (0x3010) -[NSMutableURLRequest(OAParameterAdditions) parameters]
+        name    0x3d44 (0x8580) setParameters:
+        types   0x1324 (0x5b64) v24@0:8@16
+        imp     0xffffeb4a (0x338e) -[NSMutableURLRequest(OAParameterAdditions) setParameters:]
+    classMethods 0x0
+    protocols 0x0
+    instanceProperties 0x0
+00000000000064e8 0x7e50 __OBJC_$_CATEGORY_NSURL_$_OABaseAdditions
+    name      0x5ae3 OABaseAdditions
+    cls       0x0 _OBJC_CLASS_$_NSURL
+    instanceMethods 0x4868 __OBJC_$_CATEGORY_INSTANCE_METHODS_NSURL_$_OABaseAdditions
+        entsize 12 (relative)
+        count   1
+        name    0x3aa0 (0x8310) URLStringWithoutQuery
+        types   0x12e8 (0x5b5c) @16@0:8
+        imp     0xffffee5f (0x36d7) -[NSURL(OABaseAdditions) URLStringWithoutQuery]
+    classMethods 0x0
+    protocols 0x0
+    instanceProperties 0x0
+Contents of (__DATA_CONST,__objc_protolist) section
+00000000000064f0 0x8ad8 __OBJC_PROTOCOL_$_NSObject
+    isa       0x0
+    name      0x5a7d NSObject
+    protocols 0x0
+    instanceMethods 0x73c0 __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+        entsize 24
+        count   19
+        name    0x5377 isEqual:
+        types   0x5b94 c24@0:8@16
+        imp     0x0
+        name    0x4eed class
+        types   0x5b9f #16@0:8
+        imp     0x0
+        name    0x54a6 self
+        types   0x5b5c @16@0:8
+        imp     0x0
+        name    0x53eb performSelector:
+        types   0x5ba7 @24@0:8:16
+        imp     0x0
+        name    0x53fc performSelector:withObject:
+        types   0x5bb2 @32@0:8:16@24
+        imp     0x0
+        name    0x5418 performSelector:withObject:withObject:
+        types   0x5bc0 @40@0:8:16@24@32
+        imp     0x0
+        name    0x4c26 isProxy
+        types   0x5bd1 c16@0:8
+        imp     0x0
+        name    0x5391 isKindOfClass:
+        types   0x5bd9 c24@0:8#16
+        imp     0x0
+        name    0x53a0 isMemberOfClass:
+        types   0x5bd9 c24@0:8#16
+        imp     0x0
+        name    0x4f38 conformsToProtocol:
+        types   0x5b94 c24@0:8@16
+        imp     0x0
+        name    0x5462 respondsToSelector:
+        types   0x5be4 c24@0:8:16
+        imp     0x0
+        name    0x548c retain
+        types   0x5b5c @16@0:8
+        imp     0x0
+        name    0x4d08 release
+        types   0x5bef Vv16@0:8
+        imp     0x0
+        name    0x4ed4 autorelease
+        types   0x5b5c @16@0:8
+        imp     0x0
+        name    0x5493 retainCount
+        types   0x5bf8 Q16@0:8
+        imp     0x0
+        name    0x5779 zone
+        types   0x5c00 ^{_NSZone=}16@0:8
+        imp     0x0
+        name    0x5144 hash
+        types   0x5bf8 Q16@0:8
+        imp     0x0
+        name    0x572a superclass
+        types   0x5b9f #16@0:8
+        imp     0x0
+        name    0x5074 description
+        types   0x5b5c @16@0:8
+        imp     0x0
+    classMethods 0x0
+    optionalInstanceMethods 0x7590 __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+        entsize 24
+        count   1
+        name    0x505a debugDescription
+        types   0x5b5c @16@0:8
+        imp     0x0
+    optionalClassMethods 0x0
+    instanceProperties 0x75b0 __OBJC_$_PROP_LIST_NSObject
+        entsize    16
+        count      4
+        name       0x5144 hash
+        attributes 0x4c8d TQ,R
+        name       0x572a superclass
+        attributes 0x4cab T#,R
+        name       0x5074 description
+        attributes 0x4cf7 T@"NSString",R,C
+        name       0x505a debugDescription
+        attributes 0x4c2e T@"NSString",?,R,C
+00000000000064f8 0x8b38 __OBJC_PROTOCOL_$_OASignatureProviding
+    isa       0x0
+    name      0x5a68 OASignatureProviding
+    protocols 0x7698 __OBJC_$_PROTOCOL_REFS_OASignatureProviding
+        count    1
+        list[0]  0x8ad8 __OBJC_PROTOCOL_$_NSObject
+            isa       0x0
+            name      0x5a7d NSObject
+            protocols 0x0
+            instanceMethods 0x73c0 __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+                entsize 24
+                count   19
+                name    0x5377 isEqual:
+                types   0x5b94 c24@0:8@16
+                imp     0x0
+                name    0x4eed class
+                types   0x5b9f #16@0:8
+                imp     0x0
+                name    0x54a6 self
+                types   0x5b5c @16@0:8
+                imp     0x0
+                name    0x53eb performSelector:
+                types   0x5ba7 @24@0:8:16
+                imp     0x0
+                name    0x53fc performSelector:withObject:
+                types   0x5bb2 @32@0:8:16@24
+                imp     0x0
+                name    0x5418 performSelector:withObject:withObject:
+                types   0x5bc0 @40@0:8:16@24@32
+                imp     0x0
+                name    0x4c26 isProxy
+                types   0x5bd1 c16@0:8
+                imp     0x0
+                name    0x5391 isKindOfClass:
+                types   0x5bd9 c24@0:8#16
+                imp     0x0
+                name    0x53a0 isMemberOfClass:
+                types   0x5bd9 c24@0:8#16
+                imp     0x0
+                name    0x4f38 conformsToProtocol:
+                types   0x5b94 c24@0:8@16
+                imp     0x0
+                name    0x5462 respondsToSelector:
+                types   0x5be4 c24@0:8:16
+                imp     0x0
+                name    0x548c retain
+                types   0x5b5c @16@0:8
+                imp     0x0
+                name    0x4d08 release
+                types   0x5bef Vv16@0:8
+                imp     0x0
+                name    0x4ed4 autorelease
+                types   0x5b5c @16@0:8
+                imp     0x0
+                name    0x5493 retainCount
+                types   0x5bf8 Q16@0:8
+                imp     0x0
+                name    0x5779 zone
+                types   0x5c00 ^{_NSZone=}16@0:8
+                imp     0x0
+                name    0x5144 hash
+                types   0x5bf8 Q16@0:8
+                imp     0x0
+                name    0x572a superclass
+                types   0x5b9f #16@0:8
+                imp     0x0
+                name    0x5074 description
+                types   0x5b5c @16@0:8
+                imp     0x0
+            classMethods 0x0
+            optionalInstanceMethods 0x7590 __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+                entsize 24
+                count   1
+                name    0x505a debugDescription
+                types   0x5b5c @16@0:8
+                imp     0x0
+            optionalClassMethods 0x0
+            instanceProperties 0x75b0 __OBJC_$_PROP_LIST_NSObject
+                entsize    16
+                count      4
+                name       0x5144 hash
+                attributes 0x4c8d TQ,R
+                name       0x572a superclass
+                attributes 0x4cab T#,R
+                name       0x5074 description
+                attributes 0x4cf7 T@"NSString",R,C
+                name       0x505a debugDescription
+                attributes 0x4c2e T@"NSString",?,R,C
+    instanceMethods 0x76b0 __OBJC_$_PROTOCOL_INSTANCE_METHODS_OASignatureProviding
+        entsize 24
+        count   2
+        name    0x53b8 name
+        types   0x5b5c @16@0:8
+        imp     0x0
+        name    0x5598 signClearText:withSecret:
+        types   0x5b46 @32@0:8@16@24
+        imp     0x0
+    classMethods 0x0
+    optionalInstanceMethods 0x0
+    optionalClassMethods 0x0
+    instanceProperties 0x0
+Contents of (__DATA,__objc_selrefs) section
+    0x4c92 HTTPBody
+    0x4bd8 HTTPMethod
+    0x4bd4 URL
+    0x4d84 URLDecodedString
+    0x4d95 URLEncodedName
+    0x4da4 URLEncodedNameValuePair
+    0x4dbc URLEncodedString
+    0x4c9b URLEncodedValue
+    0x4dcd URLStringWithoutQuery
+    0x4de3 URLWithString:
+    0x4df2 UTF8String
+    0x4dfd _generateNonce
+    0x4e0c _generateTimestamp
+    0x4e1f _signatureBaseString
+    0x4e34 absoluteString
+    0x4e43 addObject:
+    0x4be3 allKeys
+    0x4e4e appendData:
+    0x4e5a appendFormat:
+    0x4e68 appendString:
+    0x4e76 arrayWithCapacity:
+    0x4e89 asynchronousFetcherWithRequest:delegate:didFinishSelector:didFailSelector:
+    0x4ee0 bytes
+    0x4ee6 cancel
+    0x4ef3 code
+    0x4ef8 compare:
+    0x4f01 componentsJoinedByString:
+    0x4f1b componentsSeparatedByString:
+    0x4f57 connection:didFailWithError:
+    0x4f74 connection:didReceiveData:
+    0x4f8f connection:didReceiveResponse:
+    0x4fae connectionDidFinishLoading:
+    0x4fd3 count
+    0x4fd9 countByEnumeratingWithState:objects:count:
+    0x5004 data
+    0x5009 dataUsingEncoding:
+    0x501c dataUsingEncoding:allowLossyConversion:
+    0x5044 dataWithBytes:length:
+    0x4cb0 dealloc
+    0x5080 dictionary
+    0x508b dictionaryWithDictionary:
+    0x50b7 didSucceed
+    0x50c2 domain
+    0x50cf errorWithDomain:code:userInfo:
+    0x5103 fetchDataWithRequest:delegate:didFinishSelector:didFailSelector:
+    0x5149 init
+    0x514e initWithBytes:length:encoding:
+    0x516d initWithCapacity:
+    0x517f initWithData:encoding:
+    0x5196 initWithHTTPResponseBody:
+    0x51b0 initWithKey:secret:
+    0x51c4 initWithKeychainUsingAppName:serviceProviderName:
+    0x51f6 initWithName:value:
+    0x520a initWithRequest:delegate:
+    0x5224 initWithRequest:delegate:didFinishSelector:didFailSelector:
+    0x5260 initWithRequest:response:didSucceed:
+    0x4ccd initWithString:
+    0x5285 initWithURL:cachePolicy:timeoutInterval:
+    0x52ae initWithURL:consumer:token:
+    0x52ca initWithURL:consumer:token:realm:signatureProvider:
+    0x52fe initWithURL:consumer:token:realm:signatureProvider:nonce:timestamp:
+    0x5342 initWithUserDefaultsUsingServiceProviderName:prefix:
+    0x5380 isEqualToString:
+    0x4cf3 key
+    0x53b1 length
+    0x53b8 name
+    0x53bd nonce
+    0x53c3 objectAtIndex:
+    0x53d2 objectForKey:
+    0x53e0 parameters
+    0x5418 performSelector:withObject:withObject:
+    0x4c41 prepare
+    0x543f query
+    0x5445 rangeOfString:options:
+    0x4c5f request
+    0x4d2a requestParameterWithName:value:
+    0x5476 response
+    0x549f secret
+    0x54ab sendSynchronousRequest:returningResponse:error:
+    0x54db setDidSucceed:
+    0x54ea setHTTPBody:
+    0x4c85 setKey:
+    0x54f7 setLength:
+    0x5502 setName:
+    0x550b setOAuthParameterName:withValue:
+    0x552c setObject:forKey:
+    0x553e setParameters:
+    0x554d setRequest:
+    0x5559 setResponse:
+    0x5566 setSecret:
+    0x4d6d setURL:
+    0x5571 setValue:
+    0x557b setValue:forHTTPHeaderField:
+    0x5598 signClearText:withSecret:
+    0x55b2 signature
+    0x55ce sortedArrayUsingSelector:
+    0x55e8 standardUserDefaults
+    0x55fd start
+    0x5603 statusCode
+    0x560e storeInDefaultKeychainWithAppName:serviceProviderName:
+    0x5645 storeInKeychain:appName:serviceProviderName:
+    0x5672 storeInUserDefaultsWithServiceProviderName:prefix:
+    0x56a5 string
+    0x56ac stringByReplacingPercentEscapesUsingEncoding:
+    0x56da stringForKey:
+    0x56e8 stringWithCString:encoding:
+    0x5704 stringWithCapacity:
+    0x5718 stringWithFormat:
+    0x5735 synchronize
+    0x5751 userInfo
+    0x575a value
+    0x5760 valueForHTTPHeaderField:
+Contents of (__DATA_CONST,__objc_imageinfo) section
+    version 0
+    flags   0x40

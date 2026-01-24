@@ -1,0 +1,78 @@
+EPO.BIN analysis
+Generated: Fri Jan 23 17:47:15 EST 2026
+
+file:
+/Users/parkerrex/Projects/garmin/docs/EPO.BIN: data
+
+size:
+-rwx------@ 1 parkerrex  staff    63K Jan 23 17:46 /Users/parkerrex/Projects/garmin/docs/EPO.BIN
+
+hexdump (first 256 bytes):
+00000000: 92 28 06 01 27 00 bc df 19 de 0c 3d bf 11 3c 09  .(..'......=..<.
+00000010: 10 32 b7 0b ef 21 0c 3d df 39 05 07 2c 15 c5 81  .2...!.=.9..,...
+00000020: 95 89 f1 00 14 be 20 ff b9 ad b8 07 1c 36 03 a6  ...... ......6..
+00000030: 59 e7 61 99 5a 24 03 20 22 34 9e ff 1c 00 00 10  Y.a.Z$. "4......
+00000040: 00 00 00 18 06 83 67 4a 92 28 06 02 a9 3e bc 49  ......gJ.(...>.I
+00000050: 8f 11 0c 3d 7c 3c 65 0a 61 07 11 0b bc 11 0c 3d  ...=|<e.a......=
+00000060: ec 04 fa 07 c6 be 0e 84 9d bd f1 00 04 6b fd 37  .............k.7
+00000070: 8d 4a bf 0f f2 e1 02 a6 61 dd c0 90 4d 86 48 20  .J......a...M.H 
+00000080: 46 8b 8f dd 1c 00 00 10 00 00 00 11 af 3a 8c 3b  F............:.;
+00000090: 92 28 06 03 ad 00 bc a3 65 fe 0c 3d b1 2c e7 03  .(......e..=.,..
+000000a0: f4 02 40 03 39 fe 0c 3d 79 2c 4f 07 6b 6e 9d 98  ..@.9..=y,O.kn..
+000000b0: 66 a4 f1 00 b2 1e 41 9a 49 5d 4f 04 ef 28 03 a6  f.....A.I]O..(..
+000000c0: b5 19 93 c1 1b 56 7e 2f ab 68 4d 31 1c 00 00 10  .....V~/.hM1....
+000000d0: 00 00 00 78 5f ac 93 b0 92 28 06 04 8c 3c bc 15  ...x_....(...<..
+000000e0: d3 71 0c 3d 2d 5c 64 f7 7a 7f 7d f5 04 8e 0c 3d  .q.=-\d.z.}....=
+000000f0: 9a 6e 17 07 91 3b 8f 85 9b d9 f1 00 7a 57 9c 1e  .n...;......zW..
+
+strings (printable, first 50):
+=|<e
+=y,O
+q=-\d
+=TN
+a=<J
+jG"
+N=A
+4^=X
+6`C g
+/n=
+~=9
+G p8c
+D>]JQC
+=rm!
+K<8/~
+tof6 
+!F8o4
+qF8C_
+qF8UP
+F8rF)
+q5/K
+F8{o
+EAF8wP
+%^F8
+C dFaT
+/nF8
+F.F8
+1G8J
+aG8iT
+AG89oD
+z<8/
+-^G8
+7^G8x
+nG8a
+unG8C
+P1D8
+CA/m
+rd~/ppJ1
+7w5/$
+_^fK
+iyMv!
+Ct;@
+COk'
+6 (v
+|*!8
+Ng5"
+tS0~h,
+v~/EUH1
+N/^F
+NUO9

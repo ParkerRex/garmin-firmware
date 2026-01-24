@@ -1,0 +1,689 @@
+/Applications/Garmin Express.app/Contents/Frameworks/FBLPromises.framework/FBLPromises (architecture x86_64):
+Contents of (__DATA_CONST,__objc_classlist) section
+000000000000cec8 0xd8c8 _OBJC_CLASS_$_FBLPromise
+    isa        0xd8f0 _OBJC_METACLASS_$_FBLPromise
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0xd2a8 __OBJC_CLASS_RO_$_FBLPromise
+        flags          0x184 RO_HAS_CXX_STRUCTORS
+        instanceStart  8
+        instanceSize   48
+        reserved       0x0
+        ivarLayout     0xb996
+        layout map     0x14 
+        name           0xb98b FBLPromise
+        baseMethods    0x9f60 __OBJC_$_INSTANCE_METHODS_FBLPromise(DotSyntaxAdditions|AllAdditions|DotSyntax_AllAdditions|AlwaysAdditions|DotSyntax_AlwaysAdditions|AnyAdditions|DotSyntax_AnyAdditions|AsyncAdditions|DotSyntax_AsyncAdditions|CatchAdditions|DotSyntax_CatchAdditions|DelayAdditions|DotSyntax_DelayAdditions|DoAdditions|DotSyntax_DoAdditions|RaceAdditions|DotSyntax_RaceAdditions|RecoverAdditions|DotSyntax_RecoverAdditions|ReduceAdditions|DotSyntax_ReduceAdditions|RetryAdditions|DotSyntax_RetryAdditions|TestingAdditions|ThenAdditions|DotSyntax_ThenAdditions|TimeoutAdditions|DotSyntax_TimeoutAdditions|ValidateAdditions|DotSyntax_ValidateAdditions|WrapAdditions|DotSyntax_WrapAdditions)
+            entsize 12 (relative)
+            count   47
+            name    0x3798 (0xd700) validate
+            types   0x1d43 (0xbcaf) @?16@0:8
+            imp     0xffffd500 (0x7470) -[FBLPromise(DotSyntax_ValidateAdditions) validate]
+            name    0x379c (0xd710) validateOn
+            types   0x1d37 (0xbcaf) @?16@0:8
+            imp     0xffffd55b (0x74d7) -[FBLPromise(DotSyntax_ValidateAdditions) validateOn]
+            name    0x3788 (0xd708) validate:
+            types   0x1d42 (0xbcc6) @24@0:8@?16
+            imp     0xffffd318 (0x72a0) -[FBLPromise(ValidateAdditions) validate:]
+            name    0x361c (0xd5a8) onQueue:validate:
+            types   0x1d42 (0xbcd2) @32@0:8@16@?24
+            imp     0xffffd399 (0x732d) -[FBLPromise(ValidateAdditions) onQueue:validate:]
+            name    0x3750 (0xd6e8) timeout
+            types   0x1d13 (0xbcaf) @?16@0:8
+            imp     0xffffd22f (0x71cf) -[FBLPromise(DotSyntax_TimeoutAdditions) timeout]
+            name    0x3754 (0xd6f8) timeoutOn
+            types   0x1d07 (0xbcaf) @?16@0:8
+            imp     0xffffd287 (0x7233) -[FBLPromise(DotSyntax_TimeoutAdditions) timeoutOn]
+            name    0x3740 (0xd6f0) timeout:
+            types   0x1d2d (0xbce1) @24@0:8d16
+            imp     0xffffcf21 (0x6ed9) -[FBLPromise(TimeoutAdditions) timeout:]
+            name    0x35e4 (0xd5a0) onQueue:timeout:
+            types   0x1d2c (0xbcec) @32@0:8@16d24
+            imp     0xffffcf85 (0x6f49) -[FBLPromise(TimeoutAdditions) onQueue:timeout:]
+            name    0x3700 (0xd6c8) then
+            types   0x1ce3 (0xbcaf) @?16@0:8
+            imp     0xffffce32 (0x6e02) -[FBLPromise(DotSyntax_ThenAdditions) then]
+            name    0x3704 (0xd6d8) thenOn
+            types   0x1cd7 (0xbcaf) @?16@0:8
+            imp     0xffffce8d (0x6e69) -[FBLPromise(DotSyntax_ThenAdditions) thenOn]
+            name    0x36f0 (0xd6d0) then:
+            types   0x1ce2 (0xbcc6) @24@0:8@?16
+            imp     0xffffcd78 (0x6d60) -[FBLPromise(ThenAdditions) then:]
+            name    0x35ac (0xd598) onQueue:then:
+            types   0x1ce2 (0xbcd2) @32@0:8@16@?24
+            imp     0xffffcdf9 (0x6ded) -[FBLPromise(ThenAdditions) onQueue:then:]
+            name    0x3658 (0xd650) reduce
+            types   0x1cb3 (0xbcaf) @?16@0:8
+            imp     0xffffc2e9 (0x62e9) -[FBLPromise(DotSyntax_ReduceAdditions) reduce]
+            name    0x365c (0xd660) reduceOn
+            types   0x1ca7 (0xbcaf) @?16@0:8
+            imp     0xffffc347 (0x6353) -[FBLPromise(DotSyntax_ReduceAdditions) reduceOn]
+            name    0x3648 (0xd658) reduce:combine:
+            types   0x1cbe (0xbcd2) @32@0:8@16@?24
+            imp     0xffffc002 (0x601a) -[FBLPromise(ReduceAdditions) reduce:combine:]
+            name    0x356c (0xd588) onQueue:reduce:combine:
+            types   0x1cda (0xbcfa) @40@0:8@16@24@?32
+            imp     0xffffc099 (0x60bd) -[FBLPromise(ReduceAdditions) onQueue:reduce:combine:]
+            name    0x3610 (0xd638) recover
+            types   0x1c83 (0xbcaf) @?16@0:8
+            imp     0xffffbf13 (0x5f43) -[FBLPromise(DotSyntax_RecoverAdditions) recover]
+            name    0x3614 (0xd648) recoverOn
+            types   0x1c77 (0xbcaf) @?16@0:8
+            imp     0xffffbf6e (0x5faa) -[FBLPromise(DotSyntax_RecoverAdditions) recoverOn]
+            name    0x3600 (0xd640) recover:
+            types   0x1c82 (0xbcc6) @24@0:8@?16
+            imp     0xffffbdb1 (0x5df9) -[FBLPromise(RecoverAdditions) recover:]
+            name    0x3534 (0xd580) onQueue:recover:
+            types   0x1c82 (0xbcd2) @32@0:8@16@?24
+            imp     0xffffbe32 (0x5e86) -[FBLPromise(RecoverAdditions) onQueue:recover:]
+            name    0x3410 (0xd468) delay
+            types   0x1c53 (0xbcaf) @?16@0:8
+            imp     0xffffb483 (0x54e3) -[FBLPromise(DotSyntax_DelayAdditions) delay]
+            name    0x3414 (0xd478) delayOn
+            types   0x1c47 (0xbcaf) @?16@0:8
+            imp     0xffffb4db (0x5547) -[FBLPromise(DotSyntax_DelayAdditions) delayOn]
+            name    0x3400 (0xd470) delay:
+            types   0x1c6d (0xbce1) @24@0:8d16
+            imp     0xffffb1bf (0x5237) -[FBLPromise(DelayAdditions) delay:]
+            name    0x34ec (0xd568) onQueue:delay:
+            types   0x1c6c (0xbcec) @32@0:8@16d24
+            imp     0xffffb223 (0x52a7) -[FBLPromise(DelayAdditions) onQueue:delay:]
+            name    0x3388 (0xd410) catch
+            types   0x1c23 (0xbcaf) @?16@0:8
+            imp     0xffffb0d0 (0x5160) -[FBLPromise(DotSyntax_CatchAdditions) catch]
+            name    0x338c (0xd420) catchOn
+            types   0x1c17 (0xbcaf) @?16@0:8
+            imp     0xffffb12b (0x51c7) -[FBLPromise(DotSyntax_CatchAdditions) catchOn]
+            name    0x3378 (0xd418) catch:
+            types   0x1c22 (0xbcc6) @24@0:8@?16
+            imp     0xffffaf51 (0x4ff9) -[FBLPromise(CatchAdditions) catch:]
+            name    0x34b4 (0xd560) onQueue:catch:
+            types   0x1c22 (0xbcd2) @32@0:8@16@?24
+            imp     0xffffafd2 (0x5086) -[FBLPromise(CatchAdditions) onQueue:catch:]
+            name    0x32f8 (0xd3b0) always
+            types   0x1bf3 (0xbcaf) @?16@0:8
+            imp     0xffff98f6 (0x39b6) -[FBLPromise(DotSyntax_AlwaysAdditions) always]
+            name    0x32fc (0xd3c0) alwaysOn
+            types   0x1be7 (0xbcaf) @?16@0:8
+            imp     0xffff9951 (0x3a1d) -[FBLPromise(DotSyntax_AlwaysAdditions) alwaysOn]
+            name    0x32e8 (0xd3b8) always:
+            types   0x1bf2 (0xbcc6) @24@0:8@?16
+            imp     0xffff9710 (0x37e8) -[FBLPromise(AlwaysAdditions) always:]
+            name    0x345c (0xd538) onQueue:always:
+            types   0x1bf2 (0xbcd2) @32@0:8@16@?24
+            imp     0xffff9791 (0x3875) -[FBLPromise(AlwaysAdditions) onQueue:always:]
+            name    0x33c0 (0xd4a8) fulfill:
+            types   0x1b4e (0xbc3a) v24@0:8@16
+            imp     0xffff7bb4 (0x1ca4) -[FBLPromise fulfill:]
+            name    0x3574 (0xd668) reject:
+            types   0x1b42 (0xbc3a) v24@0:8@16
+            imp     0xffff7dc5 (0x1ec1) -[FBLPromise reject:]
+            name    0x3380 (0xd480) description
+            types   0x1b2e (0xbc32) @16@0:8
+            imp     0xffff7fd2 (0x20da) -[FBLPromise description]
+            name    0x33ac (0xd4b8) initPending
+            types   0x1b22 (0xbc32) @16@0:8
+            imp     0xffff8110 (0x2224) -[FBLPromise initPending]
+            name    0x33b0 (0xd4c8) initWithResolution:
+            types   0x1b29 (0xbc45) @24@0:8@16
+            imp     0xffff8174 (0x2294) -[FBLPromise initWithResolution:]
+            name    0x3334 (0xd458) dealloc
+            types   0x1b02 (0xbc2a) v16@0:8
+            imp     0xffff8203 (0x232f) -[FBLPromise dealloc]
+            name    0x33b0 (0xd4e0) isPending
+            types   0x1b1c (0xbc50) c16@0:8
+            imp     0xffff8263 (0x239b) -[FBLPromise isPending]
+            name    0x339c (0xd4d8) isFulfilled
+            types   0x1b10 (0xbc50) c16@0:8
+            imp     0xffff8294 (0x23d8) -[FBLPromise isFulfilled]
+            name    0x33a0 (0xd4e8) isRejected
+            types   0x1b04 (0xbc50) c16@0:8
+            imp     0xffff82c5 (0x2415) -[FBLPromise isRejected]
+            name    0x35c4 (0xd718) value
+            types   0x1ada (0xbc32) @16@0:8
+            imp     0xffff82f6 (0x2452) -[FBLPromise value]
+            name    0x3340 (0xd4a0) error
+            types   0x1ace (0xbc32) @16@0:8
+            imp     0xffff832d (0x2495) -[FBLPromise error]
+            name    0x3224 (0xd390) addPendingObject:
+            types   0x1aca (0xbc3a) v24@0:8@16
+            imp     0xffff8364 (0x24d8) -[FBLPromise addPendingObject:]
+            name    0x33b0 (0xd528) observeOnQueue:fulfill:reject:
+            types   0x1adc (0xbc58) v40@0:8@16@?24@?32
+            imp     0xffff83fe (0x257e) -[FBLPromise observeOnQueue:fulfill:reject:]
+            name    0x32a4 (0xd428) chainOnQueue:chainedFulfill:chainedReject:
+            types   0x1ae3 (0xbc6b) @40@0:8@16@?24@?32
+            imp     0xffff886d (0x29f9) -[FBLPromise chainOnQueue:chainedFulfill:chainedReject:]
+            name    0x31f0 (0xd380) .cxx_destruct
+            types   0x1a96 (0xbc2a) v16@0:8
+            imp     0xffff8d33 (0x2ecb) -[FBLPromise .cxx_destruct]
+        baseProtocols  0x0
+        ivars          0xd200 __OBJC_$_INSTANCE_VARIABLES_FBLPromise
+            entsize   32
+            count     5
+            offset    0xd8a0 _OBJC_IVAR_$_FBLPromise._state 8
+            name      0xa42e _state
+            type      0xbc7e q
+            alignment 3
+            size      8
+            offset    0xd8a8 _OBJC_IVAR_$_FBLPromise._pendingObjects 16
+            name      0xa2cc _pendingObjects
+            type      0xbc80 @"NSMutableSet"
+            alignment 3
+            size      8
+            offset    0xd8b0 _OBJC_IVAR_$_FBLPromise._value 24
+            name      0xa34c _value
+            type      0xbc90 @
+            alignment 3
+            size      8
+            offset    0xd8b8 _OBJC_IVAR_$_FBLPromise._error 32
+            name      0xa41f _error
+            type      0xbc92 @"NSError"
+            alignment 3
+            size      8
+            offset    0xd8c0 _OBJC_IVAR_$_FBLPromise._observers 40
+            name      0xa339 _observers
+            type      0xbc9d @"NSMutableArray"
+            alignment 3
+            size      8
+        weakIvarLayout 0x0
+        baseProperties 0xd138
+            entsize    16
+            count      5
+            name       0xa60d isPending
+            attributes 0xa320 Tc,R,D,N
+            name       0xa601 isFulfilled
+            attributes 0xa320 Tc,R,D,N
+            name       0xa617 isRejected
+            attributes 0xa320 Tc,R,D,N
+            name       0xaa5d value
+            attributes 0xa3f6 T@,R,D,N
+            name       0xa5a4 error
+            attributes 0xa2dc T@"NSError",R,D,N
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0xd1b8 __OBJC_METACLASS_RO_$_FBLPromise
+        flags          0x185 RO_META RO_HAS_CXX_STRUCTORS
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0xb98b FBLPromise
+        baseMethods    0x9b50 __OBJC_$_CLASS_METHODS_FBLPromise(DotSyntaxAdditions|AllAdditions|DotSyntax_AllAdditions|AlwaysAdditions|DotSyntax_AlwaysAdditions|AnyAdditions|DotSyntax_AnyAdditions|AsyncAdditions|DotSyntax_AsyncAdditions|CatchAdditions|DotSyntax_CatchAdditions|DelayAdditions|DotSyntax_DelayAdditions|DoAdditions|DotSyntax_DoAdditions|RaceAdditions|DotSyntax_RaceAdditions|RecoverAdditions|DotSyntax_RecoverAdditions|ReduceAdditions|DotSyntax_ReduceAdditions|RetryAdditions|DotSyntax_RetryAdditions|TestingAdditions|ThenAdditions|DotSyntax_ThenAdditions|TimeoutAdditions|DotSyntax_TimeoutAdditions|ValidateAdditions|DotSyntax_ValidateAdditions|WrapAdditions|DotSyntax_WrapAdditions)
+            entsize 12 (relative)
+            count   86
+            name    0x3c18 (0xd770) wrapCompletion
+            types   0x2153 (0xbcaf) @?16@0:8
+            imp     0xfffff35c (0x8ebc) +[FBLPromise(DotSyntax_WrapAdditions) wrapCompletion]
+            name    0x3c1c (0xd780) wrapCompletionOn
+            types   0x2147 (0xbcaf) @?16@0:8
+            imp     0xfffff3b7 (0x8f23) +[FBLPromise(DotSyntax_WrapAdditions) wrapCompletionOn]
+            name    0x3ca8 (0xd818) wrapObjectCompletion
+            types   0x213b (0xbcaf) @?16@0:8
+            imp     0xfffff415 (0x8f8d) +[FBLPromise(DotSyntax_WrapAdditions) wrapObjectCompletion]
+            name    0x3cac (0xd828) wrapObjectCompletionOn
+            types   0x212f (0xbcaf) @?16@0:8
+            imp     0xfffff470 (0x8ff4) +[FBLPromise(DotSyntax_WrapAdditions) wrapObjectCompletionOn]
+            name    0x3c30 (0xd7b8) wrapErrorCompletion
+            types   0x2123 (0xbcaf) @?16@0:8
+            imp     0xfffff4ce (0x905e) +[FBLPromise(DotSyntax_WrapAdditions) wrapErrorCompletion]
+            name    0x3c34 (0xd7c8) wrapErrorCompletionOn
+            types   0x2117 (0xbcaf) @?16@0:8
+            imp     0xfffff529 (0x90c5) +[FBLPromise(DotSyntax_WrapAdditions) wrapErrorCompletionOn]
+            name    0x3c90 (0xd830) wrapObjectOrErrorCompletion
+            types   0x210b (0xbcaf) @?16@0:8
+            imp     0xfffff587 (0x912f) +[FBLPromise(DotSyntax_WrapAdditions) wrapObjectOrErrorCompletion]
+            name    0x3c94 (0xd840) wrapObjectOrErrorCompletionOn
+            types   0x20ff (0xbcaf) @?16@0:8
+            imp     0xfffff5e2 (0x9196) +[FBLPromise(DotSyntax_WrapAdditions) wrapObjectOrErrorCompletionOn]
+            name    0x3c18 (0xd7d0) wrapErrorOrObjectCompletion
+            types   0x20f3 (0xbcaf) @?16@0:8
+            imp     0xfffff640 (0x9200) +[FBLPromise(DotSyntax_WrapAdditions) wrapErrorOrObjectCompletion]
+            name    0x3c1c (0xd7e0) wrapErrorOrObjectCompletionOn
+            types   0x20e7 (0xbcaf) @?16@0:8
+            imp     0xfffff69b (0x9267) +[FBLPromise(DotSyntax_WrapAdditions) wrapErrorOrObjectCompletionOn]
+            name    0x3b58 (0xd728) wrap2ObjectsOrErrorCompletion
+            types   0x20db (0xbcaf) @?16@0:8
+            imp     0xfffff6f9 (0x92d1) +[FBLPromise(DotSyntax_WrapAdditions) wrap2ObjectsOrErrorCompletion]
+            name    0x3b5c (0xd738) wrap2ObjectsOrErrorCompletionOn
+            types   0x20cf (0xbcaf) @?16@0:8
+            imp     0xfffff754 (0x9338) +[FBLPromise(DotSyntax_WrapAdditions) wrap2ObjectsOrErrorCompletionOn]
+            name    0x3b58 (0xd740) wrapBoolCompletion
+            types   0x20c3 (0xbcaf) @?16@0:8
+            imp     0xfffff7b2 (0x93a2) +[FBLPromise(DotSyntax_WrapAdditions) wrapBoolCompletion]
+            name    0x3b5c (0xd750) wrapBoolCompletionOn
+            types   0x20b7 (0xbcaf) @?16@0:8
+            imp     0xfffff80d (0x9409) +[FBLPromise(DotSyntax_WrapAdditions) wrapBoolCompletionOn]
+            name    0x3b58 (0xd758) wrapBoolOrErrorCompletion
+            types   0x20ab (0xbcaf) @?16@0:8
+            imp     0xfffff86b (0x9473) +[FBLPromise(DotSyntax_WrapAdditions) wrapBoolOrErrorCompletion]
+            name    0x3b5c (0xd768) wrapBoolOrErrorCompletionOn
+            types   0x209f (0xbcaf) @?16@0:8
+            imp     0xfffff8c6 (0x94da) +[FBLPromise(DotSyntax_WrapAdditions) wrapBoolOrErrorCompletionOn]
+            name    0x3bd0 (0xd7e8) wrapIntegerCompletion
+            types   0x2093 (0xbcaf) @?16@0:8
+            imp     0xfffff924 (0x9544) +[FBLPromise(DotSyntax_WrapAdditions) wrapIntegerCompletion]
+            name    0x3bd4 (0xd7f8) wrapIntegerCompletionOn
+            types   0x2087 (0xbcaf) @?16@0:8
+            imp     0xfffff97f (0x95ab) +[FBLPromise(DotSyntax_WrapAdditions) wrapIntegerCompletionOn]
+            name    0x3bd0 (0xd800) wrapIntegerOrErrorCompletion
+            types   0x207b (0xbcaf) @?16@0:8
+            imp     0xfffff9dd (0x9615) +[FBLPromise(DotSyntax_WrapAdditions) wrapIntegerOrErrorCompletion]
+            name    0x3bd4 (0xd810) wrapIntegerOrErrorCompletionOn
+            types   0x206f (0xbcaf) @?16@0:8
+            imp     0xfffffa38 (0x967c) +[FBLPromise(DotSyntax_WrapAdditions) wrapIntegerOrErrorCompletionOn]
+            name    0x3b40 (0xd788) wrapDoubleCompletion
+            types   0x2063 (0xbcaf) @?16@0:8
+            imp     0xfffffa96 (0x96e6) +[FBLPromise(DotSyntax_WrapAdditions) wrapDoubleCompletion]
+            name    0x3b44 (0xd798) wrapDoubleCompletionOn
+            types   0x2057 (0xbcaf) @?16@0:8
+            imp     0xfffffaf1 (0x974d) +[FBLPromise(DotSyntax_WrapAdditions) wrapDoubleCompletionOn]
+            name    0x3b40 (0xd7a0) wrapDoubleOrErrorCompletion
+            types   0x204b (0xbcaf) @?16@0:8
+            imp     0xfffffb4f (0x97b7) +[FBLPromise(DotSyntax_WrapAdditions) wrapDoubleOrErrorCompletion]
+            name    0x3b44 (0xd7b0) wrapDoubleOrErrorCompletionOn
+            types   0x203f (0xbcaf) @?16@0:8
+            imp     0xfffffbaa (0x981e) +[FBLPromise(DotSyntax_WrapAdditions) wrapDoubleOrErrorCompletionOn]
+            name    0x3b00 (0xd778) wrapCompletion:
+            types   0x204a (0xbcc6) @24@0:8@?16
+            imp     0xffffd8c7 (0x7547) +[FBLPromise(WrapAdditions) wrapCompletion:]
+            name    0x3944 (0xd5c8) onQueue:wrapCompletion:
+            types   0x204a (0xbcd2) @32@0:8@16@?24
+            imp     0xffffd938 (0x75c4) +[FBLPromise(WrapAdditions) onQueue:wrapCompletion:]
+            name    0x3b90 (0xd820) wrapObjectCompletion:
+            types   0x2032 (0xbcc6) @24@0:8@?16
+            imp     0xffffda72 (0x770a) +[FBLPromise(WrapAdditions) wrapObjectCompletion:]
+            name    0x3964 (0xd600) onQueue:wrapObjectCompletion:
+            types   0x2032 (0xbcd2) @32@0:8@16@?24
+            imp     0xffffdae3 (0x7787) +[FBLPromise(WrapAdditions) onQueue:wrapObjectCompletion:]
+            name    0x3b18 (0xd7c0) wrapErrorCompletion:
+            types   0x201a (0xbcc6) @24@0:8@?16
+            imp     0xffffdc1b (0x78cb) +[FBLPromise(WrapAdditions) wrapErrorCompletion:]
+            name    0x392c (0xd5e0) onQueue:wrapErrorCompletion:
+            types   0x201a (0xbcd2) @32@0:8@16@?24
+            imp     0xffffdc8c (0x7948) +[FBLPromise(WrapAdditions) onQueue:wrapErrorCompletion:]
+            name    0x3b78 (0xd838) wrapObjectOrErrorCompletion:
+            types   0x2002 (0xbcc6) @24@0:8@?16
+            imp     0xffffde0b (0x7ad3) +[FBLPromise(WrapAdditions) wrapObjectOrErrorCompletion:]
+            name    0x393c (0xd608) onQueue:wrapObjectOrErrorCompletion:
+            types   0x2002 (0xbcd2) @32@0:8@16@?24
+            imp     0xffffde7c (0x7b50) +[FBLPromise(WrapAdditions) onQueue:wrapObjectOrErrorCompletion:]
+            name    0x3b00 (0xd7d8) wrapErrorOrObjectCompletion:
+            types   0x1fea (0xbcc6) @24@0:8@?16
+            imp     0xffffdffc (0x7cdc) +[FBLPromise(WrapAdditions) wrapErrorOrObjectCompletion:]
+            name    0x3904 (0xd5e8) onQueue:wrapErrorOrObjectCompletion:
+            types   0x1fea (0xbcd2) @32@0:8@16@?24
+            imp     0xffffe06d (0x7d59) +[FBLPromise(WrapAdditions) onQueue:wrapErrorOrObjectCompletion:]
+            name    0x3a40 (0xd730) wrap2ObjectsOrErrorCompletion:
+            types   0x1fd2 (0xbcc6) @24@0:8@?16
+            imp     0xffffe1ed (0x7ee5) +[FBLPromise(WrapAdditions) wrap2ObjectsOrErrorCompletion:]
+            name    0x38b4 (0xd5b0) onQueue:wrap2ObjectsOrErrorCompletion:
+            types   0x1fd2 (0xbcd2) @32@0:8@16@?24
+            imp     0xffffe25e (0x7f62) +[FBLPromise(WrapAdditions) onQueue:wrap2ObjectsOrErrorCompletion:]
+            name    0x3a40 (0xd748) wrapBoolCompletion:
+            types   0x1fba (0xbcc6) @24@0:8@?16
+            imp     0xffffe510 (0x8220) +[FBLPromise(WrapAdditions) wrapBoolCompletion:]
+            name    0x38a4 (0xd5b8) onQueue:wrapBoolCompletion:
+            types   0x1fba (0xbcd2) @32@0:8@16@?24
+            imp     0xffffe581 (0x829d) +[FBLPromise(WrapAdditions) onQueue:wrapBoolCompletion:]
+            name    0x3a40 (0xd760) wrapBoolOrErrorCompletion:
+            types   0x1fa2 (0xbcc6) @24@0:8@?16
+            imp     0xffffe6ec (0x8414) +[FBLPromise(WrapAdditions) wrapBoolOrErrorCompletion:]
+            name    0x3894 (0xd5c0) onQueue:wrapBoolOrErrorCompletion:
+            types   0x1fa2 (0xbcd2) @32@0:8@16@?24
+            imp     0xffffe75d (0x8491) +[FBLPromise(WrapAdditions) onQueue:wrapBoolOrErrorCompletion:]
+            name    0x3ab8 (0xd7f0) wrapIntegerCompletion:
+            types   0x1f8a (0xbcc6) @24@0:8@?16
+            imp     0xffffe918 (0x8658) +[FBLPromise(WrapAdditions) wrapIntegerCompletion:]
+            name    0x38ac (0xd5f0) onQueue:wrapIntegerCompletion:
+            types   0x1f8a (0xbcd2) @32@0:8@16@?24
+            imp     0xffffe989 (0x86d5) +[FBLPromise(WrapAdditions) onQueue:wrapIntegerCompletion:]
+            name    0x3ab8 (0xd808) wrapIntegerOrErrorCompletion:
+            types   0x1f72 (0xbcc6) @24@0:8@?16
+            imp     0xffffeaf5 (0x884d) +[FBLPromise(WrapAdditions) wrapIntegerOrErrorCompletion:]
+            name    0x389c (0xd5f8) onQueue:wrapIntegerOrErrorCompletion:
+            types   0x1f72 (0xbcd2) @32@0:8@16@?24
+            imp     0xffffeb66 (0x88ca) +[FBLPromise(WrapAdditions) onQueue:wrapIntegerOrErrorCompletion:]
+            name    0x3a28 (0xd790) wrapDoubleCompletion:
+            types   0x1f5a (0xbcc6) @24@0:8@?16
+            imp     0xffffed20 (0x8a90) +[FBLPromise(WrapAdditions) wrapDoubleCompletion:]
+            name    0x385c (0xd5d0) onQueue:wrapDoubleCompletion:
+            types   0x1f5a (0xbcd2) @32@0:8@16@?24
+            imp     0xffffed91 (0x8b0d) +[FBLPromise(WrapAdditions) onQueue:wrapDoubleCompletion:]
+            name    0x3a28 (0xd7a8) wrapDoubleOrErrorCompletion:
+            types   0x1f42 (0xbcc6) @24@0:8@?16
+            imp     0xffffeefa (0x8c82) +[FBLPromise(WrapAdditions) wrapDoubleOrErrorCompletion:]
+            name    0x384c (0xd5d8) onQueue:wrapDoubleOrErrorCompletion:
+            types   0x1f42 (0xbcd2) @32@0:8@16@?24
+            imp     0xffffef6b (0x8cff) +[FBLPromise(WrapAdditions) onQueue:wrapDoubleOrErrorCompletion:]
+            name    0x36f0 (0xd488) dispatchGroup
+            types   0x1e96 (0xbc32) @16@0:8
+            imp     0xffffcf6c (0x6d0c) +[FBLPromise(TestingAdditions) dispatchGroup]
+            name    0x38e4 (0xd688) retry
+            types   0x1f07 (0xbcaf) @?16@0:8
+            imp     0xffffca4b (0x67f7) +[FBLPromise(DotSyntax_RetryAdditions) retry]
+            name    0x38f8 (0xd6a8) retryOn
+            types   0x1efb (0xbcaf) @?16@0:8
+            imp     0xffffcaa6 (0x685e) +[FBLPromise(DotSyntax_RetryAdditions) retryOn]
+            name    0x38dc (0xd698) retryAgain
+            types   0x1eef (0xbcaf) @?16@0:8
+            imp     0xffffcb04 (0x68c8) +[FBLPromise(DotSyntax_RetryAdditions) retryAgain]
+            name    0x38d8 (0xd6a0) retryAgainOn
+            types   0x1ee3 (0xbcaf) @?16@0:8
+            imp     0xffffcb65 (0x6935) +[FBLPromise(DotSyntax_RetryAdditions) retryAgainOn]
+            name    0x38bc (0xd690) retry:
+            types   0x1eee (0xbcc6) @24@0:8@?16
+            imp     0xffffc5ea (0x63c6) +[FBLPromise(RetryAdditions) retry:]
+            name    0x37b0 (0xd590) onQueue:retry:
+            types   0x1eee (0xbcd2) @32@0:8@16@?24
+            imp     0xffffc66b (0x6453) +[FBLPromise(RetryAdditions) onQueue:retry:]
+            name    0x361c (0xd408) attempts:retry:
+            types   0x1f1c (0xbd0c) @32@0:8q16@?24
+            imp     0xffffc679 (0x646d) +[FBLPromise(RetryAdditions) attempts:retry:]
+            name    0x3760 (0xd558) onQueue:attempts:retry:
+            types   0x1f1f (0xbd1b) @40@0:8@16q24@?32
+            imp     0xffffc6fd (0x64fd) +[FBLPromise(RetryAdditions) onQueue:attempts:retry:]
+            name    0x35fc (0xd400) attempts:delay:condition:retry:
+            types   0x1f25 (0xbd2d) @48@0:8q16d24@?32@?40
+            imp     0xffffc714 (0x6520) +[FBLPromise(RetryAdditions) attempts:delay:condition:retry:]
+            name    0x3740 (0xd550) onQueue:attempts:delay:condition:retry:
+            types   0x1f2f (0xbd43) @56@0:8@16q24d32@?40@?48
+            imp     0xffffc7c0 (0x65d8) +[FBLPromise(RetryAdditions) onQueue:attempts:delay:condition:retry:]
+            name    0x3804 (0xd620) race
+            types   0x1e8f (0xbcaf) @?16@0:8
+            imp     0xffffbefe (0x5d22) +[FBLPromise(DotSyntax_RaceAdditions) race]
+            name    0x3808 (0xd630) raceOn
+            types   0x1e83 (0xbcaf) @?16@0:8
+            imp     0xffffbf59 (0x5d89) +[FBLPromise(DotSyntax_RaceAdditions) raceOn]
+            name    0x37f4 (0xd628) race:
+            types   0x1e0d (0xbc45) @24@0:8@16
+            imp     0xffffbaef (0x592b) +[FBLPromise(RaceAdditions) race:]
+            name    0x3738 (0xd578) onQueue:race:
+            types   0x1e74 (0xbcb8) @32@0:8@16@24
+            imp     0xffffbb60 (0x59a8) +[FBLPromise(RaceAdditions) onQueue:race:]
+            name    0x364c (0xd498) doOn
+            types   0x1e5f (0xbcaf) @?16@0:8
+            imp     0xffffba67 (0x58bb) +[FBLPromise(DotSyntax_DoAdditions) doOn]
+            name    0x3638 (0xd490) do:
+            types   0x1e6a (0xbcc6) @24@0:8@?16
+            imp     0xffffb754 (0x55b4) +[FBLPromise(DoAdditions) do:]
+            name    0x370c (0xd570) onQueue:do:
+            types   0x1e6a (0xbcd2) @32@0:8@16@?24
+            imp     0xffffb7c5 (0x5631) +[FBLPromise(DoAdditions) onQueue:do:]
+            name    0x3578 (0xd3e8) async
+            types   0x1e3b (0xbcaf) @?16@0:8
+            imp     0xffffad1a (0x4b92) +[FBLPromise(DotSyntax_AsyncAdditions) async]
+            name    0x357c (0xd3f8) asyncOn
+            types   0x1e2f (0xbcaf) @?16@0:8
+            imp     0xffffad75 (0x4bf9) +[FBLPromise(DotSyntax_AsyncAdditions) asyncOn]
+            name    0x3568 (0xd3f0) async:
+            types   0x1e3a (0xbcc6) @24@0:8@?16
+            imp     0xffffa8c9 (0x4759) +[FBLPromise(AsyncAdditions) async:]
+            name    0x36b4 (0xd548) onQueue:async:
+            types   0x1e3a (0xbcd2) @32@0:8@16@?24
+            imp     0xffffa93a (0x47d6) +[FBLPromise(AsyncAdditions) onQueue:async:]
+            name    0x3528 (0xd3c8) any
+            types   0x1e0b (0xbcaf) @?16@0:8
+            imp     0xffffa7da (0x4682) +[FBLPromise(DotSyntax_AnyAdditions) any]
+            name    0x352c (0xd3d8) anyOn
+            types   0x1dff (0xbcaf) @?16@0:8
+            imp     0xffffa835 (0x46e9) +[FBLPromise(DotSyntax_AnyAdditions) anyOn]
+            name    0x3518 (0xd3d0) any:
+            types   0x1d89 (0xbc45) @24@0:8@16
+            imp     0xffff9bcd (0x3a8d) +[FBLPromise(AnyAdditions) any:]
+            name    0x367c (0xd540) onQueue:any:
+            types   0x1df0 (0xbcb8) @32@0:8@16@24
+            imp     0xffff9c4e (0x3b1a) +[FBLPromise(AnyAdditions) onQueue:any:]
+            name    0x34c8 (0xd398) all
+            types   0x1ddb (0xbcaf) @?16@0:8
+            imp     0xffff9839 (0x3711) +[FBLPromise(DotSyntax_AllAdditions) all]
+            name    0x34cc (0xd3a8) allOn
+            types   0x1dcf (0xbcaf) @?16@0:8
+            imp     0xffff9894 (0x3778) +[FBLPromise(DotSyntax_AllAdditions) allOn]
+            name    0x34b8 (0xd3a0) all:
+            types   0x1d59 (0xbc45) @24@0:8@16
+            imp     0xffff90e4 (0x2fd4) +[FBLPromise(AllAdditions) all:]
+            name    0x363c (0xd530) onQueue:all:
+            types   0x1dc0 (0xbcb8) @32@0:8@16@24
+            imp     0xffff9155 (0x3051) +[FBLPromise(AllAdditions) onQueue:all:]
+            name    0x3710 (0xd610) pending
+            types   0x1dab (0xbcaf) @?16@0:8
+            imp     0xffff9001 (0x2f09) +[FBLPromise(DotSyntaxAdditions) pending]
+            name    0x376c (0xd678) resolved
+            types   0x1d9f (0xbcaf) @?16@0:8
+            imp     0xffff9059 (0x2f6d) +[FBLPromise(DotSyntaxAdditions) resolved]
+            name    0x35b8 (0xd4d0) initialize
+            types   0x1d0e (0xbc2a) v16@0:8
+            imp     0xffff7c39 (0x1b59) +[FBLPromise initialize]
+            name    0x353c (0xd460) defaultDispatchQueue
+            types   0x1d0a (0xbc32) @16@0:8
+            imp     0xffff7c67 (0x1b93) +[FBLPromise defaultDispatchQueue]
+            name    0x3788 (0xd6b8) setDefaultDispatchQueue:
+            types   0x1d06 (0xbc3a) v24@0:8@16
+            imp     0xffff7ca1 (0x1bd9) +[FBLPromise setDefaultDispatchQueue:]
+            name    0x36dc (0xd618) pendingPromise
+            types   0x1cf2 (0xbc32) @16@0:8
+            imp     0xffff7cf5 (0x1c39) +[FBLPromise pendingPromise]
+            name    0x3738 (0xd680) resolvedWith:
+            types   0x1cf9 (0xbc45) @24@0:8@16
+            imp     0xffff7d0b (0x1c5b) +[FBLPromise resolvedWith:]
+            name    0x35a4 (0xd4f8) noop
+            types   0x1cd2 (0xbc2a) v16@0:8
+            imp     0xffff8f10 (0x2e6c) +[FBLPromise noop]
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0xd190
+            entsize    16
+            count      2
+            name       0xa591 dispatchGroup
+            attributes 0xa3ce T@"NSObject<OS_dispatch_group>",R,N
+            name       0xa563 defaultDispatchQueue
+            attributes 0xa2f6 T@"NSObject<OS_dispatch_queue>",&
+000000000000ced0 0xd940 _OBJC_CLASS_$_PodsDummy_PromisesObjC
+    isa        0xd918 _OBJC_METACLASS_$_PodsDummy_PromisesObjC
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0xd338 __OBJC_CLASS_RO_$_PodsDummy_PromisesObjC
+        flags          0x80
+        instanceStart  8
+        instanceSize   8
+        reserved       0x0
+        ivarLayout     0x0
+        name           0xbc13 PodsDummy_PromisesObjC
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0xd2f0 __OBJC_METACLASS_RO_$_PodsDummy_PromisesObjC
+        flags          0x81 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0xbc13 PodsDummy_PromisesObjC
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Contents of (__DATA,__objc_classrefs) section
+000000000000d848 0xd8c8 _OBJC_CLASS_$_FBLPromise
+000000000000d850 0x0 _OBJC_CLASS_$_NSError
+000000000000d858 0x0 _OBJC_CLASS_$_NSString
+000000000000d860 0x0 _OBJC_CLASS_$_NSMutableSet
+000000000000d868 0x0 _OBJC_CLASS_$_NSMutableArray
+000000000000d870 0x0 _OBJC_CLASS_$_NSNull
+000000000000d878 0x0 _OBJC_CLASS_$_NSDate
+000000000000d880 0x0 _OBJC_CLASS_$_NSRunLoop
+000000000000d888 0x0 _OBJC_CLASS_$_NSArray
+000000000000d890 0x0 _OBJC_CLASS_$_NSNumber
+Contents of (__DATA,__objc_superrefs) section
+000000000000d898 0xd8c8 _OBJC_CLASS_$_FBLPromise
+Contents of (__DATA,__objc_selrefs) section
+    0xa3bc .cxx_destruct
+    0xa43d addObject:
+    0xa357 addPendingObject:
+    0xa3ca all
+    0xa458 all:
+    0xa379 allOn
+    0xa465 always
+    0xa2ee always:
+    0xa387 alwaysOn
+    0xa3f2 any
+    0xa47c any:
+    0xa398 anyOn
+    0xa489 arrayWithObjects:count:
+    0xa3a6 async
+    0xa4c1 async:
+    0xa318 asyncOn
+    0xa3ff attempts:delay:condition:retry:
+    0xa329 attempts:retry:
+    0xa4c8 catch
+    0xa4ce catch:
+    0xa426 catchOn
+    0xa4d5 chainOnQueue:chainedFulfill:chainedReject:
+    0xa500 copy
+    0xa505 count
+    0xa50b countByEnumeratingWithState:objects:count:
+    0xa536 currentRunLoop
+    0xa545 dateWithTimeIntervalSinceNow:
+    0xa344 dealloc
+    0xa563 defaultDispatchQueue
+    0xa578 delay
+    0xa57e delay:
+    0xa435 delayOn
+    0xa585 description
+    0xa591 dispatchGroup
+    0xa353 do:
+    0xa59f doOn
+    0xa5a4 error
+    0xa5aa fulfill:
+    0xa5b3 init
+    0xa5b8 initPending
+    0xa5c4 initWithDomain:code:userInfo:
+    0xa5e2 initWithResolution:
+    0xa5f6 initialize
+    0xa601 isFulfilled
+    0xa60d isPending
+    0xa617 isRejected
+    0xa622 mutableCopy
+    0xa62e noop
+    0xa633 null
+    0xa448 numberWithBool:
+    0xa638 numberWithDouble:
+    0xa64a numberWithInteger:
+    0xa65d objectAtIndexedSubscript:
+    0xa677 observeOnQueue:fulfill:reject:
+    0xa696 onQueue:all:
+    0xa369 onQueue:always:
+    0xa6a3 onQueue:any:
+    0xa6b0 onQueue:async:
+    0xa6bf onQueue:attempts:delay:condition:retry:
+    0xa6e7 onQueue:attempts:retry:
+    0xa6ff onQueue:catch:
+    0xa70e onQueue:delay:
+    0xa71d onQueue:do:
+    0xa729 onQueue:race:
+    0xa737 onQueue:recover:
+    0xa748 onQueue:reduce:combine:
+    0xa760 onQueue:retry:
+    0xa76f onQueue:then:
+    0xa77d onQueue:timeout:
+    0xa78e onQueue:validate:
+    0xa7a0 onQueue:wrap2ObjectsOrErrorCompletion:
+    0xa7c7 onQueue:wrapBoolCompletion:
+    0xa7e3 onQueue:wrapBoolOrErrorCompletion:
+    0xa806 onQueue:wrapCompletion:
+    0xa81e onQueue:wrapDoubleCompletion:
+    0xa83c onQueue:wrapDoubleOrErrorCompletion:
+    0xa861 onQueue:wrapErrorCompletion:
+    0xa87e onQueue:wrapErrorOrObjectCompletion:
+    0xa8a3 onQueue:wrapIntegerCompletion:
+    0xa8c2 onQueue:wrapIntegerOrErrorCompletion:
+    0xa8e8 onQueue:wrapObjectCompletion:
+    0xa906 onQueue:wrapObjectOrErrorCompletion:
+    0xa45d pending
+    0xa92b pendingPromise
+    0xa93a race
+    0xa93f race:
+    0xa945 raceOn
+    0xa37f recover
+    0xa94c recover:
+    0xa955 recoverOn
+    0xa95f reduce
+    0xa46c reduce:combine:
+    0xa966 reduceOn
+    0xa390 reject:
+    0xa96f replaceObjectAtIndex:withObject:
+    0xa990 resolved
+    0xa999 resolvedWith:
+    0xa9a7 retry
+    0xa9ad retry:
+    0xa9b4 retryAgain
+    0xa9bf retryAgainOn
+    0xa481 retryOn
+    0xa9cc runUntilDate:
+    0xa9da setDefaultDispatchQueue:
+    0xa9f3 stringWithFormat:
+    0xaa05 then
+    0xaa0a then:
+    0xaa10 thenOn
+    0xaa17 timeIntervalSinceNow
+    0xa39e timeout
+    0xaa2c timeout:
+    0xaa35 timeoutOn
+    0xaa3f validate
+    0xaa48 validate:
+    0xaa52 validateOn
+    0xaa5d value
+    0xaa63 valueForKey:
+    0xaa70 wrap2ObjectsOrErrorCompletion
+    0xaa8e wrap2ObjectsOrErrorCompletion:
+    0xa4a1 wrap2ObjectsOrErrorCompletionOn
+    0xaaad wrapBoolCompletion
+    0xaac0 wrapBoolCompletion:
+    0xaad4 wrapBoolCompletionOn
+    0xaae9 wrapBoolOrErrorCompletion
+    0xab03 wrapBoolOrErrorCompletion:
+    0xab1e wrapBoolOrErrorCompletionOn
+    0xab3a wrapCompletion
+    0xa3ac wrapCompletion:
+    0xab49 wrapCompletionOn
+    0xab5a wrapDoubleCompletion
+    0xab6f wrapDoubleCompletion:
+    0xab85 wrapDoubleCompletionOn
+    0xab9c wrapDoubleOrErrorCompletion
+    0xabb8 wrapDoubleOrErrorCompletion:
+    0xabd5 wrapDoubleOrErrorCompletionOn
+    0xabf3 wrapErrorCompletion
+    0xac07 wrapErrorCompletion:
+    0xac1c wrapErrorCompletionOn
+    0xac32 wrapErrorOrObjectCompletion
+    0xac4e wrapErrorOrObjectCompletion:
+    0xac6b wrapErrorOrObjectCompletionOn
+    0xac89 wrapIntegerCompletion
+    0xac9f wrapIntegerCompletion:
+    0xacb6 wrapIntegerCompletionOn
+    0xacce wrapIntegerOrErrorCompletion
+    0xaceb wrapIntegerOrErrorCompletion:
+    0xad09 wrapIntegerOrErrorCompletionOn
+    0xad28 wrapObjectCompletion
+    0xad3d wrapObjectCompletion:
+    0xad53 wrapObjectCompletionOn
+    0xad6a wrapObjectOrErrorCompletion
+    0xad86 wrapObjectOrErrorCompletion:
+    0xada3 wrapObjectOrErrorCompletionOn
+Contents of (__DATA_CONST,__objc_imageinfo) section
+    version 0
+    flags   0x40

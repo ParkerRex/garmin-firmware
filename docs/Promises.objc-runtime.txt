@@ -1,0 +1,72 @@
+/Applications/Garmin Express.app/Contents/Frameworks/Promises.framework/Promises (architecture x86_64):
+Contents of (__DATA_CONST,__objc_classlist) section
+000000000000ed30 0xf570 _OBJC_CLASS_$_PodsDummy_PromisesSwift
+    isa        0xf548 _OBJC_METACLASS_$_PodsDummy_PromisesSwift
+    superclass 0x0 _OBJC_CLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0xf3e0 __OBJC_CLASS_RO_$_PodsDummy_PromisesSwift
+        flags          0x80
+        instanceStart  8
+        instanceSize   8
+        reserved       0x0
+        ivarLayout     0x0
+        name           0xcaa6 PodsDummy_PromisesSwift
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+    isa        0x0 _OBJC_METACLASS_$_NSObject
+    superclass 0x0 _OBJC_METACLASS_$_NSObject
+    cache      0x0 __objc_empty_cache
+    vtable     0x0
+    data       0xf398 __OBJC_METACLASS_RO_$_PodsDummy_PromisesSwift
+        flags          0x81 RO_META
+        instanceStart  40
+        instanceSize   40
+        reserved       0x0
+        ivarLayout     0x0
+        name           0xcaa6 PodsDummy_PromisesSwift
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Contents of (__DATA,__objc_classrefs) section
+000000000000f528 0x0 _OBJC_CLASS_$_FBLPromise
+000000000000f530 0x0 _OBJC_CLASS_$_NSError
+000000000000f538 0x0 _OBJC_CLASS_$_NSNull
+000000000000f540 0x0 _OBJC_CLASS_$_NSArray
+Contents of (__DATA,__objc_selrefs) section
+    0xcace addPendingObject:
+    0xcae0 code
+    0xcae5 defaultDispatchQueue
+    0xcafa domain
+    0xcb01 error
+    0xcb07 fulfill:
+    0xcb10 init
+    0xcb15 isEqual:
+    0xcb1e isFulfilled
+    0xcb2a isRejected
+    0xcb35 onQueue:all:
+    0xcabe onQueue:always:
+    0xcb42 onQueue:any:
+    0xcb4f onQueue:async:
+    0xcb5e onQueue:attempts:delay:condition:retry:
+    0xcb86 onQueue:catch:
+    0xcb95 onQueue:delay:
+    0xcba4 onQueue:do:
+    0xcbb0 onQueue:race:
+    0xcbbe onQueue:recover:
+    0xcbcf onQueue:then:
+    0xcbdd onQueue:timeout:
+    0xcbee onQueue:validate:
+    0xcc00 pendingPromise
+    0xcc0f resolvedWith:
+    0xcc1d setDefaultDispatchQueue:
+    0xcc36 value
+Contents of (__DATA_CONST,__objc_imageinfo) section
+    version 0
+    flags   0x50a0740 Swift 5 or later

@@ -1,0 +1,7 @@
+307:GetAutoUpdateConnectIQAppsDelegate
+344:GetIQAppUpdateDelegate
+393:IQApp
+394:IQAppDetails
+402:InstallAppsToConnectIQDelegate
+708:RemoveConnectIQAppsDelegate
+748:SetAutoUpdateConnectIQAppsDelegate
